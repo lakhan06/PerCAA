@@ -1,18 +1,18 @@
 import data from "./data.json"
-import "./ProgramCommitee.css"
+import styles from "./ProgramCommitee.module.css"
 const ProgramCommitee = ()=>{    
     return(
-        <div className="main">
-            <div className="wrapper">
-            <div className="heading">
+        <div className={styles.main}>
+            <div className={styles.wrapper}>
+            <div className={styles.heading}>
                 Program Commitee : 
             </div>
-            <div className="member-container">
+            <div className={styles.member_container}>
                 {
                     
                     data.map((member , index)=>(
-                        <div className="member-info">
-                            <div className="member-name">
+                        <div className={styles.member_info}>
+                            <div className={styles.member_name}>
                                 {member.name}
                             </div>
                             <div>

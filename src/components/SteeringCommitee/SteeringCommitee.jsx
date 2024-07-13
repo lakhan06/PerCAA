@@ -1,17 +1,17 @@
 import data from "./data.json"
-import "./styles.css"
+import styles from "./SteeringCommitee.module.css";
 const SteeringCommittee = ()=>{
     return(
-        <div className="main">
-            <div className="wrapper">
-            <div className="members-container">
+        <div className={styles.main}>
+            <div className={styles.wrapper}>
+            <div className={styles.members_container}>
                 {
                     data.map((member , index)=>(
                         <div>
-                            <div className="member-info-container">
+                            <div className={styles.member_info_container}>
                                 <img src={member.image} alt="" />
-                                <div className="member-info">
-                                <div className="member-name">
+                                <div className={styles.member_info}>
+                                <div className={styles.member_name}>
                                     {member.name}
                                 </div>
                                 <div>
