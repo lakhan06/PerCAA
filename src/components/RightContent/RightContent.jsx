@@ -7,7 +7,6 @@ import IGI_Global_logo from '../../../public/logos/IGI_Global_logo.png'
 import computingJournel from '../../../public/logos/computingJournel.png'
 import naturalComputing from '../../../public/logos/naturalComputing.png'
 
-
 const RightContent = () => {
     const dates = [
         { event: "Last Date of Paper Submission", date: "February 14, 2024" },

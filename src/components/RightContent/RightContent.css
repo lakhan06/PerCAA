@@ -13,6 +13,8 @@
   align-items: center;
   justify-content: space-between;
   margin: 20px 0;
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 .organizersLogos img {
@@ -21,7 +23,7 @@
 }
 
 .organizersLogos img:hover {
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 
 .rightContent table {
@@ -48,6 +50,8 @@
   margin: 10px 0;
   margin-bottom: 20px;
   gap: 5px;
+  overflow-x:hidden; 
+  overflow-y:hidden;
 }
 
 .technicalSponsers img {
