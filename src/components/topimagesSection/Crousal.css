@@ -20,6 +20,7 @@
   .wimage4,
   .wimage5 {
     filter: grayscale(100%);
+    transition: all 0.5s ease;
   }
   
   .wimage1:hover {
@@ -28,10 +29,12 @@
   
   .wimage2:hover {
     filter: grayscale(0);
+    
   }
   
   .wimage3:hover {
     filter: grayscale(0);
+    
   }
   
   .wimage4:hover {

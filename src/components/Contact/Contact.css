@@ -4,9 +4,12 @@
     gap: 10px;
 }
 .contactSectionHeading {
-    font-size: 1.5rem;
-    font-weight: 600;
-    border-bottom: 1px solid #c1c1c1;
+    font-weight: bold;
+    margin: 10px 0;
+    background-color: rgb(235, 234, 234);
+    padding: 10px;
+    color: rgb(47, 122, 226);
+    font-size: 20px;
 }
 
 .contactCard {
@@ -48,7 +51,7 @@
 
 .contact_CI1 {
     font-size: 1.2rem;
-    text-decoration: underline;
+    /* text-decoration: underline; */
     margin-bottom: 10px;
 }
 
@@ -69,4 +72,9 @@
 
 .contactCardRight p span {
     font-weight: 500;
+}
+
+.contactborder{
+    border-bottom: 2px solid rgb(179, 176, 176);
+    padding:5px 0;
 }
