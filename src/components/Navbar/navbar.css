@@ -1,11 +1,17 @@
 /* navbar.css */
 .clear {
     clear: both;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
   }
   
   .navbar {
     background-color: #333;
     overflow: hidden;
+    width: 100vw;
+    /* display: flex;
+    justify-content: center; */
   }
   
   .navbar ul {
@@ -49,4 +55,3 @@
   .navbar ul li:hover ul {
     display: block;
   }
-  
