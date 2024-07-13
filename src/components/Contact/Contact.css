@@ -35,6 +35,10 @@
     font-weight: 500;
 }
 
+.contactCardLeft div {
+    text-align: center;
+}
+
 .contactCardRight {
     display: flex;
     flex-direction: column;

@@ -14,7 +14,7 @@ body {
 .papaContainer {
   display: flex;
   margin: 50px 200px;
-  gap: 20px;
+  gap: 30px;
 }
 
 .leftContainer {

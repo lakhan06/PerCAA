@@ -1,5 +1,82 @@
 .sectionHeading {
-    font-size: 1.5rem;
-    font-weight: 600;
-    border-bottom: 1px solid #c1c1c1;
+  font-size: 1.5rem;
+  font-weight: 600;
+  border-bottom: 1px solid #c1c1c1;
+}
+
+.smallSectionHeading {
+  font-size: 1rem;
+}
+
+.organizersLogos {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.organizersLogos img {
+  width: 30%;
+  transition: 0.3s all ease-in-out;
+}
+
+.organizersLogos img:hover {
+  transform: scale(1.1);
+}
+
+.rightContent table {
+  margin: 20px 0;
+  font-size: 0.7rem;
+  border-collapse: collapse;
+}
+
+.rightContent thead th {
+  background-color: #d1d1d1;
+  font-size: 0.8rem;
+}
+.rightContent td,
+.rightContent th {
+  border: 1px solid black;
+  padding: 5px 10px;
+}
+
+.technicalSponsers {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+  margin-bottom: 20px;
+  gap: 5px;
+}
+
+.technicalSponsers img {
+  width: 80%;
+  transition: 0.2s all ease-in-out;
+}
+
+.technicalSponsers img:hover {
+  transform: scale(1.03);
+}
+
+.conferencePapers {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+.conferencePapers img {
+  width: 45%;
+  border: 0.5px solid rgb(195, 195, 195);
+  transition: 0.2s all ease-in-out;
+}
+
+.conferencePapers img:hover {
+  transform: scale(1.03);
+}
+
+.rredheadline {
+    text-align: center;
+    color: red;
+    font-weight: 500;
 }
