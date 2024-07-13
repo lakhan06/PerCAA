@@ -1,0 +1,68 @@
+.contact {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.contactSectionHeading {
+    font-size: 1.5rem;
+    font-weight: 600;
+    border-bottom: 1px solid #c1c1c1;
+}
+
+.contactCard {
+    display: flex;
+    justify-content: left;
+    gap: 30px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 20px 20px;
+    border-radius: 10px;
+}
+
+.contactCardLeft {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.contactCard .contactCardLeft img {
+    width: 100px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.contactCardLeft .contactName {
+    font-weight: 500;
+}
+
+.contactCardRight {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+
+.contact_CI1 {
+    font-size: 1.2rem;
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+
+.contactCardRight .contact_mailphone {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.contactCardRight .contact_mailphone a {
+    color: black;
+    text-decoration: none;
+}
+
+.contactCardRight .contact_mailphone a:hover {
+    text-decoration: underline;
+}
+
+.contactCardRight p span {
+    font-weight: 500;
+}

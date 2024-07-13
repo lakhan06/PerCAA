@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: #2a2a2a;
+}
+
+body {
+  /* background-image: url(../public/pipes.webp); */
+}
+
+.papaContainer {
+  display: flex;
+  margin: 50px 200px;
+  gap: 20px;
+}
+
+.leftContainer {
+  width: 70%;
+  height: max-content;
+}
+
+.rightContainer {
+  width: 30%;
+  height: max-content;
+}
