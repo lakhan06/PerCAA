@@ -1,5 +1,12 @@
 .heading{
-    font-size: x-large;
-    font-weight: bolder;
-    margin-bottom: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+    background-color: rgb(235, 234, 234);
+    padding: 10px;
+    color: rgb(47, 122, 226);
+    font-size: larger;
+    margin-bottom: 25px;
+}
+table{
+    width: 100%;
 }
