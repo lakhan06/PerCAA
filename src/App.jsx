@@ -6,10 +6,12 @@ import Registration from './components/Registration/Registration'
 import Crousal from './components/topimagesSection/Crousal'
 import Contact from './components/Contact/Contact'
 import Home from './components/HomeContent/Home'
+import Navbar from './components/Navbar/Navbar'
 
 function App() {
   return (
     <>
+    <Navbar></Navbar>
       <div>
     <Crousal></Crousal>
         <Routes>

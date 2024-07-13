@@ -1,0 +1,52 @@
+/* navbar.css */
+.clear {
+    clear: both;
+  }
+  
+  .navbar {
+    background-color: #333;
+    overflow: hidden;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar ul li {
+    float: left;
+  }
+  
+  .navbar ul li a, .navbar ul li select {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .navbar ul li a:hover, .navbar ul li select:hover {
+    background-color: #111;
+  }
+  
+  .navbar ul li ul {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    min-width: 160px;
+    z-index: 1;
+  }
+  
+  .navbar ul li ul li {
+    float: none;
+  }
+  
+  .navbar ul li ul li a {
+    padding: 12px 16px;
+  }
+  
+  .navbar ul li:hover ul {
+    display: block;
+  }
+  
