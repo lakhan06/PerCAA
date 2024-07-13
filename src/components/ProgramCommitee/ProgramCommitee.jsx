@@ -16,8 +16,8 @@ const ProgramCommitee = ()=>{
                                 <div className={styles.member_name}>
                                     {member.name}
                                 </div>
-                                <div>
-                                {member.title ? `${member.title} ` : ''}{member.institution}, {member.country}
+                                <div className={styles.member_details}>
+                                {member.title ? `${member.title} ` : ''} , {member.institution}, {member.country}
                                 </div>
                                 <hr></hr>
                             </div>
