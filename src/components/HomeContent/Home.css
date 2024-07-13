@@ -1,0 +1,16 @@
+
+
+.homeheading{
+    font-weight: bold;
+    margin: 10px 0;
+    background-color: rgb(235, 234, 234);
+    padding: 10px;
+    color: rgb(47, 122, 226);
+}
+
+.paracontent p{
+    margin: 20px 0;
+text-align: justify;
+letter-spacing: 1px;
+line-height: 23px;
+}
