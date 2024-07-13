@@ -1,6 +1,6 @@
 import React from "react";
-import RightContent from "../RightContent/RightContent";
 import "./Home.css";
+import RightContent from "../RightContent/RightContent";
 
 function Home() {
   return (
