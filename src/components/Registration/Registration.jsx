@@ -1,7 +1,9 @@
+import RightContent from "../RightContent/RightContent";
 import styles from "./Registration.module.css"
 const Registration = () => {
     return (
-        <div>
+        <div className="papaContainer">
+            <div className="leftContainer">
             <div className ={styles.heading}>
                 Registration Fees :
             </div>
@@ -113,6 +115,10 @@ const Registration = () => {
                     <td align="center">&nbsp; <b>N/A</b></td>
                 </tr>
             </table>
+            </div>
+            <div className="rightContainer">
+                <RightContent></RightContent>
+            </div>
         </div>
     );
 };

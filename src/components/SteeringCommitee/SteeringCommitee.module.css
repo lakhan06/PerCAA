@@ -12,6 +12,7 @@
 .member_info_container{
     display: flex;
     gap: 20px;
+    margin-bottom: 10px;
 }
 .member_info_container img{
     width: 69px;
@@ -32,4 +33,7 @@
     display: flex;
     flex-direction: column;
     gap: 10px ;
+}
+.member_details{
+    font-weight: 400;
 }
