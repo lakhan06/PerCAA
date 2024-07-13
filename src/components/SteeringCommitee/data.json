@@ -45,7 +45,7 @@
         "title": "Associate Professor",
         "name": "Dr. Paolo Bellavista",
         "institution": "University of Bologna, Italy",
-        "image": "./Assets/Paolo_Bellavista.png"
+        "image": "http://lia.deis.unibo.it/Staff/PaoloBellavista/Images/PaoloBellavista.jpg"
     },
     {
         "title": "Professor",
@@ -99,6 +99,6 @@
     {
         "name": "Dr. Daniele Riboni",
         "institution": "University of Cagliari, Italy",
-        "image": "./Assets/Daniele_Riboni.png"
+        "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=D0PowGAAAAAJ&citpid=2"
     }
 ]

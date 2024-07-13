@@ -13,10 +13,10 @@
     display: flex;
     gap: 20px;
 }
-.member-info img{
+.member-info-container img{
     width: 69px;
     height: 84px;
-
+    border-radius: 50%;
 }
 .members-container{
     display: flex;
