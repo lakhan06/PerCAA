@@ -1,5 +1,5 @@
 import data from "./data.json"
-import "./styles.css"
+import styles from "./SteeringCommitee.module.css"
 const SteeringCommittee = ()=>{
     return(
         <div className={styles.main}>
