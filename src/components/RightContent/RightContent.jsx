@@ -6,7 +6,7 @@ import IEE_logo from '/logos/IEE_logo.jpg'
 import IGI_Global_logo from '/logos/IGI_Global_logo.png'
 import computingJournel from '/logos/computingJournel.png'
 import naturalComputing from '/logos/naturalComputing.png'
-
+import Poornima_Logo from "/Assets/Poornima_Logo.jpg"
 const RightContent = () => {
     const dates = [
         { event: "Last Date of Paper Submission", date: "February 14, 2024" },
@@ -21,7 +21,7 @@ const RightContent = () => {
 
                 <div className="sectionHeading">Organized By</div>
                 <div className="organizersLogos">
-                    <img src={PULogo} alt="" />
+                    <img src={Poornima_Logo} alt="" />
                     <img src={Mnit_logo} alt="" />
                     <img src={acmChapterLogo} alt="" />
                 </div>
