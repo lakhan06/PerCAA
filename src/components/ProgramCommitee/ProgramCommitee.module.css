@@ -12,10 +12,14 @@
 .member_info{
     display: flex;
     flex-direction: column;
-    gap:10px
+    gap:10px;
+    margin-bottom: 15px;
 }
 .member_info hr{
     width: 100%;
     border-color: rgb(189, 189, 189);
     opacity: 30%;
+}
+.member_name{
+    font-weight:bold;
 }
