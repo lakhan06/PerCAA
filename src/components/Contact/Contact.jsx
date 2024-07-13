@@ -13,7 +13,7 @@ const Contact = () => {
                         <h1 className='contactSectionHeading'>Contact Us</h1>
                         <div className="contactCard">
                             <div className="contactCardLeft">
-                                <img src="https://www.poornima.org/img/institute.png" alt="" />
+                                <img src="https://www.poornima.org/uploads/team/1716886760.jpg" alt="" />
                                 <div className="contactName">Dr. Nikita Jain</div>
                                 <div className="contactDesignation">Program Chair</div>
                             </div>

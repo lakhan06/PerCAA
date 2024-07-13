@@ -61,19 +61,16 @@
 
 .conferencePapers {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   margin: 10px 0;
+  gap: 20px;
 }
 
 .conferencePapers img {
-  width: 45%;
+  width: 40%;
   border: 0.5px solid rgb(195, 195, 195);
-  transition: 0.2s all ease-in-out;
 }
 
-.conferencePapers img:hover {
-  transform: scale(1.03);
-}
 
 .rredheadline {
     text-align: center;
