@@ -1,11 +1,11 @@
 import './RightContent.css'
-import PULogo from '../../../public/logos/PULogo.png'
-import Mnit_logo from '../../../public/logos/Mnit_logo.png'
-import acmChapterLogo from '../../../public/logos/acmChapterLogo.png'
-import IEE_logo from '../../../public/logos/IEE_logo.jpg'
-import IGI_Global_logo from '../../../public/logos/IGI_Global_logo.png'
-import computingJournel from '../../../public/logos/computingJournel.png'
-import naturalComputing from '../../../public/logos/naturalComputing.png'
+import PULogo from '/logos/PULogo.png'
+import Mnit_logo from '/logos/Mnit_logo.png'
+import acmChapterLogo from '/logos/acmChapterLogo.png'
+import IEE_logo from '/logos/IEE_logo.jpg'
+import IGI_Global_logo from '/logos/IGI_Global_logo.png'
+import computingJournel from '/logos/computingJournel.png'
+import naturalComputing from '/logos/naturalComputing.png'
 
 const RightContent = () => {
     const dates = [
