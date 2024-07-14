@@ -9,8 +9,8 @@ function TopComp() {
     <div className='topComp'>
         <div className='top'>
             <div className="top-logos">
-                <img src={PU} alt="poornima university logo" />
-                <img src={ACM} alt="acm chapter logo" />
+                <img src={PU} alt="poornima university logo" className='pu_logo'/>
+                <img src={ACM} alt="acm chapter logo" className='acm_logo'/>
             </div>
             <div className="top-head">
                 <div className='top-line'>International Conference on Pervasive Computing Advances and Applications</div>
@@ -18,7 +18,7 @@ function TopComp() {
                 <div className='top-line'> -- Dates -- </div>
             </div>
             <div className="top-logos">
-                <img src={MNIT} alt="" />
+                <img src={MNIT} alt="mnit_logo" className='mnit_logo'/>
             </div>
         </div>
     </div>
