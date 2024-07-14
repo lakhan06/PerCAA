@@ -45,6 +45,7 @@
     background-color: #333;
     min-width: 160px;
     z-index: 1;
+    opacity: 90%;
   }
   
   .navbar ul li ul li {
