@@ -3,8 +3,8 @@ import './topComp.css'
 import pce from '/Assets/Poornima_Logo.png'
 import ACM from '/logos/acmChapterLogo.png'
 import MNIT from '/logos/Mnit_logo.png'
-import IEEE from '/logos/IEE_logo.jpg'
 import BL  from '/Assets/bentham_logo.png'
+import IEEE from '/logos/IEE_logo.jpg'
 function TopComp() {
   return (
     <div className='topComp'>
