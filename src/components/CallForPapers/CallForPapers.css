@@ -1,0 +1,32 @@
+.highlightedPara {
+  background-color: rgb(185, 255, 255);
+}
+
+.CFP_table {
+  border-collapse: collapse;
+}
+
+.CFP_table td {
+  border: 1px solid black;
+  padding: 10px;
+  font-size: 0.7rem;
+}
+
+table .pstrongCFP {
+  text-align: center;
+  font-size: 1rem;
+  background-color: #f1f1f1; /* Light gray background for even rows */
+}
+
+/* Targeting all table rows */
+table tr:nth-child(even) {
+    background-color: #f1f1f1; /* Light gray background for even rows */
+}
+
+table tr:nth-child(odd) {
+    background-color: #ffffff; /* White background for odd rows */
+}
+
+.review_process ul {
+    margin: 10px 0;
+}
