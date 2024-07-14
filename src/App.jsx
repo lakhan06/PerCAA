@@ -24,6 +24,7 @@ function App() {
           <Route path='/steering-commitee' element={<SteeringCommittee/>}></Route>
           <Route path='/registration' element={<Registration/>}></Route>
           <Route path='/contact' element={<Contact />}></Route>
+          <Route path='/local-attractions' element={<LocalAttractions/>}></Route>
         </Routes>
       </div>
     </>
