@@ -1,4 +1,4 @@
-/* navbar.css */
+
 .clear {
     clear: both;
     display: flex;
@@ -58,3 +58,5 @@
   .navbar ul li:hover ul {
     display: block;
   }
+
+

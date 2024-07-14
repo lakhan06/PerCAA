@@ -12,7 +12,7 @@ import TopComp from './components/topComp/TopComp'
 function App() {
   return (
     <>
-    <TopComp/>
+    {/* <TopComp/> */}
     <Navbar></Navbar>
       <div>
     <Crousal></Crousal>
