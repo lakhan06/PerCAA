@@ -1,9 +1,13 @@
 import React from "react";
 import "./Home.css";
 import RightContent from "../RightContent/RightContent";
+import Crousal from '../topimagesSection/Crousal'
 
 function Home() {
   return (
+    <>
+    <Crousal></Crousal>
+
     <div className="papaContainer">
       <div className="leftContainer">
         <div className="homeContent">
@@ -69,6 +73,7 @@ function Home() {
         <RightContent></RightContent>
       </div>
     </div>
+    </>
   );
 }
 

@@ -15,7 +15,6 @@ function App() {
     <TopComp/>
     <Navbar></Navbar>
       <div>
-    <Crousal></Crousal>
         <Routes>
           <Route path='/program-commitee' element={<ProgramCommitee/>}></Route>
           <Route path='/contact' element={<Contact />}></Route>
