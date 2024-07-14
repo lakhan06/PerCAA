@@ -3,6 +3,7 @@ import './topComp.css'
 import PU from '/logos/PULogo.png'
 import ACM from '/logos/acmChapterLogo.png'
 import MNIT from '/logos/Mnit_logo.png'
+import IEEE from '/logos/IEE_logo.jpg'
 
 function TopComp() {
   return (
@@ -19,6 +20,7 @@ function TopComp() {
             </div>
             <div className="top-logos">
                 <img src={MNIT} alt="mnit_logo" className='mnit_logo'/>
+                <img src={IEEE} alt="ieee_logo" className='ieee_logo' width={200}/>
             </div>
         </div>
     </div>
