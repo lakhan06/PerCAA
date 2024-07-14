@@ -9,7 +9,7 @@ function TopComp() {
   return (
     <div className='topComp'>
 
-    <marquee className="topmarquee" scrollamount="20">International Conference on Pervasive Computing Advances and Applications</marquee>
+    <marquee className="topmarquee" scrollamount="15">International Conference on Pervasive Computing Advances and Applications</marquee>
         <div className='top'>
             <div className="top-logos">
                 <img src={pce} alt="poornima university logo" className='pce_logo'/>
