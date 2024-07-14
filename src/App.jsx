@@ -8,13 +8,14 @@ import Contact from './components/Contact/Contact'
 import Home from './components/HomeContent/Home'
 import Navbar from './components/Navbar/Navbar'
 import CallForPapers from './components/CallForPapers/CallForPapers'
+import TopComp from './components/topComp/TopComp'
 
 function App() {
   return (
     <>
+    <TopComp/>
     <Navbar></Navbar>
       <div>
-    <Crousal></Crousal>
         <Routes>
           <Route path='/program-commitee' element={<ProgramCommitee/>}></Route>
           <Route path='/contact' element={<Contact />}></Route>

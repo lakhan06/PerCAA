@@ -2,16 +2,21 @@
 .clear {
     clear: both;
     display: flex;
+    align-items: center;
     width: 100%;
+    height: 100%;
     justify-content: space-evenly;
   }
   
   .navbar {
-    background-color: #333;
+    /* background-color: #333; */
+    background-color: rgb(81, 170, 84);
     overflow: hidden;
     width: 100vw;
-    /* display: flex;
-    justify-content: center; */
+    height: 6vh;
+    /* display: flex; */
+    /* justify-content: center; */
+    
   }
   
   .navbar ul {
@@ -33,7 +38,7 @@
   }
   
   .navbar ul li a:hover, .navbar ul li select:hover {
-    background-color: #111;
+    background-color:  rgb(41, 109, 43);
   }
   
   .navbar ul li ul {
@@ -42,6 +47,7 @@
     background-color: #333;
     min-width: 160px;
     z-index: 1;
+    opacity: 90%;
   }
   
   .navbar ul li ul li {
