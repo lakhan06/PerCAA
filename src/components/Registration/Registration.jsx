@@ -1,8 +1,10 @@
 import RightContent from "../RightContent/RightContent";
 import styles from "./Registration.module.css"
+import Footer from "../Footer/Footer";
 const Registration = () => {
     return (
-        <div className="papaContainer">
+        <>
+            <div className="papaContainer">
             <div className="leftContainer">
             <div className ={styles.heading}>
                 Registration Fees :
@@ -120,6 +122,8 @@ const Registration = () => {
                 <RightContent></RightContent>
             </div>
         </div>
+        <Footer></Footer>
+        </>
     );
 };
 

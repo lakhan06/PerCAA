@@ -1,0 +1,40 @@
+.attrations-container{
+    display: flex;
+    flex-direction: column;
+}
+.attraction-heading{
+    color: rgb(47, 122, 226);
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.attractions-info{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+.attraction-details{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    line-height: 1rem;
+    padding: 10px;
+}
+.image-container{
+    width: 50%;
+}
+.image-container img{
+    width: 410px;
+    height: 250px;
+}
+.desc-container{
+    width: 50%;
+    padding: 10px;
+    line-height: 1.5rem;
+    font-weight: 400;
+    text-align: justify;
+}
+hr{
+    /* border-width: 1px; */
+    border: .5px solid black;
+}

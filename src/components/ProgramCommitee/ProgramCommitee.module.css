@@ -5,6 +5,8 @@
     padding: 10px;
     color: rgb(47, 122, 226);
     width: 100%;
+    font-size:1.5rem;
+    margin-bottom: 30px;
 }
 .member_container{
     width: 50vw;

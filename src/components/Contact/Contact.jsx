@@ -2,8 +2,7 @@ import './Contact.css'
 import { MdEmail } from "react-icons/md";
 import { FaPhoneAlt } from "react-icons/fa";
 import RightContent from '../RightContent/RightContent';
-
-
+import Footer from '../Footer/Footer';
 const Contact = () => {
     return (
         <div>
@@ -31,6 +30,7 @@ const Contact = () => {
                     <RightContent />
                 </div>
             </div>
+            <Footer></Footer>
         </div>
     )
 }
