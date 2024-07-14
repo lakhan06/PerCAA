@@ -15,7 +15,7 @@ import Speakers from './components/Speakers/Speakers'
 function App() {
   return (
     <>
-    {/* <TopComp/> */}
+    <TopComp/>
     <Navbar></Navbar>
       <div>
         <Routes>

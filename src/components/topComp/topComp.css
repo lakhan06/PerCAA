@@ -68,3 +68,43 @@
     /* border-radius: 50%; */
 }
 
+@media screen and (max-width : 920px){
+    .topmarquee{
+        font-size: 10px;
+    }
+    .percaa{
+        font-size: 28px;
+    }
+    .top-head{
+        font-size: 18px;
+    }
+}
+@media screen and (max-width : 690px){
+    .percaa{
+        font-size: 22px;
+    }
+    .top-head{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width : 480px){
+    .top{
+        gap: 20px;
+    }
+    .top-logos{
+        justify-content: space-around;
+        gap: 40px;
+    }
+    .topmarquee{
+        font-size: 10px;
+    }
+    .percaa{
+        font-size: 12px;
+    }
+    .top-head{
+        font-size: 12px;
+    }
+}
+
+
+
