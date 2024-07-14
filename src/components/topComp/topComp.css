@@ -1,38 +1,68 @@
 .topComp{
     width: 100%;
+    /* padding: 10px; */
+    background-color: rgb(255, 255, 255);
+    /* height: 18vh; */
+}
+
+.topmarquee{
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(219, 239, 204);
     padding: 10px;
-    background-color: antiquewhite;
-    height: 18vh;
+    letter-spacing: 2px;
+    /* display: fl; */
 }
 
 .top{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     width: 100%;
     height: 100%;
+    gap: 30px;
     /* align-items: center; */
+    padding: 20px;
+    /* background-color: rgb(219, 239, 204); */
+}
+
+.top-line{
+    /* color: rgb(122, 122, 226); */
+
+}
+
+.percaa{
+    font-weight: bold;
+    font-size: 50px;
+    letter-spacing: 2px;
 }
 
 .top-head{
-    font-size: 19px;
-    font-weight: 500;
+    font-size: 25px;
+    font-weight: bold;
     text-align: center;
-    width: 50%;
+    /* width: 50%; */
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap:.5rem;
-    font-weight: 500;
+    /* font-weight: 500; */
 }
 
 .top-logos{
     display: flex;
-    width: 25vw;
+    width:12vw;
     justify-content: space-evenly;
+    gap: 20px;
+   
 }
 
+/* .top-logos img{
+    margin: 0 20px;
+
+} */
+
 .pce_logo{
-    border-radius: 50%;
+    /* border-radius: 50%; */
 }
 
