@@ -52,10 +52,6 @@
   display: block;
 }
 
-.toggleActive {
-  transform: translateX(0);
-}
-
 .toggle-button {
   display: none;
   position: fixed;
