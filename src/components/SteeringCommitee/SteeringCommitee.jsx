@@ -1,9 +1,11 @@
 import RightContent from "../RightContent/RightContent"
 import data from "./data.json"
 import styles from "./SteeringCommitee.module.css"
+import Footer from "../Footer/Footer"
 const SteeringCommittee = ()=>{
     return(
-        <div className="papaContainer">
+        <>
+            <div className="papaContainer">
             <div className="leftContainer">
                 <div className={styles.heading}>
                     Steering Commitee : 
@@ -34,6 +36,8 @@ const SteeringCommittee = ()=>{
                 <RightContent/>
             </div>
         </div>
+        <Footer/>
+        </>
     )
 }
 

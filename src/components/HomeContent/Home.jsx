@@ -1,7 +1,7 @@
 import "./Home.css";
 import RightContent from "../RightContent/RightContent";
 import Crousal from '../topimagesSection/Crousal'
-
+import Footer from "../Footer/Footer";
 function Home() {
   return (
     <>
@@ -72,6 +72,7 @@ function Home() {
         <RightContent></RightContent>
       </div>
     </div>
+    <Footer></Footer>
     </>
   );
 }

@@ -1,9 +1,11 @@
 import data from "./data.json"
 import styles from "./ProgramCommitee.module.css"
 import RightContent from "../RightContent/RightContent"
+import Footer from "../Footer/Footer"
 const ProgramCommitee = ()=>{    
     return(
-        <div className="papaContainer">
+        <>
+            <div className="papaContainer">
             <div className="leftContainer">
                 <div className={styles.heading}>
                     Program Commitee : 
@@ -29,6 +31,8 @@ const ProgramCommitee = ()=>{
                 <RightContent/>
             </div>
         </div>
+        <Footer></Footer>
+        </>
     )
 }
 

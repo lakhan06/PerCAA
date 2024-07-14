@@ -1,6 +1,6 @@
 import RightContent from "../RightContent/RightContent"
 import './CallForPapers.css'
-
+import Footer from "../Footer/Footer"
 const CallForPapers = () => {
     return (
         <div>
@@ -361,40 +361,12 @@ const CallForPapers = () => {
 
                         </div>
                     </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
                 </div>
-
                 <div className="rightContainer">
                     <RightContent />
                 </div>
             </div>
+            <Footer></Footer>
         </div>
     )
 }

@@ -11,6 +11,7 @@ import CallForPapers from './components/CallForPapers/CallForPapers'
 import TopComp from './components/topComp/TopComp'
 import LocalAttractions from './components/LocalAttractions/LocalAttractions'
 import Venue from './components/Venue/Venue'
+import Speakers from './components/Speakers/Speakers'
 function App() {
   return (
     <>
@@ -26,6 +27,7 @@ function App() {
           <Route path='/contact' element={<Contact />}></Route>
           <Route path='/local-attractions' element={<LocalAttractions/>}></Route>
           <Route path='/venue' element={<Venue></Venue>}></Route>
+          <Route path='/speakers' element={<Speakers/>}></Route>
         </Routes>
       </div>
     </>

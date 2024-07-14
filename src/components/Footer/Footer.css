@@ -1,0 +1,24 @@
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    height: 70px;
+    font-weight: 600;
+    font-size:1.1rem;
+    align-items: center;
+    margin-bottom: 10px ;
+    gap: 10px;
+}
+.footer-heading{
+    color: rgb(44, 44, 220);
+}
+.footer-heading sup{
+    color: rgb(44, 44, 220);
+}
+.footer-container a{
+    color: rgb(44, 44, 220);
+    text-decoration: none;
+}
+a:hover{
+    /* transition-duration: 0.5s; */
+    color: crimson;
+}

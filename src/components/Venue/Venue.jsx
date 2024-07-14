@@ -1,8 +1,10 @@
 import RightContent from "../RightContent/RightContent"
 import "./Venue.css";   
+import Footer from "../Footer/Footer";
 const Venue = () =>{
     return(
-        <div className="papaContainer">
+        <>
+            <div className="papaContainer">
             <div className="leftContainer">
                 <div className="details">
                     <img src="/TopCrousalIMages/poornima5.jpg" alt="" />
@@ -20,6 +22,8 @@ const Venue = () =>{
                 <RightContent></RightContent>
             </div>
         </div>
+        <Footer></Footer>
+        </>
     )
 }
 

@@ -1,9 +1,11 @@
 import data from "./data.json";
 import RightContent from "../RightContent/RightContent";
 import "./LocalAttractions.css";
+import Footer from "../Footer/Footer";
 const LocalAttractions = ()=>{
     return(
-        <div className="papaContainer">
+        <>
+            <div className="papaContainer">
             <div className="leftContainer">
                 <div className="attrations-container">
                     {
@@ -30,6 +32,8 @@ const LocalAttractions = ()=>{
                 <RightContent/>
             </div>
         </div>
+        <Footer></Footer>
+        </>
     )
 }
 
