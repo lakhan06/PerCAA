@@ -10,7 +10,7 @@ import Navbar from './components/Navbar/Navbar'
 import CallForPapers from './components/CallForPapers/CallForPapers'
 import TopComp from './components/topComp/TopComp'
 import LocalAttractions from './components/LocalAttractions/LocalAttractions'
-
+import Venue from './components/Venue/Venue'
 function App() {
   return (
     <>
@@ -25,6 +25,7 @@ function App() {
           <Route path='/registration' element={<Registration/>}></Route>
           <Route path='/contact' element={<Contact />}></Route>
           <Route path='/local-attractions' element={<LocalAttractions/>}></Route>
+          <Route path='/venue' element={<Venue></Venue>}></Route>
         </Routes>
       </div>
     </>

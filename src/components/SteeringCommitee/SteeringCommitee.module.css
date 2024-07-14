@@ -9,7 +9,6 @@
 .member_info_container img{
     width: 69px;
     height: 84px;
-    border-radius: 50%;
 }
 .members_container{
     display: flex;
