@@ -1,0 +1,14 @@
+.topComp{
+
+}
+
+.top{
+    display: flex;
+    justify-content: space-around;
+}
+
+.top-logos{
+    display: flex;
+    justify-content: space-around;
+}
+

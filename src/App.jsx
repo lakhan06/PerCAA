@@ -7,10 +7,12 @@ import Crousal from './components/topimagesSection/Crousal'
 import Contact from './components/Contact/Contact'
 import Home from './components/HomeContent/Home'
 import Navbar from './components/Navbar/Navbar'
+import TopComp from './components/topComp/TopComp'
 
 function App() {
   return (
     <>
+    <TopComp/>
     <Navbar></Navbar>
       <div>
     <Crousal></Crousal>
