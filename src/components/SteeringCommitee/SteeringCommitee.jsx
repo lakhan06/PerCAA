@@ -5,27 +5,30 @@ const SteeringCommittee = ()=>{
     return(
         <div className="papaContainer">
             <div className="leftContainer">
-            <div className={styles.members_container}>
-                {
-                    data.map((member , index)=>(
-                        <div>
-                            <div className={styles.member_info_container}>
-                                <img src={member.image} alt="" />
-                                <div className={styles.member_info}>
-                                    <div className={styles.member_name}>
-                                        {member.name}
-                                    </div>
-                                    <div className={styles.member_details}>
-                                        {member.title ? `${member.title} , ` : ''}  {member.institution} {member.country}
+                <div className={styles.heading}>
+                    Steering Commitee : 
+                </div>
+                <div className={styles.members_container}>
+                    {
+                        data.map((member , index)=>(
+                            <div>
+                                <div className={styles.member_info_container}>
+                                    <img src={member.image} alt="" />
+                                    <div className={styles.member_info}>
+                                        <div className={styles.member_name}>
+                                            {member.name}
+                                        </div>
+                                        <div className={styles.member_details}>
+                                            {member.title ? `${member.title} , ` : ''}  {member.institution} {member.country}
+                                        </div>
                                     </div>
                                 </div>
+                                <hr />
                             </div>
-                            <hr />
-                        </div>
-                        
-                    ))
-                }
-            </div>
+                            
+                        ))
+                    }
+                </div>
             </div>
             <div className="rightContainer">
                 <RightContent/>
