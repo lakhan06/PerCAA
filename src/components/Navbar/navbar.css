@@ -16,6 +16,8 @@
     height: 6vh;
     /* display: flex; */
     /* justify-content: center; */
+    position: sticky;
+    top: 0;
   }
   
   .navbar ul {
@@ -37,7 +39,7 @@
   }
   
   .navbar ul li a:hover, .navbar ul li select:hover {
-    background-color: #111;
+    background-color:  rgb(41, 109, 43);
   }
   
   .navbar ul li ul {
