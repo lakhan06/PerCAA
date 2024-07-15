@@ -97,8 +97,8 @@ const Speakers = ()=>{
                         <div className="editiorship-heading">Contact Details :</div>
                         <div className="interest-heading">Address : <span>Department of CSE, Kanwal Rekhi Bldg,
                         Indian Institute of Technology, Bombay, Mumbai, India.</span></div>
-                        <div className="interest-heading">Tel: (Off.) <span>91-22-25767747</span></div>
-                        <div className="interest-heading">Tel: (Res.) <span>91-22-2576 8747</span></div>
+                        <div className="interest-heading">Tel : (Off.) <span>91-22-25767747</span></div>
+                        <div className="interest-heading">Tel : (Res.) <span>91-22-2576 8747</span></div>
                         <div className="interest-heading">Fax : <span>91-22-25720022</span></div>
                         <div className="interest-heading">Email : <span>dbp@it.iitb.ac.in / dbp@cse.iitb.ac.in</span></div>
                         <div className="interest-heading">WebPage : <span>www.it.iitb.ac.in/~dbp</span></div>
