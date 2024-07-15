@@ -10,23 +10,15 @@ const AuthorGuidelines = ()=>{
                         <div className="g-info">
                             <div className="guidelines-heading"> Author Guidelines :</div>
                             <div>
-                            Procedia Computer Science is a product for proposed conference proceedings. It only receives manuscripts submitted to a conference that has an agreement with Elsevier for publication on Procedia Computer Science. Procedia Computer Science is an open access product focusing entirely on publishing high quality proceedings of all topics of Computer Science with the exception of certain workshops in Theoretical Computer Science, as our Electronic Notes in Theoretical Computer Science http://www.elsevier.com/locate/entcs are the primary outlet for these papers. This enables fast dissemination so that conference delegates can publish their papers in a dedicated online issue on ScienceDirect. The journal is covered by Scopus, the largest abstract and citation database of peer-reviewed literature.
+                            Procedia Computer Science is a product for proposed conference proceedings. It only receives manuscripts submitted to a conference that has an agreement with Springer for publication on Procedia Computer Science. Procedia Computer Science is an open access product focusing entirely on publishing high quality proceedings of all topics of Computer Science with the exception of certain workshops in Theoretical Computer Science, as our Electronic Notes in Theoretical Computer Science  are the primary outlet for these papers. This enables fast dissemination so that conference delegates can publish their papers in a dedicated online issue on ScienceDirect. The journal is covered by Scopus, the largest abstract and citation database of peer-reviewed literature.
                             Peer-review is under the responsibility of the conference organizers who according to the international peer-review standards may use single blind, double blind or open peer review. For details specific to the conference peer-review process, please contact the conference organizer or the guest editor of the conference.
                             </div>
                             <hr />
                         </div>
                         <div className="g-info">
-                            <div className="guidelines-heading"> Ethics in publishing:</div>
-                            <div>
-                            Procedia Computer Science is a product for proposed conference proceedings. It only receives manuscripts submitted to a conference that has an agreement with Elsevier for publication on Procedia Computer Science. Procedia Computer Science is an open access product focusing entirely on publishing high quality proceedings of all topics of Computer Science with the exception of certain workshops in Theoretical Computer Science, as our Electronic Notes in Theoretical Computer Science http://www.elsevier.com/locate/entcs are the primary outlet for these papers. This enables fast dissemination so that conference delegates can publish their papers in a dedicated online issue on ScienceDirect. The journal is covered by Scopus, the largest abstract and citation database of peer-reviewed literature.
-                            Peer-review is under the responsibility of the conference organizers who according to the international peer-review standards may use single blind, double blind or open peer review. For details specific to the conference peer-review process, please contact the conference organizer or the guest editor of the conference.
-                            </div>
-                            <hr />
-                        </div> 
-                        <div className="g-info">
                             <div className="guidelines-heading"> Author Guidelines :</div>
                             <div>
-                            Please see our information pages on <a href="https://www.elsevier.com/about/our-business/policies/publishing-ethics" target="_blank">Ethics in publishing</a> and <a href="https://www.elsevier.com/authors/journal-authors/policies-and-ethics" target="_blank">Ethical guidelines for journal publication.</a>
+                            Please see our information pages on <a href="https://www.springer.com/gp/authors-editors/editors/publishing-ethics-for-journals/4176" target="_blank">Ethics in publishing</a> and <a href="https://www.springer.com/gp/authors-editors/editors/publishing-ethics-for-journals/4176" target="_blank">Ethical guidelines for journal publication.</a>
                             </div>
                             <hr />
                         </div> 
@@ -40,8 +32,8 @@ const AuthorGuidelines = ()=>{
                         <div className="g-info">
                             <div className="guidelines-heading"> Copyright/Online license transfer:</div>
                             <div>
-                            Elsevier requires you to complete the Procedia CC BY-NC-ND licence agreement, which you can do online.
-                            As soon as Elsevier receives the final article, we will send you an acknowledgment letter containing a hyperlink to the Procedia CC BY-NC-ND licence agreement transfer page. Authors are requested to assign their licence within 3 days of receiving the acknowledgement letter.
+                            Springer requires you to complete the Procedia CC BY-NC-ND licence agreement, which you can do online.
+                            As soon as Springer receives the final article, we will send you an acknowledgment letter containing a hyperlink to the Procedia CC BY-NC-ND licence agreement transfer page. Authors are requested to assign their licence within 3 days of receiving the acknowledgement letter.
                             The subject line of the message sent to the author will be in English for all Procedia titles.
                             </div>
                             <hr />
@@ -49,14 +41,14 @@ const AuthorGuidelines = ()=>{
                         <div className="g-info">
                             <div className="guidelines-heading"> Copyright:</div>
                             <div>
-                            Upon acceptance of an article, authors will be asked to complete an 'Exclusive License Agreement' (for more information see <a href="http://www.elsevier.com/OAauthoragreement" target="_blank">http://www.elsevier.com/OAauthoragreement</a>). Permitted third party reuse of open access articles is determined by the author's choice of user license (see <a href="http://www.elsevier.com/openaccesslicenses" target="_blank">http://www.elsevier.com/openaccesslicenses</a>).
+                            Upon acceptance of an article, authors will be asked to complete an 'Exclusive License Agreement' (for more information see <a href="https://support.springer.com/en/support/solutions/articles/6000080095-author-copyrights-information" target="_blank">https://support.springer.com/en/support/solutions/articles/6000080095-author-copyrights-information</a>). Permitted third party reuse of open access articles is determined by the author's choice of user license (see <a href="https://www.springer.com/gp/authors-editors/authorandreviewertutorials/open-access/copyright-and-license/10286528" target="_blank">https://www.springer.com/gp/authors-editors/authorandreviewertutorials/open-access/copyright-and-license/10286528</a>).
                             </div>
                             <hr />
                         </div>
                         <div className="g-info">
                             <div className="guidelines-heading"> Author rights:</div>
                             <div>
-                            As an author you (or your employer or institution) have certain rights to reuse your work. For more information on author rights please see <a href="http://www.elsevier.com/OAauthoragreement" target="_blank">http://www.elsevier.com/copyright.</a>
+                            As an author you (or your employer or institution) have certain rights to reuse your work. For more information on author rights please see <a href="https://support.springer.com/en/support/solutions/articles/6000080095-author-copyrights-information" target="_blank">https://support.springer.com/en/support/solutions/articles/6000080095-author-copyrights-information.</a>
                             </div>
                             <hr />
                         </div>
@@ -71,11 +63,11 @@ const AuthorGuidelines = ()=>{
                             <div className="guidelines-heading"> Open Access:</div>
                             <div>
                             Every peer-reviewed research article appearing in Procedia Computer Science will be published open access. This means that the article is universally and freely accessible via the internet in perpetuity, in an easily readable format immediately after publication. The author does not have any publication charges for open access. The conference organizers will pay to make the article open access.
-                            A CC user license manages the reuse of the article (see <a href="http://www.elsevier.com/openaccesslicenses" target="_blank">http://www.elsevier.com/openaccesslicenses</a>). All articles will be published under the following license:<br /> <br />Creative Commons Attribution-NonCommercial-NoDerivs (CC BY-NC-ND) <br /><br />
+                            A CC user license manages the reuse of the article (see <a href="https://support.springer.com/en/support/solutions/articles/6000214270-fully-open-access-journals-and-hybrid-journals" target="_blank">https://support.springer.com/en/support/solutions/articles/6000214270-fully-open-access-journals-and-hybrid-journals</a>). All articles will be published under the following license:<br /> <br />Creative Commons Attribution-NonCommercial-NoDerivs (CC BY-NC-ND) <br /><br />
                             For non-commercial purposes, lets others distribute and copy the article, and to include in a collective work (such as an anthology), as long as they credit the author(s) and provided they do not alter or modify the article.<br /> 
                             
-                            Elsevier Publishing Campus The Elsevier Publishing Campus (<a href="http://www.publishingcampus.com" target="_blank">www.publishingcampus.com</a>) is an online platform offering free lectures, interactive training and professional advice to support you in publishing your research. The College of Skills training offers modules on how to
-                            prepare, write and structure your article and explains how editors will look at your paper when it is submitted for publication. Use these resources, and more, to ensure that your submission will be the best that you can make it.
+                            {/* Elsevier Publishing Campus The Elsevier Publishing Campus (<a href="http://www.publishingcampus.com" target="_blank">www.publishingcampus.com</a>) is an online platform offering free lectures, interactive training and professional advice to support you in publishing your research. The College of Skills training offers modules on how to
+                            prepare, write and structure your article and explains how editors will look at your paper when it is submitted for publication. Use these resources, and more, to ensure that your submission will be the best that you can make it. */}
                             </div>
                             <hr />
                         </div>
@@ -185,7 +177,7 @@ const AuthorGuidelines = ()=>{
                         
                             The figure number and caption should be typed below the illustration in 9pt and left justified.<br /> 
                         
-                             For further guidelines and information to help you submit high quality artwork please visit: http://www.elsevier.com/artworkinstructions. <br />
+                             For further guidelines and information to help you submit high quality artwork please visit: <a href="https://support.springer.com/en/support/solutions/articles/6000083109-artwork-submission-instructions">https://support.springer.com/en/support/solutions/articles/6000083109-artwork-submission-instructions</a>. <br />
                         
                             Artwork has no text along the side of it in the main body of the text. However, if two images fit next to each other, these may be placed next to each other to save space. <br />
                             <br />
@@ -230,7 +222,7 @@ const AuthorGuidelines = ()=>{
                         <div className="g-info">
                             <div className="guidelines-heading"> Interactive plots:</div>
                             <div>
-                            This journal encourages you to include data and quantitative results as interactive plots with your publication. To make use of this feature, please include your data as a CSV (comma-separated values) file when you submit your manuscript. Please refer to http://www.elsevier.com/interactiveplots for further details and formatting instructions.
+                            This journal encourages you to include data and quantitative results as interactive plots with your publication. To make use of this feature, please include your data as a CSV (comma-separated values) file when you submit your manuscript.
                             </div>
                             <hr />
                         </div>
