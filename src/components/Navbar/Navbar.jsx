@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./navbar.css";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { IoMdClose } from "react-icons/io";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
@@ -21,7 +22,7 @@ const Navbar = () => {
           <li>
             <a href="#">Announcement</a>
             <ul>
-              <li><a href="Call_for_Papers.html">Call for Papers</a></li>
+              <li><Link to={'/callForPaper'}>Call for Papers</Link></li>
               <li><a href="Author_Guidelines.html">Author Guidelines</a></li>
               <li><a href="Important_Dates.html">Important Dates</a></li>
             </ul>
