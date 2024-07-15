@@ -23,9 +23,6 @@ const Navbar = () => {
             <ul>
               <li><a href="Call_for_Papers.html">Call for Papers</a></li>
               <li><a href="Author_Guidelines.html">Author Guidelines</a></li>
-              <li><a href="Call_for_workshop.html">Call for Workshops</a></li>
-              <li><a href="Call_for_tutorials.html">Call for Tutorials</a></li>
-              <li><a href="Call_for_Sponsors.html">Call for Sponsorship</a></li>
               <li><a href="Important_Dates.html">Important Dates</a></li>
             </ul>
           </li>
