@@ -18,13 +18,13 @@ const Navbar = () => {
       </div>
       <nav id="mainav" className={`navbar ${toggle ? "toggleActive" : ""}`}>
         <ul className="clear">
-          <li className="active"><a href="index.html">Home</a></li>
+          <li className="active"><Link to={"/"}>Home</Link></li>
           <li>
             <a href="#">Announcement</a>
             <ul>
               <li><Link to={'/callForPaper'}>Call for Papers</Link></li>
               <li><Link to={'/author-guidelines'}>Author Guidelines</Link></li>
-              <li><Link to="Important_Dates.html">Important Dates</Link></li>
+              <li><Link to={'/important-dates'}>Important Dates</Link></li>
             </ul>
           </li>
           <li>
