@@ -33,6 +33,7 @@ function App() {
           <Route path='/callForPaper' element={<CallForPapers/>}></Route>
           <Route path='/author-guidelines' element={<AuthorGuidelines/>}></Route>
           <Route path='/important-dates' element={<ImportantDates/>}></Route>
+          <Route path='/speakers' element={<Speakers/>}></Route>
         </Routes>
       </div>
     </>

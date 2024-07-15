@@ -1,0 +1,37 @@
+img{
+    width: 160px;
+    height: 140px;
+}
+.other-info{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 15px;
+}
+.editiorship-heading{
+    color: rgb(47, 122, 226);
+    font-size: 1rem;
+    font-weight: 700;
+    /* margin-bottom: 20px; */
+    /* padding: 5px; */
+    margin-top: 5px;
+}
+.interest-heading{
+    color: rgb(47, 122, 226);
+    font-size: 1rem;
+    font-weight: 400;
+    /* margin-bottom: 20px; */
+    /* padding: 5px; */
+    margin-top: 5px;
+}
+.speakers-container{
+    line-height: 1.5rem;
+    text-align: justify;
+}
+hr{
+    margin-top: 20px;
+    width: 100%;
+    border-color: rgb(189, 189, 189);
+    opacity: 40%;
+    margin-bottom: 25px;
+}
