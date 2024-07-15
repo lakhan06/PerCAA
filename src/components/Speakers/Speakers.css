@@ -1,5 +1,4 @@
 .image-para-container img{
-    display: flex;
     width: 900px;
     height: 120px;
 }
@@ -39,4 +38,17 @@ hr{
 .image-para-container{
     display: flex;
     gap: 10px;
+}
+@media screen and (max-width:750px) {
+    .image-para-container{
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+    .image-para-container img{
+        width: 200px;
+        height: 220px;
+        
+    }
 }
