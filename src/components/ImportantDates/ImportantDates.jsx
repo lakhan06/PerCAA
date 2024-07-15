@@ -13,6 +13,9 @@ const ImportantDates = ()=>{
         <>
             <div className="papaContainer">
                 <div className="leftContainer ">
+                    <div className="dates-heading">
+                        Important Dates :
+                    </div>
                    <div className="table-container">
                     <table>
                             <thead>
