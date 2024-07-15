@@ -23,26 +23,26 @@ const Navbar = () => {
             <a href="#">Announcement</a>
             <ul>
               <li><Link to={'/callForPaper'}>Call for Papers</Link></li>
-              <li><a href="Author_Guidelines.html">Author Guidelines</a></li>
-              <li><a href="Important_Dates.html">Important Dates</a></li>
+              <li><Link to={'/author-guidelines'}>Author Guidelines</Link></li>
+              <li><Link to="Important_Dates.html">Important Dates</Link></li>
             </ul>
           </li>
           <li>
             <a href="#">Organization</a>
             <ul>
-              <li><a href="Steering_Committee.html">Steering Committee</a></li>
+              <li><a href={'/steering-commitee'}>Steering Committee</a></li>
               <li><a href="Organization_Committee.html">Organizing Committee</a></li>
-              <li><a href="Program_Committee.html">Program Committee</a></li>
+              <li><a href={'/program-commitee'}>Program Committee</a></li>
             </ul>
           </li>
           <li>
             <a href="#">Program/Registration</a>
             <ul>
               <li><a href="#">Agenda & Program</a></li>
-              <li><a href="Registration.html">Registration</a></li>
+              <li><a href={'/registration'}>Registration</a></li>
               <li><a href="Registration_Policy.html">Registration Policy</a></li>
               <li><a href="#">Hotel Reservation</a></li>
-              <li><a href="Keynotes.html">Keynotes & Invited Talks</a></li>
+              <li><a href={'/speakers'}>Keynotes & Invited Talks</a></li>
               <li><a href="#">Accepted Papers</a></li>
               <li><a href="#">Tutorials</a></li>
             </ul>
@@ -56,12 +56,12 @@ const Navbar = () => {
           <li>
             <a href="#">Information</a>
             <ul>
-              <li><a href="Venue_page.html">Venue</a></li>
+              <li><a href={'/venue'}>Venue</a></li>
               <li><a href="How_to_reach.html">How to Reach</a></li>
-              <li><a href="local_attraction.html">Local Attraction</a></li>
+              <li><a href={'/local-attractions'}>Local Attraction</a></li>
             </ul>
           </li>
-          <li><a href="Contact_us.html">Contact</a></li>
+          <li><a href={'/contact'}>Contact</a></li>
         </ul>
       </nav>
     </>
