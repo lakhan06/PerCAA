@@ -13,7 +13,7 @@ const Navbar = () => {
   return (
     <>
       <div className="toggle-button" onClick={handleToggle}>
-        {toggle ? <IoMdClose /> : <GiHamburgerMenu />}
+        {toggle ? <IoMdClose className="cross"/> : <GiHamburgerMenu />}
       </div>
       <nav id="mainav" className={`navbar ${toggle ? "toggleActive" : ""}`}>
         <ul className="clear">

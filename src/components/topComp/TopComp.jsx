@@ -17,7 +17,7 @@ function TopComp() {
             </div>
             <div className="top-head">
                 {/* <div className='top-line'>International Conference on Pervasive Computing Advances and Applications</div> */}
-                <div className='top-line percaa'>PerCAA - 2024</div>
+                <div className='top-line percaa'>PerCAA 2024</div>
                 <div className='top-line'> -- Dates -- </div>
             </div>
             <div className="top-logos">
