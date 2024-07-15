@@ -21,7 +21,7 @@
     padding: 10px;
 }
 .image-container{
-    width: 50%;
+    width: max-content;
 }
 .image-container img{
     width: 410px;
@@ -37,4 +37,17 @@
 hr{
     /* border-width: 1px; */
     border: .5px solid black;
+}
+
+@media screen  and (max-width: 1350px) {
+    .attraction-details{
+        flex-direction: column;
+        width: 100%;
+    }
+    .desc-container{
+        width: 100%;
+    }
+    .image-container{
+        width: max-content;
+    }
 }
