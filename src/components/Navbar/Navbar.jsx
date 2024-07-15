@@ -42,7 +42,7 @@ const Navbar = () => {
               <li><a href={'/registration'}>Registration</a></li>
               <li><a href="Registration_Policy.html">Registration Policy</a></li>
               <li><a href="#">Hotel Reservation</a></li>
-              <li><a href="Keynotes.html">Keynotes & Invited Talks</a></li>
+              <li><a href={'/speakers'}>Keynotes & Invited Talks</a></li>
               <li><a href="#">Accepted Papers</a></li>
               <li><a href="#">Tutorials</a></li>
             </ul>
