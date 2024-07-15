@@ -21,10 +21,16 @@ function TopComp() {
                 <div className='top-line'> -- Dates -- </div>
             </div>
             <div className="top-logos">
-                <img src={MNIT} alt="mnit_logo" className='mnit_logo'/>
-                <img src={BL} alt='Bentham Logo'/>
+            <img src={MNIT} alt="mnit_logo" className='mnit_logo'/>
+            <img src={BL} alt='Bentham Logo'/>
             </div>
         </div>
+        <div className="smallmarquee" scrollamount="10"> <div className="top-logos-marquee">
+                <img src={pce} alt="poornima university logo" className='pce_logo'/>
+                <img src={ACM} alt="acm chapter logo" className='acm_logo'/>
+                <img src={MNIT} alt="mnit_logo" className='mnit_logo'/>
+                <img src={BL} alt='Bentham Logo'/>
+            </div></div>
     </div>
   )
 }
