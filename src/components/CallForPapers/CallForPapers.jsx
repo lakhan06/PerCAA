@@ -31,265 +31,267 @@ const CallForPapers = () => {
                         </div>
                     </div>
                     <div className="homeContent">
-                        <table className="CFP_table">
-                            <thead>
-                                <tr>
-                                    <td className="pstrongCFP" colSpan="3">
-                                        <p ><strong>Track 1: Pervasive and Ubiquitous Computing</strong></p>
-                                    </td>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>
-                                        <p>Ambient Intelligence</p>
-                                    </td>
-                                    <td>
-                                        <p>Speech and Image processing in Pervasive Computing</p>
-                                    </td>
-                                    <td>
-                                        <p>Energy-Efficient and Green Pervasive Computing</p>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <p>Context Aware Systems</p>
-                                    </td>
-                                    <td>
-                                        <p>Stress / Emotional Response Analysis</p>
-                                    </td>
-                                    <td>
-                                        <p>Machine Learning and Data Mining in Pervasive Computing</p>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <p>Context Modeling and Reasoning</p>
-                                    </td>
-                                    <td>
-                                        <p>Embedded Networks in Pervasive Computing</p>
-                                    </td>
-                                    <td>
-                                        <p>Internet of Things / Cyber Physical Systems</p>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <p>Human-Computer Interaction</p>
-                                    </td>
-                                    <td>
-                                        <p>Programming Paradigms for Pervasive Computing Systems</p>
-                                    </td>
-                                    <td>
-                                        <p>Middleware for Pervasive Services and Applications</p>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <p>Augmented Reality</p>
-                                    </td>
-                                    <td>
-                                        <p>Software Evaluation and Maintenance In Pervasive Computing Systems</p>
-                                    </td>
-                                    <td>
-                                        <p>Acquiring Models of Everyday Activities for Robotic Control</p>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <p>Interaction in Dynamic Smart Environments</p>
-                                    </td>
-                                    <td>
-                                        <p>Positioning and Tracking Technologies</p>
-                                    </td>
-                                    <td>
-                                        <p>Mobile Computing Systems</p>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <p>Cognitive Computing In Pervasive Systems</p>
-                                    </td>
-                                    <td>
-                                        <p>Indoor Positioning Technologies and Techniques</p>
-                                    </td>
-                                    <td>
-                                        <p>Ubiquitous Computing Systems and Services</p>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <p>Sensor Fusion in Pervasive Computing</p>
-                                    </td>
-                                    <td>
-                                        <p>Outdoor Location Systems and Technologies</p>
-                                    </td>
-                                    <td>
-                                        <p>Wearable Computing</p>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <p>Pervasive Health Care Systems</p>
-                                    </td>
-                                    <td>
-                                        <p>Smart-Object Services for Consumers</p>
-                                    </td>
-                                    <td>
-                                        <p>Security and Privacy</p>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <p>Pervasive Computing Aspects of Social Networks</p>
-                                    </td>
-                                    <td>
-                                        <p>Smart Homes</p>
-                                    </td>
-                                    <td>
-                                        <p>Elderly Care Applications</p>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <p>Games for Mental Health</p>
-                                    </td>
-                                    <td>
-                                        <p>Smart Cards & Devices</p>
-                                    </td>
-                                    <td>
-                                        <p>Child Care Applications</p>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <p>Biomedical Sensors and Devices</p>
-                                    </td>
-                                    <td>
-                                        <p>Smart Vehicles</p>
-                                    </td>
-                                    <td>
-                                        <p>Applications for Differently abled and Illiterate people</p>
-                                    </td>
-                                </tr>
-                                <br />
-                                <tr>
-                                    <td className="pstrongCFP" colSpan="3">
-                                        <p ><strong>Track 2: Mobile Communication & Networking</strong></p>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <p>Sensors and Sensor Networks</p>
-                                    </td>
-                                    <td>
-                                        <p>Distributed Intelligent Agents</p>
-                                    </td>
-                                    <td>
-                                        <p>Hand-off Issues in Mobile Networking</p>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <p>Configuration of Wireless Sensor Networks</p>
-                                    </td>
-                                    <td>
-                                        <p>Software Defined Networking</p>
-                                    </td>
-                                    <td>
-                                        <p>Combined Sensing Systems and Infrastructures</p>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <p>Deployment Support for Wireless Sensor Networks</p>
-                                    </td>
-                                    <td>
-                                        <p>Protocols, and Technologies</p>
-                                    </td>
-                                    <td>
-                                        <p>Security and Privacy</p>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <p>Collaborative Data Management for Wireless Sensor Networks</p>
-                                    </td>
-                                    <td>
-                                        <p>Urban and Mobile Crowd Sensing and Intelligence</p>
-                                    </td>
-                                    <td>
-                                        <p>Body Sensor Networks</p>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <p>Wireless Sensor Networks in Agriculture</p>
-                                    </td>
-                                    <td>
-                                        <p>Adaptive Communication Protocols</p>
-                                    </td>
-                                    <td>
-                                        <p>Pervasive Communication Technologies</p>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <p>Programming Abstractions for Large Scale Deployment of Wireless Sensor Networks</p>
-                                    </td>
-                                    <td>
-                                        <p>Multimedia Streaming in Mobile Internet</p>
-                                    </td>
-                                    <td>
-                                        <p>Interaction Techniques for Continuous Information Spaces</p>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <p>Mobile Communication</p>
-                                    </td>
-                                    <td>
-                                        <p>Opportunistic Networking in Pervasive Systems</p>
-                                    </td>
-                                    <td>
-                                        <p>Delay Tolerant Networks</p>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <p>Mobile IP</p>
-                                    </td>
-                                    <td>
-                                        <p>Storage Networks</p>
-                                    </td>
-                                    <td>
-                                        <p>Routing in Battle Grade Networks</p>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <p>Intelligent Transportation Systems</p>
-                                    </td>
-                                    <td>
-                                        <p>Virtual Immersive Communications</p>
-                                    </td>
-                                    <td>
-                                        <p>WSN in Natural Disaster Management</p>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <p>Vehicular Networks</p>
-                                    </td>
-                                    <td>
-                                        <p>Real Time Networks</p>
-                                    </td>
-                                    <td>
-                                        <p>Near Field Communication</p>
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
+                        <div className="tableWrapper">
+                            <table className="CFP_table">
+                                <thead>
+                                    <tr>
+                                        <td className="pstrongCFP" colSpan="3">
+                                            <p ><strong>Track 1: Pervasive and Ubiquitous Computing</strong></p>
+                                        </td>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <p>Ambient Intelligence</p>
+                                        </td>
+                                        <td>
+                                            <p>Speech and Image processing in Pervasive Computing</p>
+                                        </td>
+                                        <td>
+                                            <p>Energy-Efficient and Green Pervasive Computing</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>Context Aware Systems</p>
+                                        </td>
+                                        <td>
+                                            <p>Stress / Emotional Response Analysis</p>
+                                        </td>
+                                        <td>
+                                            <p>Machine Learning and Data Mining in Pervasive Computing</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>Context Modeling and Reasoning</p>
+                                        </td>
+                                        <td>
+                                            <p>Embedded Networks in Pervasive Computing</p>
+                                        </td>
+                                        <td>
+                                            <p>Internet of Things / Cyber Physical Systems</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>Human-Computer Interaction</p>
+                                        </td>
+                                        <td>
+                                            <p>Programming Paradigms for Pervasive Computing Systems</p>
+                                        </td>
+                                        <td>
+                                            <p>Middleware for Pervasive Services and Applications</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>Augmented Reality</p>
+                                        </td>
+                                        <td>
+                                            <p>Software Evaluation and Maintenance In Pervasive Computing Systems</p>
+                                        </td>
+                                        <td>
+                                            <p>Acquiring Models of Everyday Activities for Robotic Control</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>Interaction in Dynamic Smart Environments</p>
+                                        </td>
+                                        <td>
+                                            <p>Positioning and Tracking Technologies</p>
+                                        </td>
+                                        <td>
+                                            <p>Mobile Computing Systems</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>Cognitive Computing In Pervasive Systems</p>
+                                        </td>
+                                        <td>
+                                            <p>Indoor Positioning Technologies and Techniques</p>
+                                        </td>
+                                        <td>
+                                            <p>Ubiquitous Computing Systems and Services</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>Sensor Fusion in Pervasive Computing</p>
+                                        </td>
+                                        <td>
+                                            <p>Outdoor Location Systems and Technologies</p>
+                                        </td>
+                                        <td>
+                                            <p>Wearable Computing</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>Pervasive Health Care Systems</p>
+                                        </td>
+                                        <td>
+                                            <p>Smart-Object Services for Consumers</p>
+                                        </td>
+                                        <td>
+                                            <p>Security and Privacy</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>Pervasive Computing Aspects of Social Networks</p>
+                                        </td>
+                                        <td>
+                                            <p>Smart Homes</p>
+                                        </td>
+                                        <td>
+                                            <p>Elderly Care Applications</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>Games for Mental Health</p>
+                                        </td>
+                                        <td>
+                                            <p>Smart Cards & Devices</p>
+                                        </td>
+                                        <td>
+                                            <p>Child Care Applications</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>Biomedical Sensors and Devices</p>
+                                        </td>
+                                        <td>
+                                            <p>Smart Vehicles</p>
+                                        </td>
+                                        <td>
+                                            <p>Applications for Differently abled and Illiterate people</p>
+                                        </td>
+                                    </tr>
+                                    <br />
+                                    <tr>
+                                        <td className="pstrongCFP" colSpan="3">
+                                            <p ><strong>Track 2: Mobile Communication & Networking</strong></p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>Sensors and Sensor Networks</p>
+                                        </td>
+                                        <td>
+                                            <p>Distributed Intelligent Agents</p>
+                                        </td>
+                                        <td>
+                                            <p>Hand-off Issues in Mobile Networking</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>Configuration of Wireless Sensor Networks</p>
+                                        </td>
+                                        <td>
+                                            <p>Software Defined Networking</p>
+                                        </td>
+                                        <td>
+                                            <p>Combined Sensing Systems and Infrastructures</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>Deployment Support for Wireless Sensor Networks</p>
+                                        </td>
+                                        <td>
+                                            <p>Protocols, and Technologies</p>
+                                        </td>
+                                        <td>
+                                            <p>Security and Privacy</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>Collaborative Data Management for Wireless Sensor Networks</p>
+                                        </td>
+                                        <td>
+                                            <p>Urban and Mobile Crowd Sensing and Intelligence</p>
+                                        </td>
+                                        <td>
+                                            <p>Body Sensor Networks</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>Wireless Sensor Networks in Agriculture</p>
+                                        </td>
+                                        <td>
+                                            <p>Adaptive Communication Protocols</p>
+                                        </td>
+                                        <td>
+                                            <p>Pervasive Communication Technologies</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>Programming Abstractions for Large Scale Deployment of Wireless Sensor Networks</p>
+                                        </td>
+                                        <td>
+                                            <p>Multimedia Streaming in Mobile Internet</p>
+                                        </td>
+                                        <td>
+                                            <p>Interaction Techniques for Continuous Information Spaces</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>Mobile Communication</p>
+                                        </td>
+                                        <td>
+                                            <p>Opportunistic Networking in Pervasive Systems</p>
+                                        </td>
+                                        <td>
+                                            <p>Delay Tolerant Networks</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>Mobile IP</p>
+                                        </td>
+                                        <td>
+                                            <p>Storage Networks</p>
+                                        </td>
+                                        <td>
+                                            <p>Routing in Battle Grade Networks</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>Intelligent Transportation Systems</p>
+                                        </td>
+                                        <td>
+                                            <p>Virtual Immersive Communications</p>
+                                        </td>
+                                        <td>
+                                            <p>WSN in Natural Disaster Management</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>Vehicular Networks</p>
+                                        </td>
+                                        <td>
+                                            <p>Real Time Networks</p>
+                                        </td>
+                                        <td>
+                                            <p>Near Field Communication</p>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
 
                     </div>
 

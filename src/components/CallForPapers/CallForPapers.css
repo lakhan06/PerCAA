@@ -12,7 +12,7 @@
   font-size: 0.9rem;
 }
 
-table .pstrongCFP {
+.CFP_table .pstrongCFP {
   text-align: center;
   font-size: 1rem;
   background-color: #f1f1f1; /* Light gray background for even rows */
@@ -20,13 +20,13 @@ table .pstrongCFP {
 
 /* Targeting all table rows */
 table tr:nth-child(even) {
-    background-color: #f1f1f1; /* Light gray background for even rows */
+  background-color: #f1f1f1; /* Light gray background for even rows */
 }
 
 table tr:nth-child(odd) {
-    background-color: #ffffff; /* White background for odd rows */
+  background-color: #ffffff; /* White background for odd rows */
 }
 
 .review_process ul {
-    margin: 10px 0;
+  margin: 10px 0;
 }
