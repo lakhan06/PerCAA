@@ -2,7 +2,12 @@
   background-color: rgb(185, 255, 255);
 }
 
-.CFP_table {
+.tableWrapper {
+  width: 100%;
+  overflow-x: scroll;
+}
+
+table {
   border-collapse: collapse;
 }
 
@@ -12,7 +17,7 @@
   font-size: 0.9rem;
 }
 
-.CFP_table .pstrongCFP {
+table .pstrongCFP {
   text-align: center;
   font-size: 1rem;
   background-color: #f1f1f1; /* Light gray background for even rows */
