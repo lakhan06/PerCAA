@@ -14,3 +14,21 @@ text-align: justify;
 letter-spacing: 1px;
 line-height: 23px;
 }
+
+
+@media (max-width:700px) {
+    .paracontent p{
+       font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 20px;
+    }
+    
+}
+@media (max-width:500px) {
+    .paracontent p{
+       font-size: 12px;
+    letter-spacing: 0.5px;
+    line-height: 17px;
+    }
+    
+}
