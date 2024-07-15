@@ -28,6 +28,7 @@ function App() {
           <Route path='/local-attractions' element={<LocalAttractions/>}></Route>
           <Route path='/venue' element={<Venue></Venue>}></Route>
           <Route path='/speakers' element={<Speakers/>}></Route>
+          <Route path='/callforPapers' element={<CallForPapers/>}></Route>
         </Routes>
       </div>
     </>
