@@ -9,7 +9,6 @@
     margin-bottom: 30px;
 }
 .member_container{
-    width: 50vw;
     display: flex;
     flex-direction: column;
 }
