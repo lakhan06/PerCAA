@@ -1,0 +1,27 @@
+.guidelines-heading{
+    color: rgb(47, 122, 226);
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 20px;
+    padding: 5px;
+    margin-top: 15px;
+}
+.guidelines-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.g-info{
+    line-height: 1.5rem;
+    color: black;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+}
+.g-info hr{
+    margin-top: 20px;
+    width: 100%;
+    border-color: rgb(189, 189, 189);
+    opacity: 40%;
+}

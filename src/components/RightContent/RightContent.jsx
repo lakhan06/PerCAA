@@ -55,8 +55,8 @@ const RightContent = () => {
                 </div>
 
                 <div className="rredheadline">
-                    All excepted paper will be published in Elsevier computer Science procedia.
-
+                Selected papers will be published in Scopus
+                indexed Springer Proceeding
                 </div>
 
             </div>

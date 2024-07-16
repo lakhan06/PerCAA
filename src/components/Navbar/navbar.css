@@ -58,7 +58,7 @@
 
 .toggle-button {
   display: none;
-  position: fixed;
+  position: absolute;
   top: 36px;
   right: 10px;
   z-index: 3; /* Ensure the button is above other elements */

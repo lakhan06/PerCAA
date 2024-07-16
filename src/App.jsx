@@ -12,6 +12,8 @@ import TopComp from './components/topComp/TopComp'
 import LocalAttractions from './components/LocalAttractions/LocalAttractions'
 import Venue from './components/Venue/Venue'
 import Speakers from './components/Speakers/Speakers'
+import AuthorGuidelines from './components/AuthorGuidelines/AuthorGuidelines'
+import ImportantDates from './components/ImportantDates/ImportantDates'
 function App() {
   return (
     <>
@@ -29,6 +31,9 @@ function App() {
           <Route path='/venue' element={<Venue></Venue>}></Route>
           <Route path='/speakers' element={<Speakers/>}></Route>
           <Route path='/callForPaper' element={<CallForPapers/>}></Route>
+          <Route path='/author-guidelines' element={<AuthorGuidelines/>}></Route>
+          <Route path='/important-dates' element={<ImportantDates/>}></Route>
+          <Route path='/speakers' element={<Speakers/>}></Route>
         </Routes>
       </div>
     </>
