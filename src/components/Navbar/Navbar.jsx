@@ -48,7 +48,7 @@ const Navbar = () => {
             </ul>
           </li>
           <li>
-            <a to="#">Workshops</a>
+            {/* <a to="#">Workshops</a> */}
             <ul>
               {/* <li><a to="Call_for_percaa_workshop.html">PerCAA 2019 Workshops</a></li>onClick={handleToggle}  */}
             </ul>
