@@ -47,12 +47,12 @@ const Navbar = () => {
               {/* <li><a to="#">Tutorials</a></li> */}
             </ul>
           </li>
-          <li>
-            {/* <a to="#">Workshops</a> */}
+          {/* <li>
+            <a to="#">Workshops</a>
             <ul>
-              {/* <li><a to="Call_for_percaa_workshop.html">PerCAA 2019 Workshops</a></li>onClick={handleToggle}  */}
+              <li><a to="Call_for_percaa_workshop.html">PerCAA 2019 Workshops</a></li>onClick={handleToggle} 
             </ul>
-          </li>
+          </li> */}
           <li>
             <a to="#">Information</a>
             <ul>
