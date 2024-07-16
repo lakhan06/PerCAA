@@ -1,12 +1,10 @@
 import './RightContent.css'
-import PULogo from '/logos/PULogo.png'
-import Mnit_logo from '/logos/Mnit_logo.png'
 import acmChapterLogo from '/logos/acmChapterLogo.png'
-import IEE_logo from '/logos/IEE_logo.jpg'
-import IGI_Global_logo from '/logos/IGI_Global_logo.png'
+import Springer_logo from '/logos/Springer_logo.png'
 import computingJournel from '/logos/computingJournel.png'
 import naturalComputing from '/logos/naturalComputing.png'
 import Poornima_Logo from "/Assets/Poornima_Logo.jpg"
+import Bentham_logo from "/logos/Bentham_logo.jpg"
 const RightContent = () => {
     const dates = [
         { event: "Last Date of Paper Submission", date: "February 14, 2024" },
@@ -22,7 +20,7 @@ const RightContent = () => {
                 <div className="sectionHeading">Organized By</div>
                 <div className="organizersLogos">
                     <img src={Poornima_Logo} alt="" />
-                    <img src={Mnit_logo} alt="" />
+                    {/* <img src={Mnit_logo} alt="" /> */}
                     <img src={acmChapterLogo} alt="" />
                 </div>
 
@@ -46,8 +44,8 @@ const RightContent = () => {
 
                 <div className="sectionHeading smallSectionHeading">Technically Sponsored by</div>
                 <div className="technicalSponsers">
-                    <img src={IEE_logo} alt="" />
-                    <img src={IGI_Global_logo} alt="" />
+                    <img src={Springer_logo} alt="" />
+                    <img src={Bentham_logo} alt="" />
                 </div>
 
                 <div className="sectionHeading smallSectionHeading">Selected Extended Post Conference Papers will be published in</div>
