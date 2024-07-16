@@ -307,7 +307,7 @@ const CallForPapers = () => {
                                     <strong>author guidelines</strong>
                                 </a>. The manuscript written should be thoroughly checked for grammatical or typographical errors before submission. Authors should ensure that the similarity score of their research paper is not above 15 %. Manuscripts having similarity score more than 15 % shall not be processed. All the review manuscripts should be submitted in PDF format without authors name and affiliations using Easy Chair Conference Management Systems written as per{' '}
                                 <a href="img/PDF/PROCS-PerCAA_2019_Word_Template.zip" target="_blank">
-                                    <strong>Elsevier Template in Word (A4)</strong>
+                                    <strong>Springer Template in Word (A4)</strong>
                                 </a> or in{' '}
                                 <a href="img/PDF/PROCS-PerCAA_2019_TeX_Template.zip" target="_blank">
                                     <strong>Latex</strong>
