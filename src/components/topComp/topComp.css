@@ -9,7 +9,7 @@
 .topmarquee{
     font-size: 20px;
     font-weight: bold;
-    background-color: rgb(219, 239, 204);
+    background-color: rgb(204 220 242);
     padding: 10px;
     letter-spacing: 2px;
     /* display: fl; */
@@ -55,6 +55,7 @@
     /* width:12vw; */
     justify-content: space-evenly;
     gap: 60px;
+    align-items: center;
    
 }
 .smallmarquee{
@@ -77,6 +78,10 @@
     height: 6vw;
 
 }
+.sp_logo{
+    width: 10vw !important;
+    height: 4vw !important;
+}
 /* .sp_logo img{
     width: 10vw;
 } */
@@ -86,7 +91,11 @@
     /* height: 5vw; */
 
 }
-
+.top-logos-marquee{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .pce_logo{
     /* border-radius: 50%; */
 }
@@ -123,10 +132,14 @@
     }
     .top-logos img{
         /* margin: 0 20px; */
-        width: 10vw;
+        width: 8vw;
     
-        /* height: 10vw; */
+        height: 10vw;
     
+    }
+    .sp_logo{
+        width: 15vw !important;
+        height: 6vw !important;
     }
 }
 @media screen and (max-width : 480px){
@@ -149,9 +162,15 @@
     height: 6vw;
 
 }
+.sp_logo{
+    width: 25vw !important;
+    height: 10vw !important;
+}
     .topmarquee{
         font-size: 10px;
+       
     }
+    
     .percaa{
         font-size: 25px;
     }
