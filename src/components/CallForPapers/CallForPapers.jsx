@@ -18,13 +18,7 @@ const CallForPapers = () => {
                             </p>
                             <p>
                                 <span className="highlightedPara">
-                                    It would be a double blind review. EDAS Conference Management System/ Easy Chair shall be used
-                                    along with iThenticate/ Turnitin Similarity Checker. The editors shall not allow review of papers
-                                    having similarity above 20 %. After two blind reviews the TPC Chair shall assign third reviewer in
-                                    case of any conflict. The papers will be accepted only if minimum two reviewers recommend
-                                    strongly. It would be ensured that all the corrections as advised by reviewers are incorporated.
-                                    This would be executed through shepherding. Editors will have a final check before issue of
-                                    acceptance notification.
+                                    It would be a double blind review. CMT shall be used along with Turnitin Similarity Checker. The editors shall not allow review of papers having similarity above 20 %. After two blind reviews the TPC Chair shall assign third reviewer in case of any conflict. The papers will be accepted only if minimum two reviewers recommend strongly. It would be ensured that all the corrections as advised by reviewers are incorporated. This would be executed through shepherding. Editors will have a final check before issue of acceptance notification.
                                 </span>
 
                             </p>
@@ -305,9 +299,9 @@ const CallForPapers = () => {
                                 All the papers should be prepared as per{' '}
                                 <a href="img/PDF/Authors_Guidelines.pdf" target="_blank">
                                     <strong>author guidelines</strong>
-                                </a>. The manuscript written should be thoroughly checked for grammatical or typographical errors before submission. Authors should ensure that the similarity score of their research paper is not above 15 %. Manuscripts having similarity score more than 15 % shall not be processed. All the review manuscripts should be submitted in PDF format without authors name and affiliations using Easy Chair Conference Management Systems written as per{' '}
+                                </a>. The manuscript written should be thoroughly checked for grammatical or typographical errors before submission. Authors should ensure that the similarity score of their research paper is not above 15 %. Manuscripts having similarity score more than 15 % shall not be processed. All the review manuscripts should be submitted in PDF format without authors name and affiliations using CMT kit as per the{' '}
                                 <a href="img/PDF/PROCS-PerCAA_2019_Word_Template.zip" target="_blank">
-                                    <strong>Springer Template in Word (A4)</strong>
+                                    <strong>Template in Word (A4)</strong>
                                 </a> or in{' '}
                                 <a href="img/PDF/PROCS-PerCAA_2019_TeX_Template.zip" target="_blank">
                                     <strong>Latex</strong>
@@ -340,7 +334,7 @@ const CallForPapers = () => {
                                 and submit the paper by mail to corresponding track email id as;<br /><br />
                                 <strong>Track 1:</strong> Pervasive & Ubiquitous Computing: {' '}
                                 <a href="mailto:percaa2024@poornima.org">percaa2024@poornima.org</a><br /><br />
-                                <strong>Track 2:</strong> Mobile & Pervasive Computing: {' '}
+                                <strong>Track 2:</strong> Mobile Communication & Networking: {' '}
                                 <a href="mailto:percaa2024@poornima.org">percaa2024@poornima.org</a><br />
                             </p>
 

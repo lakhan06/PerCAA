@@ -1,18 +1,19 @@
 import './RightContent.css'
 import acmChapterLogo from '/logos/acmChapterLogo.png'
 import Springer_logo from '/logos/Springer_logo.png'
-import computingJournel from '/logos/computingJournel.png'
-import naturalComputing from '/logos/naturalComputing.png'
+// import computingJournel from '/logos/computingJournel.png'
+// import naturalComputing from '/logos/naturalComputing.png'
+import IET_logo from '/logos/IET_logo.jpg'
 import Poornima_Logo from "/Assets/Poornima_Logo.jpg"
-import Bentham_logo from "/logos/Bentham_logo.jpg"
 const RightContent = () => {
     const dates = [
-        { event: "Last Date of Paper Submission", date: "February 14, 2024" },
-        { event: "Acceptance Notification", date: "March 15, 2024" },
-        { event: "Camera Ready Paper Submission", date: "April 15, 2024" },
-        { event: "Last Date of Registration", date: "May 15, 2024" },
-        { event: "Conference Date", date: "To Be Announced" },
+        { event: "Last Date of Paper Submission", date: "August 20, 2024" },
+        { event: "Acceptance Notification", date: "August 31, 2024" },
+        { event: "Camera Ready Paper Submission", date: "September 30, 2024" },
+        { event: "Last Date of Registration", date: "October 10, 2024" },
+        { event: "Conference Date", date: "October 18-19, 2024" },
     ];
+
     return (
         <div>
             <div className="rightContent">
@@ -45,10 +46,10 @@ const RightContent = () => {
                 <div className="sectionHeading smallSectionHeading">Technically Sponsored by</div>
                 <div className="technicalSponsers">
                     <img src={Springer_logo} alt="" />
-                    <img src={Bentham_logo} alt="" />
+                    <img src={IET_logo} alt="" />
                 </div>
 
-                <div className="sectionHeading smallSectionHeading">Selected Extended Post Conference Papers will be published in</div>
+                {/* <div className="sectionHeading smallSectionHeading">Selected Extended Post Conference Papers will be published in</div>
                 <div className="conferencePapers">
                     <img src={computingJournel} alt="" />
                     <img src={naturalComputing} alt="" />
@@ -57,7 +58,7 @@ const RightContent = () => {
                 <div className="rredheadline">
                 Selected papers will be published in Scopus
                 indexed Springer Proceeding
-                </div>
+                </div> */}
 
             </div>
         </div>
