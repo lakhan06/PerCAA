@@ -332,16 +332,16 @@ const CallForPapers = () => {
                                 <ul>
                                     <li>- Accepted for Oral presentation</li>
                                     <li>- Accepted for Poster Presentation</li>
-                                    <li>- Accepted with minor corrections for Oral Presentation</li>
+                                    {/* <li>- Accepted with minor corrections for Oral Presentation</li>
                                     <li>- Accepted with minor corrections for Poster Presentations</li>
-                                    <li>- Rejected</li>
+                                    <li>- Rejected</li> */}
                                 </ul>
                                 For the papers accepted with minor corrections, authors will be required to incorporate all the corrections
                                 and submit the paper by mail to corresponding track email id as;<br /><br />
                                 <strong>Track 1:</strong> Pervasive & Ubiquitous Computing: {' '}
-                                <a href="mailto:percaa.1@poornima.edu.in">percaa.1@poornima.edu.in</a><br /><br />
+                                <a href="mailto:percaa2024@poornima.org">percaa2024@poornima.org</a><br /><br />
                                 <strong>Track 2:</strong> Mobile & Pervasive Computing: {' '}
-                                <a href="mailto:percaa.2@poornima.edu.in">percaa.2@poornima.edu.in</a><br />
+                                <a href="mailto:percaa2024@poornima.org">percaa2024@poornima.org</a><br />
                             </p>
 
                             <div className="homeheading">ORAL PRESENTATION</div>
@@ -349,18 +349,6 @@ const CallForPapers = () => {
                                 contribution including Objective, Justification, Methodology, Results, Conclusion as per template here.<br />
                                 There will be 3-5 minutes query time. Presentation schedule will be displayed well before time
                             </p>
-                            <div className="homeheading">POSTER PRESENTATION</div>
-                            <p >Authors shall prepare 4-6 A3 size posters including Title, Authors & Affiliation,
-                                Objectives, Methodology, Results and Conclusion. The presentation slots will be defined when the authors
-                                will remain present to explain their contributions and reply queries of the visitors. Space will be provided
-                                for the display.<br />
-                                The review process will consist of two blind reviews and authors will be communicated with the review
-                                remarks. The papers having similarity above 15 % shall not be reviewed, but rejected. Submitted papers must
-                                not substantially overlap papers that have been published or that are simultaneously submitted to a journal,
-                                conference or workshop. Simultaneous submission of the same work is not allowed. Authors of accepted papers
-                                will be required to make the presentation at the conference.
-                            </p>
-
                         </div>
                     </div>
                 </div>
