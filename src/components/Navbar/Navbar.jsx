@@ -3,7 +3,7 @@ import "./navbar.css";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { IoMdClose } from "react-icons/io";
 import { Link } from "react-router-dom";
-
+import IET_logo from '/logos/IET_logo.jpg'
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
 
