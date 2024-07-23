@@ -26,7 +26,7 @@ const Crousal = () => {
     <div class="work" id="work">
       
       <div class="wimages">
-        <div class="wimage1"></div>
+        <img class="wimage1"></img>
         <div class="wimage2"></div>
         <div class="wimage3"></div>
         <div class="wimage4"></div>

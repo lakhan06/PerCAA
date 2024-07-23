@@ -14,14 +14,14 @@
   
   
   /* to provide a black&white to colour transition */
-  .wimage1,
+  /* .wimage1,
   .wimage2,
   .wimage3,
   .wimage4,
   .wimage5 {
     filter: grayscale(100%);
     transition: all 0.5s ease;
-  }
+  } */
   
   .wimage1:hover {
     filter: grayscale(0);
@@ -71,7 +71,7 @@
   
   .wimage4 {
     width: 50vw;
-    height: 24vw;
+    height: 25vw;
     background: url(/TopCrousalIMages/poornima4.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -79,7 +79,7 @@
   
   .wimage5 {
     width: 50vw;
-    height: 24vw;
+    height: 25vw;
     background: url(/TopCrousalIMages/poornima5.jpg);
     background-repeat: no-repeat;
     background-size: cover;

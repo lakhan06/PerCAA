@@ -3,15 +3,16 @@
     /* padding: 10px; */
     background-color: rgb(255, 255, 255);
     /* height: 18vh; */
-    background-color: aliceblue;
+    /* background-color: aliceblue; */
 }
 
 .topmarquee{
-    font-size: 20px;
+    font-size: 25px;
     font-weight: bold;
-    background-color: rgb(204 220 242);
+    background-color: rgb(255, 255, 255);
     padding: 10px;
     letter-spacing: 2px;
+    text-align: center;
     /* display: fl; */
 }
 

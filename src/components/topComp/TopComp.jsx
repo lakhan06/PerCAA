@@ -8,7 +8,7 @@ import BL  from '/Assets/bentham_logo.png'
 function TopComp() {
   return (
     <div className='topComp'>
-    <marquee className="topmarquee" scrollamount="10">International Conference on Pervasive Computing Advances and Applications</marquee>
+    <div className="topmarquee" scrollamount="10">International Conference on Pervasive Computing Advances and Applications</div>
         <div className='top'>
             <div className="top-logos">
                 <img src={pce} alt="poornima university logo" className='pce_logo'/>

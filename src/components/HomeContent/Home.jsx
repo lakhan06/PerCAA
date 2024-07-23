@@ -1,11 +1,13 @@
 import "./Home.css";
 import RightContent from "../RightContent/RightContent";
-import Crousal from '../topimagesSection/Crousal'
+// import Crousal from '../topimagesSection/Crousal'
 import Footer from "../Footer/Footer";
+import NewCrousal from "../NewCrousal/NewCrousal";
 function Home() {
   return (
     <>
-    <Crousal></Crousal>
+    {/* <Crousal></Crousal> */}
+    <NewCrousal></NewCrousal>
 
     <div className="papaContainer">
       <div className="leftContainer">
