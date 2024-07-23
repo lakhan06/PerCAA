@@ -18,10 +18,10 @@
 
 .top{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     width: 100%;
     height: 100%;
-    gap: 60px;
+    /* gap: 60px; */
     /* align-items: center; */
     padding: 15px;
     /* background-color: rgb(219, 239, 204); */
@@ -53,9 +53,9 @@
 
 .top-logos{
     display: flex;
+    flex-direction: column;
     /* width:12vw; */
-    justify-content: space-evenly;
-    gap: 60px;
+    justify-content: center;
     align-items: center;
    
 }
