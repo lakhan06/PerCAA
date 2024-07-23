@@ -33,10 +33,12 @@
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  /* border-radius: 550px; */
 }
 
 .navbar ul li a:hover {
-  background-color: rgb(22, 75, 150);
+  /* background-color: rgb(22, 75, 150); */
+  background-color: #ED3237;
 }
 
 .navbar ul li ul {
