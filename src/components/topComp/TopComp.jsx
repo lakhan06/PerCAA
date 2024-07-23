@@ -4,7 +4,7 @@ import ACM from '/logos/acmChapterLogo.png'
 import SP from '/logos/Springer_logo.png'
 // import BL  from '/Assets/bentham_logo.png'
 // import IEEE from '/logos/IEE_logo.jpg'
-import IET_logo from '/logos/IET_logo.jpg'
+import IET_logo from "/logos/IET_logo.jpg";
 
 function TopComp() {
   return (
@@ -32,7 +32,7 @@ function TopComp() {
         <img src={IET_logo} alt='IET Logo' />
       </div></div>
     </div>
-  )
+  );
 }
 
-export default TopComp
+export default TopComp;

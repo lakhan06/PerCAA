@@ -7,7 +7,7 @@
 .carousel { 
     position: relative; 
     width: 74vw; 
-    height: 400px; 
+    height: 380px; 
     overflow: hidden; 
     background-color: #cdcdcd; 
     padding: 20px;
@@ -52,4 +52,49 @@
   
 .violet { 
     background-color: violet; 
+}
+
+
+
+@media (max-width:1100px) {
+
+    .carousel { 
+    position: relative; 
+    width: 74vw; 
+    height: 280px; 
+    overflow: hidden; 
+    background-color: #cdcdcd; 
+    padding: 20px;
+} 
+}
+@media (max-width: 800px) {
+    .carousel {
+        position: relative;
+        width: 73vw;
+        height: 245px;
+        overflow: hidden;
+        background-color: #cdcdcd;
+        padding: 20px;
+    }
+}
+@media (max-width: 700px) {
+    .carousel {
+        position: relative;
+        width: 100vw;
+        height: 245px;
+        overflow: hidden;
+        background-color: #cdcdcd;
+        padding: 20px;
+    }
+}
+
+@media (max-width: 600px) {
+    .carousel {
+        position: relative;
+        width: 100vw;
+        height: 200px;
+        overflow: hidden;
+        background-color: #cdcdcd;
+        padding: 20px;
+    }
 }
