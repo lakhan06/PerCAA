@@ -1,7 +1,7 @@
 import RightContent from "../RightContent/RightContent";
 import "./ImportantDates.css";
 import Footer from "../Footer/Footer";
-const ImportantDates = ()=>{
+const ImportantDates = () => {
     const dates = [
         { event: "Last Date of Paper Submission", date: "August 20, 2024" },
         { event: "Acceptance Notification", date: "August 31, 2024" },
@@ -9,16 +9,16 @@ const ImportantDates = ()=>{
         { event: "Last Date of Registration", date: "October 10, 2024" },
         { event: "Conference Date", date: "October 18-19, 2024" },
     ];
-    
-    return(
+
+    return (
         <>
             <div className="papaContainer">
                 <div className="leftContainer ">
                     <div className="dates-heading">
                         Important Dates :
                     </div>
-                   <div className="table-container">
-                    <table>
+                    <div className="table-container">
+                        <table>
                             <thead>
                                 <tr>
                                     <th>Event</th>
@@ -34,7 +34,7 @@ const ImportantDates = ()=>{
                                 ))}
                             </tbody>
                         </table>
-                   </div>
+                    </div>
                 </div>
                 <div className="rightContainer">
                     <RightContent></RightContent>
@@ -42,7 +42,7 @@ const ImportantDates = ()=>{
             </div>
             <Footer></Footer>
         </>
-             
+
     )
 }
 
