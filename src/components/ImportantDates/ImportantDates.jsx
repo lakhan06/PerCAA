@@ -3,12 +3,13 @@ import "./ImportantDates.css";
 import Footer from "../Footer/Footer";
 const ImportantDates = ()=>{
     const dates = [
-        { event: "Last Date of Paper Submission", date: "February 14, 2024" },
-        { event: "Acceptance Notification", date: "March 15, 2024" },
-        { event: "Camera Ready Paper Submission", date: "April 15, 2024" },
-        { event: "Last Date of Registration", date: "May 15, 2024" },
-        { event: "Conference Date", date: "To Be Announced" },
+        { event: "Last Date of Paper Submission", date: "August 20, 2024" },
+        { event: "Acceptance Notification", date: "August 31, 2024" },
+        { event: "Camera Ready Paper Submission", date: "September 30, 2024" },
+        { event: "Last Date of Registration", date: "October 10, 2024" },
+        { event: "Conference Date", date: "October 18-19, 2024" },
     ];
+    
     return(
         <>
             <div className="papaContainer">
