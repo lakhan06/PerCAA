@@ -10,16 +10,16 @@ import IET_logo from '/logos/IET_logo.jpg'
 function TopComp() {
   return (
     <div className='topComp'>
-    <div className="topmarquee" scrollamount="10">International Conference on Pervasive Computing Advances and Applications</div>
+    {/* <div className="topmarquee" scrollamount="10">International Conference on Pervasive Computing Advances and Applications</div> */}
         <div className='top'>
             <div className="top-logos">
                 <img src={pce} alt="poornima university logo" className='pce_logo'/>
                 <img src={ACM} alt="acm chapter logo" className='acm_logo'/>
             </div>
             <div className="top-head">
-                {/* <div className='top-line'>International Conference on Pervasive Computing Advances and Applications</div> */}
+                <div className='top-line'>International Conference on Pervasive Computing Advances and Applications</div>
                 <div className='top-line percaa'>PerCAA 2024</div>
-                <div className='top-line'> -- Dates -- </div>
+                <div className='top-line'>October 18-19 , 2024 </div>
             </div>
             <div className="top-logos">
             <img src={SP} alt="Springer logo" className='sp_logo'/>

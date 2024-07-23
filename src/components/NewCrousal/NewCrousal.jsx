@@ -20,16 +20,16 @@ const NewCrousal = () => {
             for (let i = 0; i < slides.length; i++) {
                 if (i + 1 === slides.length) {
                     addActive(slides[0]);
-                    setTimeout(removeActive, 350, slides[i]);
+                    setTimeout(removeActive, 550, slides[i]);
                     break;
                 }
                 if (slides[i].classList.contains('active')) {
-                    setTimeout(removeActive, 350, slides[i]);
+                    setTimeout(removeActive, 550, slides[i]);
                     addActive(slides[i + 1]);
                     break;
                 }
             }
-        }, 1500);
+        }, 2500);
 
         return () => clearInterval(interval);
     }, []);
@@ -53,7 +53,7 @@ const NewCrousal = () => {
                     style={{ backgroundImage: 'url(/TopCrousalIMages/poornima3.png)' }}>
                 </div>
             </div>
-            <div className="carousel-item" ref={el => slidesRef.current[3] = el}>
+            <div className="carousel-item" ref={el => slidesRef.current[2] = el}>
                 <div className="slide-image"
                     style={{ backgroundImage: 'url(/TopCrousalIMages/poornima4.png)' }}>
                 </div>
