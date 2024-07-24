@@ -45,7 +45,7 @@ const NewCrousal = () => {
             </div>
             <div className="carousel-item" ref={el => slidesRef.current[1] = el}>
                 <div className="slide-image"
-                    style={{ backgroundImage: 'url(/TopCrousalIMages/poornima2.png)' }}>
+                    style={{ backgroundImage: 'url(/TopCrousalIMages/poornima2.jpg)' }}>
                 </div>
             </div>
             <div className="carousel-item" ref={el => slidesRef.current[2] = el}>

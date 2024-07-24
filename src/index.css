@@ -14,7 +14,7 @@ body {
 
 .papaContainer {
   display: flex;
-  margin: 50px 200px;
+  margin: 50px 100px;
   gap: 30px;
 }
 

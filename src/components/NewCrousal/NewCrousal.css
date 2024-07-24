@@ -5,11 +5,11 @@
  }
   
 .carousel { 
-    position: relative; 
-    width: 74vw; 
-    height: 380px; 
-    overflow: hidden; 
-    background-color: #cdcdcd; 
+    position: relative;
+    width: 87vw;
+    height: 380px;
+    overflow: hidden;
+    background-color: #cdcdcd;
     padding: 20px;
 } 
   
