@@ -7,6 +7,9 @@ const OrganizingCommittee = ()=>{
     <>
         <div className="papaContainer">
             <div className="leftContainer">
+                <div className={styles.heading}>
+                    Program Commitee : 
+                </div>
                 <div className={styles.container}>
                     {
                         data.map((item , index)=>{

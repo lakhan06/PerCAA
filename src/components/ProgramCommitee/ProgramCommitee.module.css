@@ -7,6 +7,7 @@
     width: 100%;
     font-size:1.5rem;
     margin-bottom: 30px;
+    /* z-index: -20; */
 }
 .member_container{
     display: flex;
