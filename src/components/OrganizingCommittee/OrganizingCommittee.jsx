@@ -27,6 +27,7 @@ const OrganizingCommittee = ()=>{
                 <RightContent></RightContent>
             </div>
         </div>
+        <Footer></Footer>
     </>
     )
 }
