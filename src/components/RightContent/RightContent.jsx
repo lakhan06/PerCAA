@@ -49,11 +49,11 @@ const RightContent = () => {
                 <div className="technicalSponsers">
                     <img src={Poornima_Logo_full} alt="" />
                     <img src={IET_logo} alt="" />
-                    <img className='right_acm_chapterLogo' src={ACM_chapter} alt="" />
                     <div className="smallLogosTechSponsers">
                         <img src={ACM_Jaipur} alt="" />
                         <img src={ACM_merrut} alt="" />
                     </div>
+                    <img className='right_acm_chapterLogo' src={ACM_chapter} alt="" />
                 </div>
 
                 {/* <div className="sectionHeading smallSectionHeading">Selected Extended Post Conference Papers will be published in</div>
