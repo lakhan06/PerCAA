@@ -17,6 +17,7 @@
   overflow: hidden;
   width: 100vw;
   height: 6vh;
+  z-index: -100;
 }
 
 .navbar ul {

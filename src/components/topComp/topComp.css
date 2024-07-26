@@ -73,11 +73,14 @@
 
 .top-logos img{
     /* margin: 0 20px; */
-    width: 6vw;
+    /* width: 6vw; */
+    width: auto;
+    height: 5vw;
+    /* height: auto; */
 }
 
 .IET_LOGO {
-    width: 10vw !important;
+    width: 12.5vw !important;
 }
 
 .sp_logo{

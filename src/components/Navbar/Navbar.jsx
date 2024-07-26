@@ -28,12 +28,12 @@ const Navbar = () => {
             </ul>
           </li>
           <li>
-            <a to="#">Organization</a>
-            <ul>
+            <a href="/organizingcommittee">Organizing Committee</a>
+            {/* <ul>
               <li><Link onClick={handleToggle} to={'/steering-commitee'}>Steering Committee</Link></li>
               <li><Link onClick={handleToggle} to="Organization_Committee.html">Organizing Committee</Link></li>
               <li><Link onClick={handleToggle} to={'/program-commitee'}>Program Committee</Link></li>
-            </ul>
+            </ul> */}
           </li>
           <li>
             <a to="#">Program/Registration</a>

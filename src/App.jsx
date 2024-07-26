@@ -3,7 +3,6 @@ import { Routes, Route} from 'react-router-dom'
 import ProgramCommitee from './components/ProgramCommitee/ProgramCommitee'
 import SteeringCommittee from './components/SteeringCommitee/SteeringCommitee'
 import Registration from './components/Registration/Registration'
-// import Crousal from './components/topimagesSection/Crousal'
 import Contact from './components/Contact/Contact'
 import Home from './components/HomeContent/Home'
 import Navbar from './components/Navbar/Navbar'
@@ -14,6 +13,7 @@ import Venue from './components/Venue/Venue'
 import Speakers from './components/Speakers/Speakers'
 import AuthorGuidelines from './components/AuthorGuidelines/AuthorGuidelines'
 import ImportantDates from './components/ImportantDates/ImportantDates'
+import OrganizingCommittee from './components/OrganizingCommittee/OrganizingCommittee'
 function App() {
   return (
     <>
@@ -34,6 +34,7 @@ function App() {
           <Route path='/author-guidelines' element={<AuthorGuidelines/>}></Route>
           <Route path='/important-dates' element={<ImportantDates/>}></Route>
           <Route path='/speakers' element={<Speakers/>}></Route>
+          <Route path='/organizingcommittee' element={<OrganizingCommittee/>}></Route>
         </Routes>
       </div>
     </>

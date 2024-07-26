@@ -21,6 +21,7 @@ body {
 .leftContainer {
   width: 70%;
   height: max-content;
+  /* z-index: -101; */
 }
 
 .rightContainer {
