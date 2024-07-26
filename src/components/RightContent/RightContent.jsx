@@ -21,10 +21,11 @@ const RightContent = () => {
             <div className="rightContent">
 
                 <div className="sectionHeading">Organized By</div>
-                <div className="organizersLogos">
-                    <img src={Poornima_Logo} alt="" />
+                <div className="technicalSponsers">
+                    {/* <img src={Poornima_Logo} alt="" /> */}
                     {/* <img src={Mnit_logo} alt="" /> */}
-                    <img src={ACM_Jaipur} alt="" />
+                    {/* <img src={ACM_Jaipur} alt="" /> */}
+                    <img src={Poornima_Logo_full} alt="" />
                 </div>
 
                 <div className="sectionHeading">Important Dates</div>
@@ -47,8 +48,8 @@ const RightContent = () => {
 
                 <div className="sectionHeading smallSectionHeading">Technically Sponsored by</div>
                 <div className="technicalSponsers">
-                    <img src={Poornima_Logo_full} alt="" />
-                    <img src={IET_logo} alt="" />
+                    {/* <img src={Poornima_Logo_full} alt="" /> */}
+                    {/* <img src={IET_logo} alt="" /> */}
                     <div className="smallLogosTechSponsers">
                         <img src={ACM_Jaipur} alt="" />
                         <img src={ACM_merrut} alt="" />

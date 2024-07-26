@@ -5,13 +5,14 @@ import ACM_chapter from '/logos/ACM_chapter.png'
 // import BL  from '/Assets/bentham_logo.png'
 // import IEEE from '/logos/IEE_logo.jpg'
 import IET_logo from '/logos/IET_logo.png';
+import Poornima_Logo_full from '/Assets/Poornima_Logo.jpg'
 
 function TopComp() {
   return (
     <div className='topComp'>
       <div className='top'>
         <div className="top-logos">
-          <img src={pce} alt="poornima university logo" className='pce_logo' />
+          {/* <img src={pce} alt="poornima university logo" className='pce_logo' /> */}
           <img src={ACM} alt="acm chapter logo" className='acm_logo' />
         </div>
         <div className="top-head">
@@ -21,7 +22,7 @@ function TopComp() {
           <div className='top-line'> 18-19 October, 2024 </div>
         </div>
         <div className="top-logos">
-          <img src={ACM_chapter} alt="Springer logo" className='sp_logo' />
+          <img src={Poornima_Logo_full} alt="Poornima College Of Engineering" className='sp_logo' />
           <img className='IET_LOGO' src={IET_logo} alt='IET Logo'  />
         </div>
       </div>
