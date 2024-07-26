@@ -69,6 +69,26 @@
   transform: scale(1.03);
 }
 
+.right_acm_chapterLogo {
+  width: 60%  !important;
+}
+
+.smallLogosTechSponsers {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  overflow: hidden;
+  padding: 10px;
+
+}
+
+.smallLogosTechSponsers img {
+  width: 30% ;
+  overflow: hidden;
+}
+
+/* 
 .conferencePapers {
   display: flex;
   justify-content: center;
@@ -79,7 +99,7 @@
 .conferencePapers img {
   width: 40%;
   border: 0.5px solid rgb(195, 195, 195);
-}
+} */
 
 
 .rredheadline {
