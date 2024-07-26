@@ -8,7 +8,7 @@ const OrganizingCommittee = ()=>{
         <div className="papaContainer">
             <div className="leftContainer">
                 <div className={styles.heading}>
-                    Program Commitee : 
+                    Organizing Commitee : 
                 </div>
                 <div className={styles.container}>
                     {
