@@ -29,8 +29,8 @@ const Crousal = () => {
         <img class="wimage1"></img>
         <div class="wimage2"></div>
         <div class="wimage3"></div>
-        <div class="wimage4"></div>
-        <div class="wimage5"></div>
+        {/* <div class="wimage4"></div> */}
+        {/* <div class="wimage5"></div> */}
       </div>
     </div>
   )
