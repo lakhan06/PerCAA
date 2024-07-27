@@ -23,7 +23,12 @@ body {
   height: max-content;
   /* z-index: -101; */
 }
-
+.o-m-l{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 .rightContainer {
   width: 30%;
   height: max-content;

@@ -6,7 +6,7 @@ const OrganizingCommittee = ()=>{
     return(
     <>
         <div className="papaContainer">
-            <div className="leftContainer">
+            <div className="leftContainer o-m-l">
                 <div className={styles.heading}>
                     Organizing Commitee : 
                 </div>
