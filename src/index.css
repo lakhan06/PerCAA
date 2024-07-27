@@ -7,6 +7,10 @@
   color: #414141;
 }
 
+body{
+  overflow-x: hidden;
+}
+
 .papaContainer {
   display: flex;
   margin: 50px 100px;
