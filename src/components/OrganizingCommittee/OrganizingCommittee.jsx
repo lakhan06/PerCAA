@@ -6,10 +6,11 @@ const OrganizingCommittee = ()=>{
     return(
     <>
         <div className="papaContainer">
-            <div className="leftContainer o-m-l">
+            <div className="leftContainer">
                 <div className={styles.heading}>
                     Organizing Commitee : 
                 </div>
+                <div className={styles.contianer_wrapper}>
                 <div className={styles.container}>
                     {
                         data.map((item , index)=>{
@@ -21,6 +22,7 @@ const OrganizingCommittee = ()=>{
                             )
                         })
                     }
+                </div>
                 </div>
             </div>
             <div className="rightContainer">
