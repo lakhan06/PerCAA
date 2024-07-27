@@ -21,10 +21,8 @@ function App() {
     <Navbar></Navbar>
       <div>
         <Routes>
-          <Route path='/program-commitee' element={<ProgramCommitee/>}></Route>
-          <Route path='/contact' element={<Contact />}></Route>
           <Route path='/' element={<Home/>}></Route>
-          <Route path='/steering-commitee' element={<SteeringCommittee/>}></Route>
+          <Route path='/contact' element={<Contact />}></Route>
           <Route path='/registration' element={<Registration/>}></Route>
           <Route path='/contact' element={<Contact />}></Route>
           <Route path='/local-attractions' element={<LocalAttractions/>}></Route>

@@ -8,7 +8,7 @@ const OrganizingCommittee = ()=>{
         <div className="papaContainer">
             <div className="leftContainer">
                 <div className={styles.heading}>
-                    Organizing Commitee : 
+                    Technical Commitee : 
                 </div>
                 <div className={styles.contianer_wrapper}>
                 <div className={styles.container}>
