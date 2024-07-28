@@ -3,7 +3,6 @@
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
-    /* z-index: 20; */
     justify-content: center;
 }
 .contianer_wrapper{
@@ -38,17 +37,12 @@
     width: 100%;
     font-size:larger;
     margin: 10px 0 25px;
-    /* z-index: -20; */
 }
 .card p {
     color: #555;
     text-align: center ;
     font-size: .75rem;
 }
-
-
-
-
 
 @media (max-width: 1280px) {
     .card h2 {
