@@ -21,7 +21,7 @@ function App() {
     <Navbar></Navbar>
       <div>
         <Routes>
-          <Route path='/PerCAA-2024/' element={<Home/>}></Route>
+          <Route path='/' element={<Home/>}></Route>
           <Route path='/PerCAA-2024/contact' element={<Contact />}></Route>
           <Route path='/PerCAA-2024/registration' element={<Registration/>}></Route>
           <Route path='/PerCAA-2024/contact' element={<Contact />}></Route>
