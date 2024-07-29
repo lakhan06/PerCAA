@@ -28,7 +28,7 @@ const Navbar = () => {
             </ul>
           </li>
           <li>
-            <Link to={'organizingcommittee'}>Organizing Committee</Link>
+            <Link to={'organizingcommittee'} onClick={handleToggle} >Organizing Committee</Link>
             {/* <ul>
               <li><Link onClick={handleToggle} to={'/steering-commitee'}>Steering Committee</Link></li>
               <li><Link onClick={handleToggle} to="Organization_Committee.html">Organizing Committee</Link></li>
