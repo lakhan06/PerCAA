@@ -1,11 +1,8 @@
 import './topComp.css'
-import pce from '/Assets/Poornima_Logo_logo.jpg'
+import pce from '/img/Poornima_Logo_logo.jpg'
 import ACM from '/logos/ACM_Jaipur.png' 
 import ACM_chapter from '/logos/ACM_chapter.png'
-// import BL  from '/Assets/bentham_logo.png'
-// import IEEE from '/logos/IEE_logo.jpg'
 import IET_logo from '/logos/IET_logo.png';
-import Poornima_Logo_full from '/Assets/Poornima_Logo.jpg'
 import acm from "/logos/acm_logo.png"
 function TopComp() {
   return (

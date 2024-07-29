@@ -1,12 +1,10 @@
 import './RightContent.css'
 import ACM_Jaipur from '/logos/ACM_Jaipur.png'
 import ACM_merrut from '/logos/ACM_merrut.png'
-import Poornima_Logo_full from '/Assets/Poornima_Logo.jpg'
-// import computingJournel from '/logos/computingJournel.png'
-// import naturalComputing from '/logos/naturalComputing.png'
+import Poornima_Logo_full from '/img/Poornima_Logo.jpg'
 import IET_logo from '/logos/IET_logo.jpg'
 import ACM_chapter from '/logos/ACM_chapter.png'
-import Poornima_Logo from "/Assets/Poornima_Logo_logo.jpg"
+import Poornima_Logo from "/img/Poornima_Logo_logo.jpg"
 const RightContent = () => {
     const dates = [
         { event: "Last Date of Paper Submission", date: "August 20, 2024" },
