@@ -21,18 +21,18 @@ function App() {
     <Navbar></Navbar>
       <div>
         <Routes>
-          <Route path='/' element={<Home/>}></Route>
-          <Route path='/contact' element={<Contact />}></Route>
-          <Route path='/registration' element={<Registration/>}></Route>
-          <Route path='/contact' element={<Contact />}></Route>
-          <Route path='/local-attractions' element={<LocalAttractions/>}></Route>
-          <Route path='/venue' element={<Venue></Venue>}></Route>
-          <Route path='/speakers' element={<Speakers/>}></Route>
-          <Route path='/callForPaper' element={<CallForPapers/>}></Route>
-          <Route path='/author-guidelines' element={<AuthorGuidelines/>}></Route>
-          <Route path='/important-dates' element={<ImportantDates/>}></Route>
-          <Route path='/speakers' element={<Speakers/>}></Route>
-          <Route path='/organizingcommittee' element={<OrganizingCommittee/>}></Route>
+          <Route path='/PerCAA-2024/' element={<Home/>}></Route>
+          <Route path='/PerCAA-2024/contact' element={<Contact />}></Route>
+          <Route path='/PerCAA-2024/registration' element={<Registration/>}></Route>
+          <Route path='/PerCAA-2024/contact' element={<Contact />}></Route>
+          <Route path='/PerCAA-2024/local-attractions' element={<LocalAttractions/>}></Route>
+          <Route path='/PerCAA-2024/venue' element={<Venue></Venue>}></Route>
+          <Route path='/PerCAA-2024/speakers' element={<Speakers/>}></Route>
+          <Route path='/PerCAA-2024/callForPaper' element={<CallForPapers/>}></Route>
+          <Route path='/PerCAA-2024/author-guidelines' element={<AuthorGuidelines/>}></Route>
+          <Route path='/PerCAA-2024/important-dates' element={<ImportantDates/>}></Route>
+          <Route path='/PerCAA-2024/speakers' element={<Speakers/>}></Route>
+          <Route path='/PerCAA-2024/organizingcommittee' element={<OrganizingCommittee/>}></Route>
         </Routes>
       </div>
     </>
