@@ -7,7 +7,7 @@ const Venue = () =>{
             <div className="papaContainer">
             <div className="leftContainer">
                 <div className="details">
-                    <img src="/PerCAA-2024/TopCrousalIMages/poornima5.jpg" alt="" />
+                    <img src="/TopCrousalIMages/poornima5.jpg" alt="" />
                     <div className="venue-details">
                         <div className="venue-heading">
                             Poornima College Of Enginering

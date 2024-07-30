@@ -9,7 +9,7 @@ const Speakers = ()=>{
                 <div className="speakers-container">
                     <div>
                             <div className="image-para-container">
-                                <img src="/PerCAA-2024/img/Mohan-Kumar-2.png" alt="" />
+                                <img src="/img/Mohan-Kumar-2.png" alt="" />
                                 <div>
                                 <strong>Mohan Kumar's</strong> current research interests are in pervasive and mobile computing and parallel and distributed computing. He has been the Chair of the Department of Computer Science at RIT since Fall 2013. Prior to joining RIT, he served as Professor and Director of the computer engineering program in the department of Computer Science and Engineering at University of Texas at Arlington. He initiated pervasive computing research activities at CSE@UTA in 2001 and directed the Pervasive and Invisible Computing (PICO)
                                 </div>
@@ -36,7 +36,7 @@ const Speakers = ()=>{
                     </div>
                     <div>
                         <div className="image-para-container">
-                        <img src="/PerCAA-2024/img/Sajal_K_Das_latest.jpg" alt="" />
+                        <img src="/img/Sajal_K_Das_latest.jpg" alt="" />
                         <div>
                         <strong> Dr. Sajal K. Das</strong>, whose academic genealogy includes Thomas Alva Edison, is a Professor of Computer Science and Daniel St. Clair Endowed Chair at the Missouri University of Science and Technology, Rolla, where he was the Chair of Computer Science Department during 2013-2017. Prior to 2013, he was a University Distinguished Scholar Professor of 
                         </div>
@@ -60,7 +60,7 @@ const Speakers = ()=>{
 
                     <div>
                         <div className="image-para-container">
-                            <img src="/PerCAA-2024/img/Dr_ Bhaskar.jpg" alt="" />
+                            <img src="/img/Dr_ Bhaskar.jpg" alt="" />
                             <div>
                             <strong>Prof. Bhaskar Ramamurthi</strong> got his B.Tech in Electronics from IIT Madras in 1980, and his M.S. and Ph.D is Electrical Engineering from the University of California at Santa Barbara, in 1982 and 1985 respectively. After working at AT&T Bell Laboratories for a couple of years, he joined the faculty of IIT Madras, his alma mater, in 1986. He took over as Director, IIT Madras in September 2011. 
                             </div>
@@ -72,7 +72,7 @@ const Speakers = ()=>{
                     <hr />
                     <div>
                     <div className="image-para-container">
-                        <img src="/PerCAA-2024/img/DB_PATHAK.jpg" alt="" />
+                        <img src="/img/DB_PATHAK.jpg" alt="" />
                         <div>
                         <strong>Dr D. B. Pathak </strong>obtained his Bachelor’s degree in Electrical Engineering from SGSITS Indore in 1969, and his M Tech and Ph D from IIT Bombay. He has been serving with IIT Bombay since 1971. He headed the CSE department from 1991 to 1994, He was the first Dean of Resources of the Institute from 1995 to 1998. He was the founding head of the Kanwal Rekhi School of IT from 1998 to 2002.
                         </div>

@@ -48,6 +48,36 @@ hr{
         width: 100%;
     }
     .image-container{
-        width: max-content;
+        /* width: max-content; */
+        display: flex;
+    }
+}
+@media screen  and (max-width: 500px) {
+    .attraction-details{
+        flex-direction: column;
+        width: 100%;
+    }
+    .desc-container{
+        width: 100%;
+    }
+    .image-container img{
+        width: 340px;
+        height: auto;
+    }
+}
+@media screen  and (max-width: 450px) {
+    .attraction-details{
+        flex-direction: column;
+        width: 100%;
+    }
+    .desc-container{
+        width: 100%;
+    }
+    .attraction-heading{
+        font-size: 1rem;
+    }
+    .image-container img{
+        width: 290px;
+        height: auto;
     }
 }
