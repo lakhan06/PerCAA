@@ -9,7 +9,7 @@
 
 @media (max-width: 1250px) {
   .tableWrapper {
-    overflow-x: scroll;
+    overflow-x: auto;
   }
 }
 
