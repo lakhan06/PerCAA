@@ -2,9 +2,15 @@
   background-color: rgb(185, 255, 255);
 }
 
+/* General styles for the table */
 .tableWrapper {
   width: 100%;
-  overflow-x: scroll;
+}
+
+@media (max-width: 1250px) {
+  .tableWrapper {
+    overflow-x: scroll;
+  }
 }
 
 table {
