@@ -11,13 +11,16 @@
     justify-content: center;
 }
 .card {
-    background: linear-gradient(145deg, #ffffff, #f1f1f1);
+    background: linear-gradient(145deg, #233e8b, #6498ac);
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 10px;
     width: calc(25% - 20px);
     transition: transform 0.2s;
     border: 1px solid rgb(182, 192, 196);
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: center; */
 }
 
 .card:hover {
@@ -28,6 +31,7 @@
     font-size: 1.0em;
     margin-bottom: 10px;
     text-align: center;
+    color: black;
 }
 .heading{
     font-weight: 700;
@@ -39,9 +43,10 @@
     margin: 10px 0 25px;
 }
 .card p {
-    color: #555;
+    color: #050505;
     text-align: center ;
     font-size: .75rem;
+    font-weight: 500;
 }
 
 @media (max-width: 1280px) {

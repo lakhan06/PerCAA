@@ -32,7 +32,7 @@ function App() {
           <Route path='/author-guidelines' element={<AuthorGuidelines/>}></Route>
           <Route path='/important-dates' element={<ImportantDates/>}></Route>
           <Route path='/speakers' element={<Speakers/>}></Route>
-          <Route path='/organizingcommittee' element={<OrganizingCommittee/>}></Route>
+          <Route path='/technical-committee' element={<OrganizingCommittee/>}></Route>
         </Routes>
       </div>
     </>
