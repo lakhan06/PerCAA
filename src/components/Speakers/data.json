@@ -1,0 +1,46 @@
+[
+    {
+        "name": "Dr. Rajeev Kumar",
+        "title": "Professor",
+        "institution": "Moradabad Institute of Technology",
+        "location": "Moradabad, U.P, India",
+        "img":"/kns/KNS Rajeev Kumar.jpeg"
+    },
+    {
+        "name": "Dr. Danish Ather",
+        "title": "Associate Professor",
+        "institution": "Amity University in Tashkent",
+        "additional_position": "Head, Department of Research",
+        "location": "Tashkent, Uzbekistan",
+        "img":"/kns/KNS Danish Ather.jpeg"
+    },
+    {
+      "name": "Mr. Keshav Kaushik",
+      "title": "Assistant Professor",
+      "institution": "University of Petroleum and Energy Studies",
+      "location": "Dehradun, Uttarakhand, India",
+      "img":"/kns/KNS Rajeev Kumar.jpeg"
+    },
+    {
+        "name": "Dr. Shivani Jaswal",
+        "title": "Assistant Professor and Programme Director",
+        "institution": "National College of Ireland",
+        "location": "Dublin, Ireland",
+        "img":"/kns/KNS shivani Jaiswal.jpeg"
+    },
+    {
+        "name": "Mr. Ibragim Atadjanov",
+        "title": "Professor",
+        "institution": "Tashkent University of Information Technologies named after al-Khwarizmi",
+        "location": "Tashkent, Uzbekistan",
+        "img":"/kns/KNS Ibragim.jpeg"
+    },
+    {
+        "name": "Dr. Harish Sharma",
+        "title": "Associate Professor & Head of Department",
+        "institution": "University Department, RTU",
+        "location": "Kota, Rajasthan, India",
+      "img":"/kns/KNS harish.png"
+    }
+  ]
+  
