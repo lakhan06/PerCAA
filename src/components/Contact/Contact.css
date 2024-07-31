@@ -78,3 +78,11 @@
     border-bottom: 2px solid rgb(179, 176, 176);
     padding:5px 0;
 }
+
+@media only screen and (max-width: 550px) {
+    .contactCard {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+}
