@@ -17,7 +17,11 @@ const Speakers = ()=>{
                                     <div className={styles.card}>
                                         <img src={item.img} alt="" />
                                         <h2>{item.name}</h2>
-                                        <p>{item.college}</p>
+                                        <div className={styles.info}>
+                                            <p>{item.title}</p>
+                                            <p>{item.institution}</p>
+                                            <p>{item.location}</p>
+                                        </div>
                                     </div>
                                 )
                             })
