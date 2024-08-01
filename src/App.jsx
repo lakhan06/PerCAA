@@ -14,6 +14,7 @@ import Speakers from './components/Speakers/Speakers'
 import AuthorGuidelines from './components/AuthorGuidelines/AuthorGuidelines'
 import ImportantDates from './components/ImportantDates/ImportantDates'
 import OrganizingCommittee from './components/OrganizingCommittee/OrganizingCommittee'
+import LocalOrganizingCommittee from './components/LocalOrganizingCommittee/LocalOrganizingCommittee'
 function App() {
   return (
     <>
@@ -33,6 +34,7 @@ function App() {
           <Route path='/important-dates' element={<ImportantDates/>}></Route>
           <Route path='/speakers' element={<Speakers/>}></Route>
           <Route path='/technical-committee' element={<OrganizingCommittee/>}></Route>
+          <Route path='/local-organizing-comittee' element= {<LocalOrganizingCommittee></LocalOrganizingCommittee>}></Route>
         </Routes>
       </div>
     </>

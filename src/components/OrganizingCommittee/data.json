@@ -118,5 +118,41 @@
     {
         "name": "Manisha Bhende",
         "college": "Dr. D. Y. Patil Vidyapeeth, Pune, Dr. D. Y. Patil School of Science and Technology, Tathawade, Pune-33"
-    }
+    },
+    {
+        "name": "Dr. Pankaj Rahi",
+        "college": "Institute of Health Management Research (Autonomous Institutions under AICTE, DHR)"
+      },
+      {
+        "name": "Dr. Vivek Rajpoot",
+        "college": "Vellore Institute of Technology, Vellore"
+      },
+      {
+        "name": "Dr. Raghavendra Pal",
+        "college": "SVNIT, Surat"
+      },
+      {
+        "name": "Dr. Himansu Katiyar",
+        "college": "REC, Sonbhadra"
+      },
+      {
+        "name": "Dr. Abhinav",
+        "college": "REC, Sonbhadra"
+      },
+      {
+        "name": "Dr. Gaurav Upadhyay",
+        "college": "NIT, Patna"
+      },
+      {
+        "name": "Dr. Nirmala Sharma",
+        "college": "University Department, RTU, Kota"
+      },
+      {
+        "name": "Dr. R.K. Banyal",
+        "college": "University Department, RTU, Kota"
+      },
+      {
+        "name": "Shri. R.S. Sharma",
+        "college": "University Department, RTU, Kota"
+      }
 ]

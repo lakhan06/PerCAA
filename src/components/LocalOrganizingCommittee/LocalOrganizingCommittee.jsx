@@ -1,27 +1,34 @@
 import RightContent from "../RightContent/RightContent"
-import styles from "./Speakers.module.css"
-import data from "./data.json"
 import Footer from "../Footer/Footer"
-const Speakers = ()=>{
+import data from "./data.json"
+import styles from "./LocalOrganizingCommittee.module.css"
+import student from "./students.json"
+const LocalOrganizingCommittee = ()=>{
     return(
         <>
             <div className="papaContainer">
                 <div className="leftContainer">
-                <div className={styles.heading}>
-                    Keynote Speakers : 
-                </div>
+                    <div className={styles.heading}>
+                        Local Organizing Commitee : 
+                    </div>
                     <div className={styles.contianer_wrapper}>
                     <div className={styles.container}>
                         {
                             data.map((item , index)=>{
                                 return(
                                     <div className={styles.card}>
-                                        <img src={item.img} alt="" />
                                         <h2>{item.name}</h2>
-                                        <div className={styles.info}>
-                                            <p>{item.title}</p>
-                                            <p>{item.institution}</p>
-                                        </div>
+                                        <p>{item.institution}</p>
+                                    </div>
+                                )
+                            })
+                        }
+                        {
+                            student.map((item , index) => {
+                                return(
+                                    <div className={styles.card}>
+                                        <h2>{item.name}</h2>
+                                        <p>{item.details}</p>
                                     </div>
                                 )
                             })
@@ -38,4 +45,5 @@ const Speakers = ()=>{
     )
 }
 
-export default Speakers;
+
+export default LocalOrganizingCommittee
