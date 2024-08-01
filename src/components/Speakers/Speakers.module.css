@@ -33,7 +33,7 @@
 .info p{
     color: black;
     text-align: center ;
-    font-size: 1rem;
+    font-size: .9rem;
 }
 .card:hover {
     transform: translateY(-10px);
