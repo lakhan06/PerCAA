@@ -3,6 +3,7 @@ import pce from '/img/Poornima_Logo_logo.jpg'
 import ACM from '/logos/ACM_Jaipur.png' 
 import ACM_chapter from '/logos/ACM_chapter.png'
 import IET_logo from '/logos/IET_logo.png';
+import spocus_LOGO from '/logos/spocus.png'
 import acm from "/logos/acm_logo.png"
 function TopComp() {
   return (
@@ -21,13 +22,14 @@ function TopComp() {
         <div className="top-logos">
           {/* <img src={acm} alt="Poornima College Of Engineering" className='sp_logo' /> */}
           <img className='IET_LOGO' src={IET_logo} alt='IET Logo'  />
+          <img className='spocus_LOGO' src={spocus_LOGO} alt='spocus_LOGO'  />
         </div>
       </div>
       <div className="smallmarquee"> <div className="top-logos-marquee">
-        <img src={pce} alt="poornima university logo" className='pce_logo' />
-        <img src={ACM} alt="acm chapter logo" className='acm_logo' />
-        <img src={ACM_chapter} alt="Springer logo" className='sp_logo' />
+      <img src={pce} alt="poornima university logo" className='pce_logo' />
+      <img src={acm} alt="acm chapter logo" className='acm_logo' />
         <img src={IET_logo} alt='IET Logo' />
+        <img className='spocus_LOGO' src={spocus_LOGO} alt='spocus_LOGO'  />
       </div></div>
     </div>
   );
