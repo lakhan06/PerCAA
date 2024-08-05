@@ -7,8 +7,6 @@
 }
 .contianer_wrapper{
     width: 100%;
-    display: flex;
-    justify-content: center;
 }
 .card {
     /* background: linear-gradient(145deg, #dde0e7, #6498ac); */
