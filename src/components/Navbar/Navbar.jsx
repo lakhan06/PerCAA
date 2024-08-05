@@ -50,6 +50,7 @@ const Navbar = () => {
               <li><Link onClick={handleToggle} to={'/local-attractions'}>Local Attraction</Link></li>
             </ul>
           </li>
+          <li><Link onClick={handleToggle} to={'/publication'}>Publication</Link></li>
           <li><Link onClick={handleToggle} to={'/contact'}>Contact</Link></li>
         </ul>
       </nav>
