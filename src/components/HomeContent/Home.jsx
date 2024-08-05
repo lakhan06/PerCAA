@@ -33,7 +33,11 @@ function Home() {
               </p>
             </div>
           </div>
+          <div className="linkContainer">
+              <a href="https://cmt3.research.microsoft.com/PERCAA2024">Paper Submission Link</a>
+            </div>
         </div>
+        
         <div className="rightContainer">
           <RightContent></RightContent>
         </div>

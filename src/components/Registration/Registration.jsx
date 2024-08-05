@@ -52,7 +52,7 @@ const Registration = () => {
                                 {categories.map((category, index) => (
                                     <tr key={index}>
                                         <td align="center">{category}</td>
-                                        <td align="center">{earlyBid.national[index]}</td>
+                                    <td align="center">{earlyBid.national[index]}</td>
                                         <td align="center">{earlyBid.international[index]}</td>
                                         <td align="center">{lateRegistration.national[index]}</td>
                                         <td align="center">{lateRegistration.international[index]}</td>

@@ -16,6 +16,19 @@ line-height: 23px;
 }
 
 
+/* .linkContainer{
+    display: flex;
+    justify-content: center;
+} */
+
+.linkContainer a{
+    font-size: 1.5rem;
+    color: red;
+    font-weight: 600;
+    text-decoration: line;
+    text-underline-offset: 10px;
+}
+
 @media (max-width:700px) {
     .paracontent p{
        font-size: 14px;
