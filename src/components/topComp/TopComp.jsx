@@ -17,7 +17,8 @@ function TopComp() {
           {/* <div className='top-line'>International Conference on Pervasive Computing Advances and Applications</div> */}
           <div className="topmarquee">International Conference on Pervasive Computing Advances and Applications</div>
           <div className='top-line percaa'>PerCAA 2024</div>
-          <div className='top-line'> 18-19 October, 2024 </div>
+          <div className='sponsor'>Sponsered by Meerut ACM professional chapter</div>
+          <div className='top-line'> 18-19 October , 2024 </div>
         </div>
         <div className="top-logos">
           {/* <img src={acm} alt="Poornima College Of Engineering" className='sp_logo' /> */}
