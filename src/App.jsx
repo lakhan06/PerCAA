@@ -1,7 +1,5 @@
 import './App.css'
 import { Routes, Route} from 'react-router-dom'
-// import ProgramCommitee from './components/ProgramCommitee/ProgramCommitee'
-// import SteeringCommittee from './components/SteeringCommitee/SteeringCommitee'
 import Registration from './components/Registration/Registration'
 import Contact from './components/Contact/Contact'
 import Home from './components/HomeContent/Home'
@@ -13,7 +11,7 @@ import Venue from './components/Venue/Venue'
 import Speakers from './components/Speakers/Speakers'
 import AuthorGuidelines from './components/AuthorGuidelines/AuthorGuidelines'
 import ImportantDates from './components/ImportantDates/ImportantDates'
-import OrganizingCommittee from './components/OrganizingCommittee/OrganizingCommittee'
+import TechnicalCommittee from './components/TechnicalCommittee/TechnicalCommittee'
 import LocalOrganizingCommittee from './components/LocalOrganizingCommittee/LocalOrganizingCommittee'
 function App() {
   return (
@@ -33,7 +31,7 @@ function App() {
           <Route path='/author-guidelines' element={<AuthorGuidelines/>}></Route>
           <Route path='/important-dates' element={<ImportantDates/>}></Route>
           <Route path='/speakers' element={<Speakers/>}></Route>
-          <Route path='/technical-committee' element={<OrganizingCommittee/>}></Route>
+          <Route path='/technical-committee' element={<TechnicalCommittee/>}></Route>
           <Route path='/local-organizing-comittee' element= {<LocalOrganizingCommittee></LocalOrganizingCommittee>}></Route>
         </Routes>
       </div>

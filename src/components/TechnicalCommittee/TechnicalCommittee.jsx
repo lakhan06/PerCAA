@@ -1,8 +1,8 @@
-import styles from "./OrganizingCommittee.module.css"
+import styles from "./TechnicalCommittee.module.css"
 import RightContent from "../RightContent/RightContent"
 import data from "./data.json"
 import Footer from "../Footer/Footer"
-const OrganizingCommittee = ()=>{
+const TechnicalCommittee = ()=>{
     return(
     <>
         <div className="papaContainer">
@@ -35,4 +35,4 @@ const OrganizingCommittee = ()=>{
 }
 
 
-export default OrganizingCommittee
+export default TechnicalCommittee
