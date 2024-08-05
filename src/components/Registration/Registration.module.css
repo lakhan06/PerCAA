@@ -11,7 +11,7 @@ table{
     width: 100%;
 }
 .list_item{
-    color: red;
+    color: blue;
     font-size: 1.2rem;
     font-weight: 600;
     text-decoration: none;
@@ -23,5 +23,5 @@ table{
     padding: 10px ;
 }
 li::marker{
-    color: red;
+    color: blue;
 }
