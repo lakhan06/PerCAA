@@ -1,0 +1,129 @@
+{
+    "GeneralChair": [
+        {
+            "name": "Dr. Mahesh Bundele",
+            "title": "Director and Principal",
+            "institution": "PCE",
+            "location": "Jaipur"
+          }
+    ],
+    "GeneralCoChair": [
+      {
+        "name": "Dr. Pankaj Dhemla",
+        "title": "Vice Principal",
+        "institution": "PCE",
+        "location": "Jaipur"
+      },
+      {
+        "name": "Aryan Chaudhary",
+        "title": "Chief Scientific Advisor",
+        "institution": "Bio Tech Sphere Research, India",
+        "additionalInfo": "Chair, Meerut ACM Professional Chapter"
+      }
+    ],
+    "OrganizingChair": [
+        {
+            "name": "Dr. Nikita Jain",
+            "title": "Professor and Head",
+            "institution": "PCE",
+            "location": "Jaipur, Rajasthan"
+          }
+    ],
+    "Convenor": [
+      {
+        "name": "Dr. Abhishek Sharma",
+        "institution": "PCE",
+        "location": "Jaipur, Rajasthan"
+      },
+      {
+        "name": "Dr. Amit Pandey",
+        "institution": "PCE",
+        "location": "Jaipur, Rajasthan"
+      }
+    ],
+    "CoConvenor": [
+      {
+        "name": "Dr. Kamlesh Gautam",
+        "institution": "PCE",
+        "location": "Jaipur"
+      },
+      {
+        "name": "Mr. Manish Dubey",
+        "institution": "PCE",
+        "location": "Jaipur"
+      },
+      {
+        "name": "Ms. Sonam Gaur",
+        "institution": "PCE",
+        "location": "Jaipur"
+      }
+    ],
+    "TrackChair": [
+      {
+        "name": "Keshav Kaushik",
+        "institution": "UPES",
+        "location": "Dehradun, Uttarakhand"
+      },
+      {
+        "name": "Dr. Danish Ather",
+        "institution": "Amity University, Tashkent",
+        "title": "Head, Department of Research",
+        "location": "Uzbekistan"
+      },
+      {
+        "name": "Dr. Rajeev Kumar",
+        "institution": "MIT",
+        "location": "Moradabad, UP"
+      },
+      {
+        "name": "Dr. Shivani Jaswal",
+        "institution": "National College of Ireland",
+        "location": ""
+      },
+      {
+        "name": "Dr. Veena Yadav",
+        "institution": "PCE",
+        "location": "Jaipur"
+      },
+      {
+        "name": "Dr. Geetika Mathur",
+        "institution": "PCE",
+        "location": "Jaipur"
+      }
+    ],
+    "PublicityChair": [
+        {
+            "name": "Dr. Mukesh Soni",
+            "title": "Research Head",
+            "institution": "Meerut ACM",
+            "location":"Meerut"
+          }
+    ],
+    "WebTeam": [
+        {
+            "name": "Appoorva Bansal",
+            "details": "Assistant Professor, PCE , Jaipur"
+        },
+        {
+            "name": "Abhinav Arora",
+            "details": "Student Coordinator, 3rd Year, Computer Science, PCE , Jaipur"
+          },
+          {
+            "name": "Lakhan Gupta",
+            "details": "Student Coordinator, 3rd Year, Computer Science, PCE , Jaipur"
+          },
+          {
+            "name": "Aryan Jain",
+            "details": "Student Coordinator, 3rd Year, Computer Science, PCE , Jaipur"
+          },
+          {
+            "name": "Chinmay Jain",
+            "details": "Student Coordinator, 3rd Year, Computer Science, PCE , Jaipur"
+          },
+          {
+            "name": "Mohit Soni",
+            "details": "Student Coordinator, 3rd Year, Computer Science ( AI ), PCE , Jaipur"
+          }
+    ]
+}
+  

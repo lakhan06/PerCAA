@@ -30,29 +30,18 @@ const Navbar = () => {
           <li>
             <a to="#">Organizing Committee</a>
             <ul>
+              <li><Link onClick={handleToggle} to={'/organizing-committee'}>Organizing Committee</Link></li>
               <li><Link onClick={handleToggle} to={'/technical-committee'}>Technical Program Committee</Link></li>
               <li><Link onClick={handleToggle} to={'/local-organizing-comittee'}>Local Organizing Committee</Link></li>
-              {/* <li><Link onClick={handleToggle} to={'/program-commitee'}>Program Committee</Link></li> */}
             </ul>
           </li>
           <li>
             <a to="#">Program/Registration</a>
             <ul>
-              {/* <li><a to="#">Agenda & Program</a></li> */}
               <li><Link onClick={handleToggle} to={'/registration'}>Registration</Link></li>
-              {/* <li><Link to="Registration_Policy.html">Registration Policy</Link></li> */}
-              {/* <li><Link to="#">Hotel Reservation</Link></li> */}
               <li><Link onClick={handleToggle} to={'/speakers'}>Keynotes & Invited Talks</Link></li>
-              {/* <li><a to="#">Accepted Papers</a></li> */}
-              {/* <li><a to="#">Tutorials</a></li> */}
             </ul>
           </li>
-          {/* <li>
-            <a to="#">Workshops</a>
-            <ul>
-              <li><a to="Call_for_percaa_workshop.html">PerCAA 2019 Workshops</a></li>onClick={handleToggle} 
-            </ul>
-          </li> */}
           <li>
             <a to="#">Information</a>
             <ul>
