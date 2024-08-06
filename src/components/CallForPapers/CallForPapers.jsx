@@ -296,20 +296,9 @@ const CallForPapers = () => {
                         <div className="homeheading">PAPER SUBMISSION INFORMATION</div>
                         <div className="paracontent">
                             <p>
-                                All the papers should be prepared as per{' '}
-                                <a href="img/PDF/Authors_Guidelines.pdf" target="_blank">
-                                    <strong>author guidelines</strong>
-                                </a>. The manuscript written should be thoroughly checked for grammatical or typographical errors before submission. Authors should ensure that the similarity score of their research paper is not above 10 %. Manuscripts having similarity score more than 10 %  and AI plag less than 5 % shall not be processed. All the review manuscripts should be submitted in PDF format without authors name and affiliations using CMT kit as per the{' '}
-                                <a href="img/PDF/PROCS-PerCAA_2019_Word_Template.zip" target="_blank">
-                                    <strong>Template in Word (A4)</strong>
-                                </a> or in{' '}
-                                <a href="img/PDF/PROCS-PerCAA_2019_TeX_Template.zip" target="_blank">
-                                    <strong>Latex</strong>
-                                </a>. However, the names of all authors should be registered on EasyChair while submission.
+                                All the papers should be prepared as per author guidelines
+                                 The manuscript written should be thoroughly checked for grammatical or typographical errors before submission. Authors should ensure that the similarity score of their research paper is not above 10 %. Manuscripts having similarity score more than 10 %  and AI plag less than 5 % shall not be processed. All the review manuscripts should be submitted in PDF format without authors name and affiliations using CMT kit as per the Template in Word (A4) or in Latex.
                                 <br />
-                            </p>
-                            <p>
-                                Maximum number of pages allowed will be <strong>08 (Eight)</strong>. If the author wants to publish more than <strong>08 pages</strong>, there will be an extra fee of <strong> Rs. 500/- or $50 Per page.</strong>
                             </p>
                             <p style={{ fontSize: '20px' }}>
                                 <a href="https://cmt3.research.microsoft.com/PERCAA2024" style={{textDecoration:"none"}}target="_blank">
