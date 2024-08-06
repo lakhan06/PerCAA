@@ -2,9 +2,9 @@ import './RightContent.css'
 import ACM_Jaipur from '/logos/ACM_Jaipur.png'
 import ACM_merrut from '/logos/ACM_merrut.png'
 import Poornima_Logo_full from '/img/Poornima_Logo.jpg'
-import IET_logo from '/logos/IET_logo.jpg'
+// import IET_logo from '/logos/IET_logo.jpg'
 import ACM_chapter from '/logos/ACM_chapter.png'
-import Poornima_Logo from "/img/Poornima_Logo_logo.jpg"
+// import Poornima_Logo from "/img/Poornima_Logo_logo.jpg"
 const RightContent = () => {
     const dates = [
         { event: "Last Date of Paper Submission", date: "August 20, 2024" },
@@ -24,6 +24,10 @@ const RightContent = () => {
                     {/* <img src={Mnit_logo} alt="" /> */}
                     {/* <img src={ACM_Jaipur} alt="" /> */}
                     <img src={Poornima_Logo_full} alt="" />
+                    <div className="smallLogosTechSponsers">
+                        <img src={ACM_Jaipur} alt="" />
+                        {/* <img src={ACM_merrut} alt="" /> */}
+                    </div>
                 </div>
 
                 <div className="sectionHeading">Important Dates</div>
@@ -48,11 +52,11 @@ const RightContent = () => {
                 <div className="technicalSponsers">
                     {/* <img src={Poornima_Logo_full} alt="" /> */}
                     {/* <img src={IET_logo} alt="" /> */}
+                    <img className='right_acm_chapterLogo' src={ACM_chapter} alt="" />
                     <div className="smallLogosTechSponsers">
-                        <img src={ACM_Jaipur} alt="" />
+                        {/* <img src={ACM_Jaipur} alt="" /> */}
                         <img src={ACM_merrut} alt="" />
                     </div>
-                    <img className='right_acm_chapterLogo' src={ACM_chapter} alt="" />
                 </div>
 
                 {/* <div className="sectionHeading smallSectionHeading">Selected Extended Post Conference Papers will be published in</div>
