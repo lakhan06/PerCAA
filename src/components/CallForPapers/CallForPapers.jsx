@@ -17,8 +17,8 @@ const CallForPapers = () => {
                                 originality of their work upon final submission.
                             </p>
                             <p>
-                                <span className="highlightedPara">
-                                    It would be a double blind review. CMT shall be used along with Turnitin Similarity Checker. The editors shall not allow review of papers having similarity above 20 %. After two blind reviews the TPC Chair shall assign third reviewer in case of any conflict. The papers will be accepted only if minimum two reviewers recommend strongly. It would be ensured that all the corrections as advised by reviewers are incorporated. This would be executed through shepherding. Editors will have a final check before issue of acceptance notification.
+                                <span>
+                                It would be a double blind review. CMT shall be used along with Turnitin Similarity Checker. The editors shall not allow review of papers having similarity above 10 %. and AI plag above 5 %.  After two blind reviews the TPC Chair shall assign third reviewer in case of any conflict. The papers will be accepted only if minimum two reviewers recommend strongly. It would be ensured that all the corrections as advised by reviewers are incorporated. This would be executed through shepherding. Editors will have a final check before issue of acceptance notification.
                                 </span>
 
                             </p>
@@ -299,7 +299,7 @@ const CallForPapers = () => {
                                 All the papers should be prepared as per{' '}
                                 <a href="img/PDF/Authors_Guidelines.pdf" target="_blank">
                                     <strong>author guidelines</strong>
-                                </a>. The manuscript written should be thoroughly checked for grammatical or typographical errors before submission. Authors should ensure that the similarity score of their research paper is not above 15 %. Manuscripts having similarity score more than 15 % shall not be processed. All the review manuscripts should be submitted in PDF format without authors name and affiliations using CMT kit as per the{' '}
+                                </a>. The manuscript written should be thoroughly checked for grammatical or typographical errors before submission. Authors should ensure that the similarity score of their research paper is not above 10 %. Manuscripts having similarity score more than 10 %  and AI plag less than 5 % shall not be processed. All the review manuscripts should be submitted in PDF format without authors name and affiliations using CMT kit as per the{' '}
                                 <a href="img/PDF/PROCS-PerCAA_2019_Word_Template.zip" target="_blank">
                                     <strong>Template in Word (A4)</strong>
                                 </a> or in{' '}
@@ -312,9 +312,9 @@ const CallForPapers = () => {
                                 Maximum number of pages allowed will be <strong>08 (Eight)</strong>. If the author wants to publish more than <strong>08 pages</strong>, there will be an extra fee of <strong> Rs. 500/- or $50 Per page.</strong>
                             </p>
                             <p style={{ fontSize: '20px' }}>
-                                <a href="https://easychair.org/conferences/?conf=percaa2019" target="_blank">
+                                <a href="https://cmt3.research.microsoft.com/PERCAA2024" style={{textDecoration:"none"}}target="_blank">
                                     <span >
-                                        <strong style={{ color: "red" }}>Paper Submission Link. Please Click here for Submit Paper</strong>
+                                        <strong style={{ color: "blue",  }}>Paper Submission Link. Please Click here for Submit Paper</strong>
                                     </span>
                                 </a>
                             </p>
@@ -326,9 +326,6 @@ const CallForPapers = () => {
                                 <ul>
                                     <li>- Accepted for Oral presentation</li>
                                     <li>- Accepted for Poster Presentation</li>
-                                    {/* <li>- Accepted with minor corrections for Oral Presentation</li>
-                                    <li>- Accepted with minor corrections for Poster Presentations</li>
-                                    <li>- Rejected</li> */}
                                 </ul>
                                 For the papers accepted with minor corrections, authors will be required to incorporate all the corrections
                                 and submit the paper by mail to corresponding track email id as;<br /><br />
