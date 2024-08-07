@@ -310,11 +310,10 @@ const CallForPapers = () => {
 
                             <div className="homeheading">REVIEW PROCESS</div>
                             <p className="review_process">
-                                All the paper having similarity score less than 15 % shall be processed through double blind
+                                All the paper having similarity score less than 10 % shall be processed through double blind
                                 review by the members on Technical Program Committee. There will be following probable review results;<br />
                                 <ul>
                                     <li>- Accepted for Oral presentation</li>
-                                    <li>- Accepted for Poster Presentation</li>
                                 </ul>
                                 For the papers accepted with minor corrections, authors will be required to incorporate all the corrections
                                 and submit the paper by mail to corresponding track email id as;<br /><br />
