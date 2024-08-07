@@ -174,7 +174,6 @@ const AuthorGuidelines = ()=>{
 
                             Line drawings should be good quality scans or true electronic output. Low-quality scans are not acceptable. Figures must be embedded into the text and not supplied separately.<br /> <br />
                             Lettering and symbols should be clearly defined either in the caption or in a legend provided as part of the figure. Figures should be placed at the top or bottom of a page wherever possible, as close as possible to the first reference to them in the paper.<br />
-                        
                             The figure number and caption should be typed below the illustration in 9pt and left justified.<br /> 
                         
                              For further guidelines and information to help you submit high quality artwork please visit: <a href="https://support.springer.com/en/support/solutions/articles/6000083109-artwork-submission-instructions">https://support.springer.com/en/support/solutions/articles/6000083109-artwork-submission-instructions</a>. <br />

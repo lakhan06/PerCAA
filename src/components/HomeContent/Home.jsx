@@ -8,7 +8,9 @@ function Home() {
     <>
       {/* <Crousal></Crousal> */}
       <NewCrousal></NewCrousal>
-
+      <div className="linkContainer">
+              <a href="https://cmt3.research.microsoft.com/PERCAA2024">Paper Submission Link : Please Click here for Submit Paper</a>
+      </div>
       <div className="papaContainer">
         <div className="leftContainer">
           <div className="homeContent">
@@ -31,11 +33,11 @@ function Home() {
               <p>
                 Furthermore, a weekly induction programme, mentor system, and close student-teacher relationship help to keep the students eager and motivated to study. The students' creative engagement is maintained throughout the year by organizing frequent technical, sports and cultural activities at departmental, intra-institutional, and inter-institutional levels. Last but not the least, Jaipur's pleasant climate, good food, transportation system, parks, and other amenities make a stay at the Poornima campus comfortable and advantageous for the overall development of the students.
               </p>
+              <p>
+              We have been awarded a prestigious NAAC A+ accreditation and enjoy autonomous status by the UGC. These accolades reflect our commitment to quality education and research. As we embark on these two days of insightful presentations, engaging discussions, and networking opportunities, let us embrace the spirit of innovation and sustainability that drives us all.
+              </p>
             </div>
           </div>
-          <div className="linkContainer">
-              <a href="https://cmt3.research.microsoft.com/PERCAA2024">Paper Submission Link</a>
-            </div>
         </div>
         
         <div className="rightContainer">

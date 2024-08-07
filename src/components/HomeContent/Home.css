@@ -22,11 +22,15 @@ line-height: 23px;
 } */
 
 .linkContainer a{
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     color: blue;
     font-weight: 600;
     text-decoration: line;
     text-underline-offset: 10px;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: -20px;
 }
 
 @media (max-width:700px) {
@@ -34,6 +38,17 @@ line-height: 23px;
        font-size: 14px;
     letter-spacing: 1px;
     line-height: 20px;
+    }
+    .linkContainer a{
+        font-size: 1rem;
+        color: blue;
+        font-weight: 600;
+        text-decoration: line;
+        text-underline-offset: 10px;
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+        margin-bottom: -20px;
     }
     
 }
@@ -44,4 +59,38 @@ line-height: 23px;
     line-height: 17px;
     }
     
+}
+@media (max-width:550px) {
+    .paracontent p{
+       font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 20px;
+    }
+    
+.linkContainer a{
+    font-size: .8rem;
+    color: blue;
+    font-weight: 600;
+    text-decoration: line;
+    text-underline-offset: 10px;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    /* margin-bottom: -20px; */
+}
+}
+
+@media (max-width:400px) {
+    
+.linkContainer a{
+    font-size: .7rem;
+    color: blue;
+    font-weight: 600;
+    text-decoration: line;
+    text-underline-offset: 10px;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
 }
