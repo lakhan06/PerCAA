@@ -1,0 +1,49 @@
+.heading{
+    font-weight: bold;
+    margin: 10px 0;
+    background-color: rgb(235, 234, 234);
+    padding: 10px;
+    color: rgb(47, 122, 226);
+    font-size: larger;
+    margin-bottom: 25px;
+}
+.data{
+    text-align: justify;
+    padding-left: 2px;
+    padding-right: 2px;
+    font-weight: 500;
+    color: black;
+    word-spacing: 2px;
+    line-height: 20px;
+}
+.book_card{
+    width: 30%;
+    border: 1px solid rgb(173, 172, 172);
+    height: 240px;
+}
+.book_card_heading{
+    text-align: center;
+    font-size: 0.9rem;
+    margin-top: 5px;
+    color: black;
+    font-weight: 500;
+    padding-left: 2px;
+    padding-right: 2px;
+    margin-top: 10px;
+
+}
+.books_container{
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.updated_soon_text{
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: 50px;
+    padding-left: 2px;
+    padding-right: 2px;
+    font-weight: 600;
+}
