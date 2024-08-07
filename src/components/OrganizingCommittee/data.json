@@ -40,7 +40,7 @@
         "name": "Dr. Amit Pandey",
         "institution": "PCE",
         "location": "Jaipur, Rajasthan",
-        "title":"Associate Professor"
+        "title":"Professor"
       }
     ],
     "CoConvenor": [
@@ -53,7 +53,8 @@
       {
         "name": "Mr. Manish Dubey",
         "institution": "PCE",
-        "location": "Jaipur"
+        "location": "Jaipur",
+        "title":"Assistant Professor"
       },
       {
         "name": "Ms. Sonam Gaur",
