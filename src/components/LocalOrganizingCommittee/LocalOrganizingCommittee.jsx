@@ -23,7 +23,7 @@ const LocalOrganizingCommittee = ()=>{
                                 )
                             })
                         }
-                        {
+                        {/* {
                             student.map((item , index) => {
                                 return(
                                     <div className={styles.card}>
@@ -32,7 +32,7 @@ const LocalOrganizingCommittee = ()=>{
                                     </div>
                                 )
                             })
-                        }
+                        } */}
                     </div>
                     </div>
                 </div>
