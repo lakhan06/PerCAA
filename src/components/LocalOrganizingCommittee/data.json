@@ -1,35 +1,43 @@
 [
     {
       "name": "Dr. Devendra Somwanshi",
-      "institution": "PCE, Jaipur"
+      "institution": "PCE, Jaipur",
+      "designation":"Registrar"
     },
     {
       "name": "Dr. Rekha Nair",
-      "institution": "PCE, Jaipur"
+      "institution": "Poornima Group , Jaipur",
+      "designation":"Professor & Dean Academics "
     },
     {
       "name": "Dr. Narayan Lal Jain",
-      "institution": "PCE, Jaipur"
+      "institution": "PCE, Jaipur",
+      "designation":"Professor & Head, Department of Mechanical Engineering"
     },
     {
       "name": "Dr. Garima Mathur",
-      "institution": "PCE, Jaipur"
+      "institution": "PCE, Jaipur",
+      "designation":"Head & Professor Department of Electronics & Communication and Department of Electrical Engineering"
     },
     {
       "name": "Dr. Pran Nath Dadhich",
-      "institution": "PCE, Jaipur"
+      "institution": "PCE, Jaipur",
+      "designation":"Professor and Head Department of Civil Engineering"
     },
     {
       "name": "Dr. Gajendra Singh Rajawat",
-      "institution": "PCE, Jaipur"
+      "institution": "PCE, Jaipur",
+      "designation":"Professor and Head Department of IT"
     },
     {
       "name": "Dr. Pravin M. Sonwane",
-      "institution": "PCE, Jaipur"
+      "institution": "PCE, Jaipur",
+      "designation":"Professor and Controller of Examination"
     },
     {
       "name": "Dr. Neha Mahala",
-      "institution": "PCE, Jaipur"
+      "institution": "PCE, Jaipur",
+      "designation":"Associate Professor"
     },
     {
       "name": "Ms. Anjuli Dubey",
