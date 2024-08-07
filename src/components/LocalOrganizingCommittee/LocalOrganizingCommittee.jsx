@@ -18,6 +18,7 @@ const LocalOrganizingCommittee = ()=>{
                                 return(
                                     <div className={styles.card}>
                                         <h2>{item.name}</h2>
+                                        <p className={styles.designation_title}>{item.designation}</p>
                                         <p>{item.institution}</p>
                                     </div>
                                 )

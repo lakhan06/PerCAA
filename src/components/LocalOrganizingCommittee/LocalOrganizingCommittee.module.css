@@ -18,7 +18,7 @@
     border: 1px solid rgb(182, 192, 196);
     flex-direction: column;
     display: flex;
-    justify-items: center   ;
+    justify-content: center;
 }
 
 .card:hover {
@@ -49,6 +49,10 @@
     word-spacing: 1px;
 }
 
+.designation_title{
+    margin-bottom: 10px !important; 
+    font-weight: 600 !important; 
+}
 @media (max-width: 1280px) {
     .card h2 {
         font-size: .8em;

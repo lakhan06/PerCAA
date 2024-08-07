@@ -49,7 +49,11 @@
     font-size: .75rem;
     font-weight: 500;
 }
-
+.designation_title{
+    margin-top: 10px;
+    margin-bottom: 10px !important; 
+    font-weight: 600 !important; 
+}
 @media (max-width: 1280px) {
     .card h2 {
         font-size: .8em;

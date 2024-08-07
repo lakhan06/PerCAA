@@ -33,19 +33,22 @@
       {
         "name": "Dr. Abhishek Sharma",
         "institution": "PCE",
-        "location": "Jaipur, Rajasthan"
+        "location": "Jaipur, Rajasthan",
+        "title":"Associate Professor"
       },
       {
         "name": "Dr. Amit Pandey",
         "institution": "PCE",
-        "location": "Jaipur, Rajasthan"
+        "location": "Jaipur, Rajasthan",
+        "title":"Associate Professor"
       }
     ],
     "CoConvenor": [
       {
         "name": "Dr. Kamlesh Gautam",
         "institution": "PCE",
-        "location": "Jaipur"
+        "location": "Jaipur",
+        "title":"Associate Professor"
       },
       {
         "name": "Mr. Manish Dubey",
@@ -55,40 +58,46 @@
       {
         "name": "Ms. Sonam Gaur",
         "institution": "PCE",
-        "location": "Jaipur"
+        "location": "Jaipur",
+        "title":"Assistant Professor"
       }
     ],
     "TrackChair": [
       {
         "name": "Keshav Kaushik",
         "institution": "UPES",
-        "location": "Dehradun, Uttarakhand"
+        "location": "Dehradun, Uttarakhand",
+        "title":"Assistant Professor"
       },
       {
         "name": "Dr. Danish Ather",
         "institution": "Amity University, Tashkent",
-        "title": "Head, Department of Research",
+        "title": "Associate Professor",
         "location": "Uzbekistan"
       },
       {
         "name": "Dr. Rajeev Kumar",
         "institution": "MIT",
-        "location": "Moradabad, UP"
+        "location": "Moradabad, UP",
+        "title": "Professor"
       },
       {
         "name": "Dr. Shivani Jaswal",
         "institution": "National College of Ireland",
-        "location": ""
+        "location": "",
+        "title": "Assistant Professor and Programme Director"
       },
       {
         "name": "Dr. Veena Yadav",
         "institution": "PCE",
-        "location": "Jaipur"
+        "location": "Jaipur",
+        "title": "Professor"
       },
       {
         "name": "Dr. Geetika Mathur",
         "institution": "PCE",
-        "location": "Jaipur"
+        "location": "Jaipur",
+        "title": "Professor"
       }
     ],
     "PublicityChair": [
