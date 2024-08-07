@@ -19,11 +19,11 @@ const Publication = () => {
 
                     </div>
                     <div>
-                        <div className={`${styles.heading}`}>Bentham</div>
+                        <div className={`${styles.heading}`}> Bentham Science</div>
 
                         <div className={styles.publicationData}>
                             <div className={`${styles.data} ${styles.customM}`}>
-                                Selected papers will be published in Bentham Book Series. Bentham Books is a comprehensive program, which covers a broad range of disciplines featuring the following : Variety of Books such as monographs, handbooks, proceedings, textbooks, review volumes.
+                            standard paper of Conference will be submitted to the following books published under Bentham series
                             </div>
                             <img className={styles.Bentham_logo} src={Bentham_logo} alt="" />
 
