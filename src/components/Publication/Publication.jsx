@@ -23,7 +23,7 @@ const Publication = () => {
 
                         <div className={styles.publicationData}>
                             <div className={`${styles.data} ${styles.customM}`}>
-                            standard paper of Conference will be submitted to the following books published under Bentham series
+                            Standard paper of Conference will be submitted to the following books published under Bentham series
                             </div>
                             <img className={styles.Bentham_logo} src={Bentham_logo} alt="" />
 
