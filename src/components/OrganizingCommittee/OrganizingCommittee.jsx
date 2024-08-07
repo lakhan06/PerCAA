@@ -17,7 +17,7 @@ const OrganizingCommittee =  ()=>{
                                 return(
                                     <div className={styles.card}>
                                         <h2>{item.name}</h2>
-                                        <p>{item.title}</p>
+                                        <p className={styles.designation_title}>{item.title}</p>
                                         <p>{item.institution} , {item.location}</p>
                                     </div>
                                 )
@@ -35,7 +35,7 @@ const OrganizingCommittee =  ()=>{
                                     return(
                                         <div className={styles.card}>
                                             <h2>{item.name}</h2>
-                                            <p>{item.title}</p>
+                                            <p className={styles.designation_title}>{item.title}</p>
                                             <p>{item.institution} , {item.location}</p>
                                         </div>
                                     )
@@ -53,7 +53,7 @@ const OrganizingCommittee =  ()=>{
                                     return(
                                         <div className={styles.card}>
                                             <h2>{item.name}</h2>
-                                            <p>{item.title}</p>
+                                            <p className={styles.designation_title}>{item.title}</p>
                                             <p>{item.institution} , {item.location}</p>
                                         </div>
                                     )
@@ -71,7 +71,7 @@ const OrganizingCommittee =  ()=>{
                                     return(
                                         <div className={styles.card}>
                                             <h2>{item.name}</h2>
-                                            <p>{item.title}</p>
+                                            <p className={styles.designation_title}>{item.title}</p>
                                             <p>{item.institution} , {item.location}</p>
                                         </div>
                                     )
@@ -89,7 +89,7 @@ const OrganizingCommittee =  ()=>{
                                     return(
                                         <div className={styles.card}>
                                             <h2>{item.name}</h2>
-                                            <p>{item.title}</p>
+                                            <p className={styles.designation_title}>{item.title}</p>
                                             <p>{item.institution} , {item.location}</p>
                                         </div>
                                     )
@@ -107,7 +107,7 @@ const OrganizingCommittee =  ()=>{
                                     return(
                                         <div className={styles.card}>
                                             <h2>{item.name}</h2>
-                                            <p>{item.title}</p>
+                                            <p className={styles.designation_title}>{item.title}</p>
                                             <p>{item.institution} , {item.location}</p>
                                         </div>
                                     )
@@ -124,7 +124,7 @@ const OrganizingCommittee =  ()=>{
                                     return(
                                         <div className={styles.card}>
                                             <h2>{item.name}</h2>
-                                            <p>{item.title}</p>
+                                            <p className={styles.designation_title}>{item.title}</p>
                                             <p>{item.institution} , {item.location}</p>
                                         </div>
                                     )
