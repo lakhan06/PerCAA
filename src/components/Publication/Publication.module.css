@@ -7,6 +7,28 @@
     font-size: larger;
     margin-bottom: 25px;
 }
+
+.customM {
+    margin-top: 20px !important;
+}
+
+.publicationData {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+
+.IET_logo {
+    width: 20vw;
+    margin: 0 20px;
+}
+
+.Bentham_logo {
+    width: 10vw;
+    margin: 0 20px;
+}
+
 .data{
     text-align: justify;
     padding-left: 2px;
