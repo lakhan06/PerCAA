@@ -9,7 +9,7 @@ function Home() {
       {/* <Crousal></Crousal> */}
       <NewCrousal></NewCrousal>
       <div className="linkContainer">
-              <a href="https://cmt3.research.microsoft.com/PERCAA2024">Paper Submission Link : Please Click here for Submit Paper</a>
+              <a href="https://cmt3.research.microsoft.com/PERCAA2024">Paper Submission Link : Please Click  Here To Submit Paper</a>
       </div>
       <div className="papaContainer">
         <div className="leftContainer">
