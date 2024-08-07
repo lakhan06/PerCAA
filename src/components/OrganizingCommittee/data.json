@@ -102,11 +102,23 @@
       }
     ],
     "PublicityChair": [
-        {
+          {
             "name": "Dr. Mukesh Soni",
             "title": "Research Head",
             "institution": "Meerut ACM",
             "location":"Meerut"
+          },
+          {
+            "name": "Dr. Saurabh Shandilya ",
+            "title": "Professor",
+            "institution": "PCE",
+            "location":"Jaipur"
+          },
+          {
+            "name": "Dr. K.D. Gupta",
+            "title": "Associate Professor",
+            "institution": "PCE",
+            "location":"Jaipur"
           }
     ],
     "WebTeam": [
