@@ -25,3 +25,18 @@ table{
 li::marker{
     color: blue;
 }
+.paymentDetails{
+    list-style: none;
+    
+}
+
+.paymentDetails li{
+    margin: 8px 0;
+    border-bottom: 2px solid rgb(197, 194, 194);
+    padding: 5px;
+}
+.paymentDetails li span{
+    font-weight: bold;
+    padding: 2px;
+    
+}

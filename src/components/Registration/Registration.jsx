@@ -63,9 +63,25 @@ const Registration = () => {
                         <ul className={styles.list}>
                             <li><a href="https://cmt3.research.microsoft.com/PERCAA2024" className={styles.list_item}>Paper Submission Link : Please Click  Here To Submit Paper</a></li>
                             <li><a href="/docs/RegistrationForm.pdf" download="Registraion Form" className={styles.list_item}>Registration Form</a></li>
-                            <li><p className={styles.list_item}>Payment Details : Coming Soon</p></li>
+                            
                         </ul>
                     </div>
+                    <div className={styles.heading}>
+                        Payment Details :
+                    </div>
+                       <ul className={styles.paymentDetails}>
+                        <li className={styles.paymentDetailsRow}><span className={styles.paymentDetailsRowheading}>Account Name:</span>POORNIMA COLLEGE PART THREE
+</li>
+                        <li className={styles.paymentDetailsRow}><span className={styles.paymentDetailsRowheading}>Account No:</span>50200068727931</li>
+                        <li className={styles.paymentDetailsRow}><span className={styles.paymentDetailsRowheading}>Bank Name:</span>HDFC BANK LTD</li>
+                        <li className={styles.paymentDetailsRow}><span className={styles.paymentDetailsRowheading}>Bank Branch Address:</span>F129, RIICO INDUSTRIAL AREA, SITAPURA, SANGANER, JAIPUR 302022, RAJASTHAN, INDIA</li>
+                        <li className={styles.paymentDetailsRow}><span className={styles.paymentDetailsRowheading}>IFSC Code:</span>HDFC0003873</li>
+                        <li className={styles.paymentDetailsRow}><span className={styles.paymentDetailsRowheading}>Swift code:</span>HDFCINBBXXX</li>
+                        <li className={styles.paymentDetailsRow}><span className={styles.paymentDetailsRowheading}>MICR Code:</span>302240028</li>
+                        <li className={styles.paymentDetailsRow}><span className={styles.paymentDetailsRowheading}>Bank Code:</span>3873</li>
+                        <li className={styles.paymentDetailsRow}><span className={styles.paymentDetailsRowheading}>Type of Account:</span> CURRENT ACCOUNT</li>
+                        
+                       </ul>
                 </div>
                 <div className="rightContainer">
                     <RightContent></RightContent>
