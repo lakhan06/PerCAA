@@ -69,3 +69,80 @@
     padding-right: 2px;
     font-weight: 600;
 }
+
+@media (max-width:1000px){
+    .data{
+        word-spacing: 0px;
+    }
+    .publicationData {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        flex-direction: column-reverse;
+    }
+    .IET_logo {
+        width: 30vw;
+        /* margin: 0 30px; */
+    }
+    .books_container{
+        margin-top: 50px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    .book_card{
+        width: 45%;
+        border: 1px solid rgb(173, 172, 172);
+        height: 300px;
+    }
+}
+
+@media (max-width:700px){
+    .publicationData {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        flex-direction: column-reverse;
+    }
+    .IET_logo {
+        width: 50vw;
+        /* margin: 0 30px; */
+    }
+    .books_container{
+        margin-top: 50px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    .book_card{
+        width: 45%;
+        border: 1px solid rgb(173, 172, 172);
+        height: 300px;
+    }
+    .Bentham_logo {
+        width: 20vw;
+        margin: 0 20px;
+    }
+}
+
+@media (max-width:460px){
+    .IET_logo {
+        width: 60vw;
+        /* margin: 0 30px; */
+    }
+    .book_card{
+        width: 70%;
+        border: 1px solid rgb(173, 172, 172);
+        height: 300px;
+    }
+    .Bentham_logo {
+        width: 30vw;
+        margin: 0 20px;
+    }
+}
