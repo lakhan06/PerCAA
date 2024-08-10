@@ -73,19 +73,19 @@
 }
 
 /* Responsive Styles */
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 1040px) {
   .navbar {
     font-size: 12px;
   }
 }
 
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 840px) {
   .navbar {
-    font-size: 9px;
+    font-size: 11px;
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 785px) {
   .navbar {
     width: 100%;
     z-index: 2;

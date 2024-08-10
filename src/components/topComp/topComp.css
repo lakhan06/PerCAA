@@ -133,7 +133,12 @@
         gap: 5px;
         justify-content: center;
     }
-    
+    .top-logos-marquee img{
+        width: 20vw;
+    }
+    .top-logos-marquee .pce_logo{
+        width: 15vw;
+    }
 }
 @media screen and (max-width : 690px){
     .top{
@@ -190,6 +195,16 @@
     }
     .top-head{
         font-size: 12px;
+    }
+    .top-logos-marquee img{
+        width: 20vw;
+    }
+    .top-logos-marquee .pce_logo{
+        width: 10vw;
+    }
+    .smallmarquee{
+        padding: 0 0 0 0;
+        margin-left: 20px;
     }
 }
 

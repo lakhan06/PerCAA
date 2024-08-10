@@ -1,27 +1,48 @@
-.guidelines-heading{
+.author_guideline_heading{
+    font-weight: bold;
+    margin: 10px 0;
+    background-color: rgb(235, 234, 234);
+    padding: 10px;
     color: rgb(47, 122, 226);
-    font-size: 1.5rem;
-    font-weight: 500;
-    margin-bottom: 20px;
-    padding: 5px;
-    margin-top: 15px;
+    font-size: 20px;
 }
-.guidelines-container{
+
+.doc_container{
     display: flex;
-    flex-direction: column;
     width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
 }
-.g-info{
-    line-height: 1.5rem;
-    color: black;
-    font-weight: 500;
-    display: flex;
-    flex-direction: column;
-    text-align: justify;
+
+.doc_details{
+    font-size: 1.4rem;
+    color: blue;
+    font-weight: 600;
+    text-underline-offset: 6px;
 }
-.g-info hr{
-    margin-top: 20px;
-    width: 100%;
-    border-color: rgb(189, 189, 189);
-    opacity: 40%;
+
+@media (max-width:950px){
+    .doc_details{
+        font-size:1.2rem
+    }
+}
+@media (max-width:850px){
+    .doc_container{
+        margin-bottom : 50px 
+    }
+}
+@media (max-width:520px){
+    .doc_details{
+        font-size:1rem;
+    }
+    /* .doc_container{
+        margin-bottom: 50px;
+    } */
+}
+
+@media(max-width : 410px){
+    .doc_details{
+        font-size:.8rem
+    }
 }

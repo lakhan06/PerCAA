@@ -23,7 +23,7 @@ const Navbar = () => {
             <a to="#">Announcement</a>
             <ul>
               <li onClick={handleToggle}><Link to={'/callForPaper'}>Call for Papers</Link></li>
-              {/* <li onClick={handleToggle}><Link to={'/author-guidelines'}>Author Guidelines</Link></li> */}
+              <li onClick={handleToggle}><Link to={'/author-guidelines'}>Author Guidelines</Link></li>
               <li onClick={handleToggle}><Link to={'/important-dates'}>Important Dates</Link></li>
             </ul>
           </li>
