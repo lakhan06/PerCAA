@@ -133,6 +133,9 @@
         gap: 5px;
         justify-content: center;
     }
+    .top-logos-marquee{
+        margin-bottom: 20px;
+    }
     .top-logos-marquee img{
         width: 20vw;
     }
