@@ -10,7 +10,7 @@ const AuthorGuidelines = ()=>{
                         Author Guidelines
                     </div>
                     <div className="doc_container">
-                        <a href="public/docs/Schedule 3 Manuscript Preparation Guidelines (003) (002) (1).doc" download="Author Guidelines" className="doc_details" >Click Here To Download Author Guidelines</a>
+                        <a href="/docs/Schedule 3 Manuscript Preparation Guidelines (003) (002) (1).doc" download="Author Guidelines" className="doc_details" >Click Here To Download Author Guidelines</a>
                     </div>
                 </div>
                 <div className="rightContainer">
