@@ -4,7 +4,6 @@ import { useEffect, useState } from "react";
 // import Crousal from '../topimagesSection/Crousal'
 import Footer from "../Footer/Footer";
 import NewCrousal from "../NewCrousal/NewCrousal";
-// import PopUp from "../PopUp/PopUp";
 import { IoMdClose } from "react-icons/io";
 function Home() {
   const [showPopUp , setShowPopUp] = useState(false);
