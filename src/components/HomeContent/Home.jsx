@@ -1,17 +1,50 @@
 import "./Home.css";
 import RightContent from "../RightContent/RightContent";
+import { useEffect, useState } from "react";
 // import Crousal from '../topimagesSection/Crousal'
 import Footer from "../Footer/Footer";
 import NewCrousal from "../NewCrousal/NewCrousal";
+// import PopUp from "../PopUp/PopUp";
+import { IoMdClose } from "react-icons/io";
 function Home() {
+  const [showPopUp , setShowPopUp] = useState(false);
+  const closebuttonHandler = ()=>{
+    setShowPopUp(!showPopUp)
+  }
+  useEffect(()=>{
+    setTimeout(()=>{
+      setShowPopUp(true);
+    },300)
+  } , [])
   return (
     <>
       {/* <Crousal></Crousal> */}
-      <NewCrousal></NewCrousal>
-      <div className="linkContainer">
+      <div className={`${showPopUp ? 'reducedOpacity' : ''}`}>
+        <NewCrousal></NewCrousal>
+      </div>
+      <div className={`linkContainer ${showPopUp ? 'reducedOpacity' : ''}`}>
               <a href="https://cmt3.research.microsoft.com/PERCAA2024">Paper Submission Link : Please Click  Here To Submit Paper</a>
       </div>
-      <div className="papaContainer">
+      {
+        showPopUp && (
+          <div className={`popup_container ${showPopUp ? 'show' : ''}`}>
+              <div className="close_buttonContainer">
+                  <div className="close_icon" onClick={closebuttonHandler}>
+                    <IoMdClose size={30}></IoMdClose>
+                  </div>
+              </div>
+              <div className="popup_content_container">
+                <div className="popup_content">
+                  <p>Submitted paper will be published in IET and Bentham Science Scopus index book series.</p>
+                  <div className="linkContainer_popup">
+                      <a href="https://cmt3.research.microsoft.com/PERCAA2024">Please Click  Here To Submit Paper</a>
+                  </div>
+                </div>
+              </div>
+          </div>
+        )
+      }
+      <div className={`papaContainer ${showPopUp ? 'reducedOpacity' : ''}`}>
         <div className="leftContainer">
           <div className="homeContent">
             <div className="homeheading">ABOUT THE CONFERENCE</div>

@@ -1,0 +1,18 @@
+.popup_container {
+    background-color: white;
+    width: 550px;
+    height: 550px;
+    border: 1px solid black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0; /* Start with the popup invisible */
+    visibility: hidden; /* Hide the popup when it's not shown */
+    transition: opacity 15s ease-out; /* Transition for opacity and visibility */
+}
+
+.popup_container.show {
+    opacity: 1; /* Make the popup visible */
+    visibility: visible; /* Ensure the popup is visible */
+}
