@@ -35,13 +35,18 @@ line-height: 23px;
 
 
 .close_buttonContainer{
+    position: relative;
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
+    background-color:rgb(47, 122, 226) ;
+    padding: 10px;
+    margin-bottom: 10px;
 }
 .close_icon{
-    padding-top: 10px;
-    padding-right: 10px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
     cursor: pointer;
 }
 .show {
@@ -70,7 +75,9 @@ line-height: 23px;
     font-weight: 500;
     color: black;
     /* text-align: center; */
-    letter-spacing: 0.5px;
+    letter-spacing: 0.2px;
+    word-spacing: 3px;
+    line-height: 25px;
 }
 .percaa_pop{
     text-align: center !important;
@@ -78,8 +85,13 @@ line-height: 23px;
     font-size: 30px !important;
     font-weight: bold !important;
     margin-bottom: 10px;
-     color: rgb(47, 122, 226) !important;
-     margin-bottom: 50px;
+    /* color: rgb(47, 122, 226) !important; */
+    color: white;
+     /* margin-bottom: 50px; */
+     /* background-color:rgb(47, 122, 226) ; */
+}
+.popup_content p span{
+    color: red;
 }
 .linkContainer_popup a{
     font-size: 1rem;
@@ -89,17 +101,21 @@ line-height: 23px;
        color: rgb(47, 122, 226);
      /* border: 2px solid black; */
      background-color: rgb(235, 234, 234);
-     padding: 4px 2px;
+     padding: 6px 4px;
     font-weight: 600;
     text-decoration: line;
     text-underline-offset: 10px;
     display: flex;
     justify-content: center;
-    margin-top: 30px;
-    margin-bottom: -20px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    /* margin-bottom: -20px; */
     text-decoration: none;
     border-radius: 5px;
     
+}
+.linkContainer_popup a:hover{
+    background-color: rgb(202, 201, 201);
 }
 .linkContainer a{
     font-size: 1.3rem;
