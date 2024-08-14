@@ -39,25 +39,25 @@ const NewCrousal = () => {
 
         <div className="carousel">
                 <div className="carousel-item" ref={el => slidesRef.current[0] = el}>
-                    <img className="slide-image" src='/TopCrousalIMages/poornima1.jpg' ></img>
+                    <img className="slide-image" src='/TopCrousalIMages/1st.png' ></img>
                     
                 </div>
-            <div className="carousel-item" ref={el => slidesRef.current[1] = el}>
-            <img className="slide-image" src='/TopCrousalIMages/new1.jpeg' ></img>
-                {/* <div className="slide-image"
-                    style={{ backgroundImage: 'url(/TopCrousalIMages/new1.jpeg)' }}>
-                </div> */}
-            </div>
             <div className="carousel-item" ref={el => slidesRef.current[2] = el}>
-            <img className="slide-image" src='/TopCrousalIMages/DSC_2109.jpg' ></img>
+            <img className="slide-image" src='/TopCrousalIMages/2nd.png' ></img>
                 {/* <div className="slide-image"
                     style={{ backgroundImage: 'url(/TopCrousalIMages/DSC_2109.jpg)' }}>
                 </div> */}
             </div>
             <div className="carousel-item" ref={el => slidesRef.current[3] = el}>
-            <img className="slide-image" src='/TopCrousalIMages/PCE.jpg' ></img>
+            <img className="slide-image" src='/TopCrousalIMages/3rd.png' ></img>
                 {/* <div className="slide-image"
                     style={{ backgroundImage: 'url(/TopCrousalIMages/PCE.jpg)' }}>
+                </div> */}
+            </div>
+            <div className="carousel-item" ref={el => slidesRef.current[1] = el}>
+            <img className="slide-image" src='/TopCrousalIMages/poornima1.jpg' ></img>
+                {/* <div className="slide-image"
+                    style={{ backgroundImage: 'url(/TopCrousalIMages/new1.jpeg)' }}>
                 </div> */}
             </div>
         </div>
