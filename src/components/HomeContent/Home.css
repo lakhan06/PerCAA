@@ -196,7 +196,7 @@ line-height: 23px;
 .popup_container {
     background-color: white;
     width: 300px;
-    height: 300px;
+    height: 350px;
     border: 1px solid rgb(195, 195, 195);
     position: absolute;
     top: 50%;
@@ -208,14 +208,28 @@ line-height: 23px;
 }
 
 .close_buttonContainer{
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-between;
 }
 .close_icon{
+    top: -2px;
+    /* bottom: 20px; */
+    right: -1px;
+    position: absolute;
     padding-top: 10px;
     padding-right: 10px;
     cursor: pointer;
+}
+.top_heading_container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: row-reverse; */
+    /* justify-content: space-between; */
+    background-color:rgb(47, 122, 226) ;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
 }
 .show {
     opacity: 1; 
@@ -237,18 +251,18 @@ line-height: 23px;
 }
 .popup_content p{
     text-align: justify;
-    font-size: .9rem;
+    font-size: .8rem;
     font-weight: 500;
     color: black;
 }
 .percaa_pop{
     text-align: center !important;
     width: 100%;
-    font-size: 20px !important;
+    font-size: 1.3rem !important;
+    color: white;
     font-weight: bold !important;
-    margin-bottom: 10px;
-     color: rgb(47, 122, 226) !important;
-     margin-bottom: 15px;
+    margin-bottom: 5px;
+    /* margin-bottom: 15px; */
 }
 .linkContainer_popup a{
     font-size: .8rem;
@@ -258,8 +272,8 @@ line-height: 23px;
     text-underline-offset: 10px;
     display: flex;
     justify-content: center;
-    margin-top: 30px;
-    margin-bottom: -20px;
+    margin-top: 10px;
+    /* margin-bottom: -20px; */
 }
 }
 
