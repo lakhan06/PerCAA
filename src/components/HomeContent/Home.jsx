@@ -28,17 +28,18 @@ function Home() {
         showPopUp && (
           <div className={`popup_container ${showPopUp ? 'show' : ''}`}>
               <div className="close_buttonContainer">
+                  <p className="percaa_pop">PerCAA 2024</p>
                   <div className="close_icon" onClick={closebuttonHandler}>
                     <IoMdClose size={30}></IoMdClose>
                   </div>
               </div>
               <div className="popup_content_container">
                 <div className="popup_content">
-                  <p className="percaa_pop">PerCAA 2024</p>
-                  <p>Submitted paper will be published in IET and Bentham Science Scopus index book series.</p>
+                  
                   <div className="linkContainer_popup">
                       <a href="https://cmt3.research.microsoft.com/PERCAA2024">Please Click  Here To Submit Paper</a>
                   </div>
+                  <p><span>Note:</span>Submitted paper will be published in IET and Bentham Science Scopus index book series.</p>
                 </div>
               </div>
           </div>
