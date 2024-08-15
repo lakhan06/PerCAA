@@ -27,19 +27,21 @@ function Home() {
       {
         showPopUp && (
           <div className={`popup_container ${showPopUp ? 'show' : ''}`}>
-              <div className="close_buttonContainer">
-                  <p className="percaa_pop">PerCAA 2024</p>
+              <div className="top_heading_container">
+                  <div className="top_heading_container_2">
+                    <p className="percaa_pop">PerCAA 2024</p>
+                    <div className="perca_top_sub">Important Links</div>
+                  </div>
                   <div className="close_icon" onClick={closebuttonHandler}>
                     <IoMdClose size={30}></IoMdClose>
                   </div>
               </div>
               <div className="popup_content_container">
                 <div className="popup_content">
-                  
-                  <div className="linkContainer_popup">
-                      <a href="https://cmt3.research.microsoft.com/PERCAA2024">Please Click  Here To Submit Paper</a>
-                  </div>
-                  <p><span>Note:</span>Submitted paper will be published in IET and Bentham Science Scopus index book series.</p>
+                  <p><span>Note : </span>Submitted Papers will be published by the Institution of Engineering and Technology (IET) on IET Digital Library, indexed by IET Inspec and Standard paper of Conference will be submitted to the following books published under Bentham series.</p>
+                </div>
+                <div className="linkContainer_popup">
+                    <a href="https://cmt3.research.microsoft.comPERCAA2024"> Click  Here To Submit Paper</a>
                 </div>
               </div>
           </div>

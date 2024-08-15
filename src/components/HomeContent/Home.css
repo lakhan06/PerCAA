@@ -9,7 +9,7 @@
 }
 
 .paracontent p{
-    margin: 20px 0;
+margin: 20px 0;
 text-align: justify;
 letter-spacing: 1px;
 line-height: 23px;
@@ -34,14 +34,28 @@ line-height: 23px;
 }
 
 
-.close_buttonContainer{
+.top_heading_container{
     position: relative;
     display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: row-reverse; */
+    /* justify-content: space-between; */
     background-color:rgb(47, 122, 226) ;
     padding: 10px;
     margin-bottom: 10px;
+    width: 100%;
+}
+.top_heading_container_2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.perca_top_sub{
+    color: white;
+    font-weight: 300 ;
 }
 .close_icon{
     position: absolute;
@@ -61,8 +75,10 @@ line-height: 23px;
     width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
+    height: 70%;
+    /* gap: px; */
     /* margin-top: 40px; */
     
 }
@@ -71,13 +87,13 @@ line-height: 23px;
 }
 .popup_content p{
     text-align: justify;
-    font-size: 1rem;
+    font-size: 1.1rem;
     font-weight: 500;
     color: black;
     /* text-align: center; */
-    letter-spacing: 0.2px;
-    word-spacing: 3px;
-    line-height: 25px;
+    letter-spacing: .5px;
+    /* word-spacing: 0.5px; */
+    line-height: 22px;
 }
 .percaa_pop{
     text-align: center !important;
@@ -92,26 +108,29 @@ line-height: 23px;
 }
 .popup_content p span{
     color: red;
+    font-size: 1.1rem !important
 }
 .linkContainer_popup a{
-    font-size: 1rem;
+    font-size: 1.2rem;
     /* color: blue;
      */
 
-       color: rgb(47, 122, 226);
+    color: rgb(47, 122, 226);
      /* border: 2px solid black; */
-     background-color: rgb(235, 234, 234);
-     padding: 6px 4px;
+     /* background-color: rgb(235, 234, 234); */
+     margin-top: -30px;
+    padding: 6px 4px;
     font-weight: 600;
     text-decoration: line;
     text-underline-offset: 10px;
     display: flex;
     justify-content: center;
-    margin-bottom: 30px;
-    margin-top: 10px;
+    /* margin-bottom: 30px; */
+    /* margin-top: px; */
     /* margin-bottom: -20px; */
-    text-decoration: none;
+    text-decoration: underline;
     border-radius: 5px;
+    /* width: 100%; */
     
 }
 .linkContainer_popup a:hover{
