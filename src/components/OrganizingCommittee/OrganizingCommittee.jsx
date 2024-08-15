@@ -16,6 +16,11 @@ const OrganizingCommittee =  ()=>{
                             data.GeneralChair.map((item , index)=>{
                                 return(
                                     <div className={styles.card}>
+                                        {
+                                            item.img &&(
+                                                <img src={item.img}/>
+                                            )
+                                        }
                                         <h2>{item.name}</h2>
                                         <p className={styles.designation_title}>{item.title}</p>
                                         <p>{item.institution} , {item.location}</p>
@@ -34,6 +39,7 @@ const OrganizingCommittee =  ()=>{
                                 data.GeneralCoChair.map((item , index)=>{
                                     return(
                                         <div className={styles.card}>
+                                            <img src={item.img}></img>
                                             <h2>{item.name}</h2>
                                             <p className={styles.designation_title}>{item.title}</p>
                                             <p>{item.institution} , {item.location}</p>
@@ -52,6 +58,7 @@ const OrganizingCommittee =  ()=>{
                                 data.OrganizingChair.map((item , index)=>{
                                     return(
                                         <div className={styles.card}>
+                                            <img src={item.img}></img>
                                             <h2>{item.name}</h2>
                                             <p className={styles.designation_title}>{item.title}</p>
                                             <p>{item.institution} , {item.location}</p>
@@ -70,6 +77,7 @@ const OrganizingCommittee =  ()=>{
                                 data.Convenor.map((item , index)=>{
                                     return(
                                         <div className={styles.card}>
+                                            <img src={item.img}></img>
                                             <h2>{item.name}</h2>
                                             <p className={styles.designation_title}>{item.title}</p>
                                             <p>{item.institution} , {item.location}</p>
@@ -88,6 +96,7 @@ const OrganizingCommittee =  ()=>{
                                 data.CoConvenor.map((item , index)=>{
                                     return(
                                         <div className={styles.card}>
+                                            <img src={item.img}></img>
                                             <h2>{item.name}</h2>
                                             <p className={styles.designation_title}>{item.title}</p>
                                             <p>{item.institution} , {item.location}</p>
@@ -106,6 +115,7 @@ const OrganizingCommittee =  ()=>{
                                 data.TrackChair.map((item , index)=>{
                                     return(
                                         <div className={styles.card}>
+                                            <img src={item.img}></img>
                                             <h2>{item.name}</h2>
                                             <p className={styles.designation_title}>{item.title}</p>
                                             <p>{item.institution} , {item.location}</p>
@@ -123,6 +133,7 @@ const OrganizingCommittee =  ()=>{
                                 data.PublicityChair.map((item , index)=>{
                                     return(
                                         <div className={styles.card}>
+                                            <img src={item.img}></img>
                                             <h2>{item.name}</h2>
                                             <p className={styles.designation_title}>{item.title}</p>
                                             <p>{item.institution} , {item.location}</p>
@@ -131,13 +142,33 @@ const OrganizingCommittee =  ()=>{
                                 })
                             }
                         </div>
-                    </div><div className={styles.heading}>
+                    </div>
+                    <div className={styles.heading}>
                         Web Team : 
                     </div>
                     <div className={styles.contianer_wrapper}>
                         <div className={styles.container}>
                             {
                                 data.WebTeam.map((item , index)=>{
+                                    return(
+                                        <div className={styles.card}>
+                                            {
+                                                item.img &&(
+                                                    <img src={item.img}/>
+                                                )
+                                            }
+                                            <h2>{item.name}</h2>
+                                            <p>{item.details}</p>
+                                        </div>
+                                    )
+                                })
+                            }
+                        </div>
+                    </div>
+                    <div className={styles.contianer_wrapper}>
+                        <div className={styles.container}>
+                            {
+                                data.WebTeamStudents.map((item , index)=>{
                                     return(
                                         <div className={styles.card}>
                                             <h2>{item.name}</h2>

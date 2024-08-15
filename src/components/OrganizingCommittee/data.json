@@ -4,7 +4,8 @@
             "name": "Dr. Mahesh Bundele",
             "title": "Director and Principal",
             "institution": "PCE",
-            "location": "Jaipur"
+            "location": "Jaipur",
+            "img":"/oc/dr mahesh Bundele.jpeg"
           }
     ],
     "GeneralCoChair": [
@@ -12,13 +13,15 @@
         "name": "Dr. Pankaj Dhemla",
         "title": "Vice Principal",
         "institution": "PCE",
-        "location": "Jaipur"
+        "location": "Jaipur",
+        "img":"/oc/pankaj Dhemla.jpeg"
       },
       {
         "name": "Aryan Chaudhary",
         "title": "Chief Scientific Advisor",
         "institution": "Bio Tech Sphere Research, India",
-        "additionalInfo": "Chair, Meerut ACM Professional Chapter"
+        "additionalInfo": "Chair, Meerut ACM Professional Chapter",
+        "img":"/oc/Aryan.jpg"
       }
     ],
     "OrganizingChair": [
@@ -26,7 +29,8 @@
             "name": "Dr. Nikita Jain",
             "title": "Professor and Head",
             "institution": "PCE",
-            "location": "Jaipur, Rajasthan"
+            "location": "Jaipur, Rajasthan",
+            "img":"/oc/Nikita Jain.jpeg"
           }
     ],
     "Convenor": [
@@ -34,13 +38,15 @@
         "name": "Dr. Abhishek Sharma",
         "institution": "PCE",
         "location": "Jaipur, Rajasthan",
-        "title":"Associate Professor"
+        "title":"Associate Professor",
+        "img":"/oc/Abhishek Sharma.jpg"
       },
       {
         "name": "Dr. Amit Pandey",
         "institution": "PCE",
         "location": "Jaipur, Rajasthan",
-        "title":"Professor"
+        "title":"Professor",
+        "img":"/oc/Amit Pandey.jpg"
       }
     ],
     "CoConvenor": [
@@ -48,19 +54,22 @@
         "name": "Dr. Kamlesh Gautam",
         "institution": "PCE",
         "location": "Jaipur",
-        "title":"Associate Professor"
+        "title":"Associate Professor",
+        "img":"/oc/Kamlesh Gautam.jpg"
       },
       {
         "name": "Mr. Manish Dubey",
         "institution": "PCE",
         "location": "Jaipur",
-        "title":"Assistant Professor"
+        "title":"Assistant Professor",
+        "img":"/oc/Manish Dubey.jpg"
       },
       {
         "name": "Ms. Sonam Gaur",
         "institution": "PCE",
         "location": "Jaipur",
-        "title":"Assistant Professor"
+        "title":"Assistant Professor",
+        "img":"/oc/Sonam Gaur.jpg"
       }
     ],
     "TrackChair": [
@@ -68,43 +77,50 @@
         "name": "Keshav Kaushik",
         "institution": "UPES",
         "location": "Dehradun, Uttarakhand",
-        "title":"Assistant Professor"
+        "title":"Assistant Professor",
+        "img":"/oc/Keshav.jpeg"
       },
       {
         "name": "Dr. Danish Ather",
         "institution": "Amity University, Tashkent",
         "title": "Associate Professor",
-        "location": "Uzbekistan"
+        "location": "Uzbekistan",
+        "img":"/oc/KNS Danish Ather.jpeg"
       },
       {
         "name": "Dr. Rajeev Kumar",
         "institution": "MIT",
         "location": "Moradabad, UP",
-        "title": "Professor"
+        "title": "Professor",
+        "img":"/oc/KNS Rajeev Kumar.jpeg"
       },
       {
         "name": "Dr. Shivani Jaswal",
         "institution": "National College of Ireland",
         "location": "",
-        "title": "Assistant Professor and Programme Director"
+        "title": "Assistant Professor and Programme Director",
+        "img":"/oc/KNS shivani Jaiswal.jpeg"
       },
       {
         "name": "Dr. Veena Yadav",
         "institution": "PCE",
         "location": "Jaipur",
-        "title": "Professor"
+        "title": "Professor",
+        "img":"/oc/Veena Yadav.jpg"
       },
       {
         "name": "Dr. Geetika Mathur",
         "institution": "PCE",
         "location": "Jaipur",
-        "title": "Professor"
+        "title": "Professor",
+        "img":"/oc/"
       },
       {
         "name": "Dr. Mukesh Soni",
         "title": "Research Head",
         "institution": "Meerut ACM",
-        "location":"Meerut"
+        "location":"Meerut",
+        "img":"/oc/mukesh soni.jpg"
       }
     ],
     "PublicityChair": [
@@ -112,40 +128,45 @@
             "name": "Dr. Saurabh Shandilya ",
             "title": "Professor",
             "institution": "PCE",
-            "location":"Jaipur"
+            "location":"Jaipur",
+            "img":"/oc/Saurabh Shandilya.jpg"
           },
           {
             "name": "Dr. K.D. Gupta",
             "title": "Associate Professor",
             "institution": "PCE",
-            "location":"Jaipur"
+            "location":"Jaipur",
+            "img":"/oc/KD gupta.jpg"
           }
     ],
     "WebTeam": [
         {
             "name": "Appoorva Bansal",
-            "details": "Assistant Professor, PCE , Jaipur"
-        },
-        {
-            "name": "Abhinav Arora",
-            "details": "Student Coordinator, 4th Year, Computer Science, PCE , Jaipur"
-          },
-          {
-            "name": "Lakhan Gupta",
-            "details": "Student Coordinator, 4th Year, Computer Science, PCE , Jaipur"
-          },
-          {
-            "name": "Aryan Jain",
-            "details": "Student Coordinator, 4th Year, Computer Science, PCE , Jaipur"
-          },
-          {
-            "name": "Chinmay Jain",
-            "details": "Student Coordinator, 4th Year, Computer Science, PCE , Jaipur"
-          },
-          {
-            "name": "Mohit Soni",
-            "details": "Student Coordinator, 3rd Year,  AI , PCE , Jaipur"
-          }
+            "details": "Assistant Professor, PCE , Jaipur",
+            "img":"/oc/Appoorva Bansal.jpeg"
+        }
+    ],
+    "WebTeamStudents":[
+      {
+        "name": "Abhinav Arora",
+        "details": "Student Coordinator, 4th Year, Computer Science, PCE , Jaipur"
+      },
+      {
+        "name": "Lakhan Gupta",
+        "details": "Student Coordinator, 4th Year, Computer Science, PCE , Jaipur"
+      },
+      {
+        "name": "Aryan Jain",
+        "details": "Student Coordinator, 4th Year, Computer Science, PCE , Jaipur"
+      },
+      {
+        "name": "Chinmay Jain",
+        "details": "Student Coordinator, 4th Year, Computer Science, PCE , Jaipur"
+      },
+      {
+        "name": "Mohit Soni",
+        "details": "Student Coordinator, 3rd Year,  AI , PCE , Jaipur"
+      }
     ]
 }
   
