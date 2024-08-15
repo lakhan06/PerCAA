@@ -18,8 +18,8 @@ line-height: 23px;
 
 .popup_container {
     background-color: white;
-    width: 400px;
-    height: 400px;
+    width: 450px;
+    height: 450px;
     border: 1px solid rgb(195, 195, 195);
     position: absolute;
     top: 50%;
@@ -169,7 +169,7 @@ line-height: 23px;
 }
 @media (max-width:500px) {
     .paracontent p{
-       font-size: 12px;
+    font-size: 12px;
     letter-spacing: 0.5px;
     line-height: 17px;
     }

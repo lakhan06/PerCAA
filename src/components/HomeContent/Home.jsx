@@ -5,6 +5,7 @@ import { useEffect, useState } from "react";
 import Footer from "../Footer/Footer";
 import NewCrousal from "../NewCrousal/NewCrousal";
 import { IoMdClose } from "react-icons/io";
+import { IconContext } from "react-icons";
 function Home() {
   const [showPopUp , setShowPopUp] = useState(false);
   const closebuttonHandler = ()=>{
@@ -33,7 +34,11 @@ function Home() {
                     <div className="perca_top_sub">Important Links</div>
                   </div>
                   <div className="close_icon" onClick={closebuttonHandler}>
-                    <IoMdClose size={30}></IoMdClose>
+                    <IconContext.Provider value={{color:"blue" ,size:"30"}}>
+                      <div className="close_icon">
+                        <IoMdClose></IoMdClose>
+                      </div>
+                    </IconContext.Provider>
                   </div>
               </div>
               <div className="popup_content_container">
@@ -41,7 +46,7 @@ function Home() {
                   <p><span>Note : </span>Submitted Papers will be published by the Institution of Engineering and Technology (IET) on IET Digital Library, indexed by IET Inspec and Standard paper of Conference will be submitted to the following books published under Bentham series.</p>
                 </div>
                 <div className="linkContainer_popup">
-                    <a href="https://cmt3.research.microsoft.comPERCAA2024"> Click  Here To Submit Paper</a>
+                    <a href="https://cmt3.research.microsoft.com/PERCAA2024"> Click  Here To Submit Paper</a>
                 </div>
               </div>
           </div>
