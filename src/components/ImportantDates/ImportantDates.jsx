@@ -32,7 +32,7 @@ const ImportantDates = () => {
                                         <td>
                                             {item.date.length === 2 ? (
                                                 <>
-                                                    <span className="cut">{item.date[0]}</span><br /> {item.date[1]}
+                                                    <span className="cut">{item.date[0]}</span><br /> <b>{item.date[1]}</b>
                                                 </>
                                             ) : (
                                                 item.date[0]
