@@ -29,7 +29,7 @@ const ImportantDates = () => {
                                 {dates.map((item, index) => (
                                     <tr key={index}>
                                         <td>{item.event}</td>
-                                        <td>
+                                        <td className="rightContentTable">
                                             {item.date.length === 2 ? (
                                                 <>
                                                     <span className="cut">{item.date[0]}</span><br /> <b>{item.date[1]}</b>

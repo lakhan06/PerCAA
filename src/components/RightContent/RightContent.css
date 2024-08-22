@@ -110,7 +110,7 @@
 
 .cut {
   text-decoration: line-through;
-  font-weight: 300;
+  font-weight: 700;
   color: rgb(157, 155, 155);
   text-decoration-color: rgb(88, 88, 88);
   text-decoration-thickness: .2px ;
@@ -119,4 +119,8 @@
 td b {
   color: red;
   font-weight: 700;
+}
+
+.rightContentTable {
+  font-weight: 700
 }
