@@ -110,6 +110,8 @@
 
 .cut {
   text-decoration: line-through;
+  font-weight: 300;
   color: rgb(157, 155, 155);
-  text-decoration-color: black;
+  text-decoration-color: rgb(88, 88, 88);
+  text-decoration-thickness: .2px ;
 }
