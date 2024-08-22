@@ -3,11 +3,11 @@ import "./ImportantDates.css";
 import Footer from "../Footer/Footer";
 const ImportantDates = () => {
     const dates = [
-        { event: "Last Date of Paper Submission", date: "August 20, 2024" },
-        { event: "Acceptance Notification", date: "August 31, 2024" },
-        { event: "Camera Ready Paper Submission", date: "September 30, 2024" },
-        { event: "Last Date of Registration", date: "October 10, 2024" },
-        { event: "Conference Date", date: "October 18-19, 2024" },
+        { event: "Last Date of Paper Submission", date: ['August 20, 2024'] },
+        { event: "Acceptance Notification", date: ['August 31, 2024', 'September 15, 2024'] },
+        { event: "Camera Ready Paper Submission", date: ['September 30, 2024'] },
+        { event: "Last Date of Registration", date: ['October 10, 2024', 'September 05, 2024'] },
+        { event: "Conference Date", date: ['October 18-19, 2024'] },
     ];
 
     return (
@@ -29,7 +29,15 @@ const ImportantDates = () => {
                                 {dates.map((item, index) => (
                                     <tr key={index}>
                                         <td>{item.event}</td>
-                                        <td><strong>{item.date}</strong></td>
+                                        <td>
+                                            {item.date.length === 2 ? (
+                                                <>
+                                                    <span className="cut">{item.date[0]}</span><br /> {item.date[1]}
+                                                </>
+                                            ) : (
+                                                item.date[0]
+                                            )}
+                                        </td>
                                     </tr>
                                 ))}
                             </tbody>

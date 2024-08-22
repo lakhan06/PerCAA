@@ -107,3 +107,9 @@
   color: red;
   font-weight: 500;
 }
+
+.cut {
+  text-decoration: line-through;
+  color: rgb(157, 155, 155);
+  text-decoration-color: black;
+}

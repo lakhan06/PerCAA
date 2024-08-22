@@ -7,12 +7,13 @@ import ACM_chapter from '/logos/ACM_chapter.png'
 import naac from '/logos/naac.png'
 // import Poornima_Logo from "/img/Poornima_Logo_logo.jpg"
 const RightContent = () => {
+    // { event: "Acceptance Notification", date: '<span className="cut">August 31, 2024</span> September 15, 2024'},
     const dates = [
-        { event: "Last Date of Paper Submission", date: "August 20, 2024" },
-        { event: "Acceptance Notification", date: "August 31, 2024" },
-        { event: "Camera Ready Paper Submission", date: "September 30, 2024" },
-        { event: "Last Date of Registration", date: "October 10, 2024" },
-        { event: "Conference Date", date: "October 18-19, 2024" },
+        { event: "Last Date of Paper Submission", date: ['August 20, 2024'] },
+        { event: "Acceptance Notification", date: ['August 31, 2024', 'September 15, 2024'] },
+        { event: "Camera Ready Paper Submission", date: ['September 30, 2024'] },
+        { event: "Last Date of Registration", date: ['October 10, 2024', 'September 05, 2024'] },
+        { event: "Conference Date", date: ['October 18-19, 2024'] },
     ];
 
     return (
@@ -44,7 +45,15 @@ const RightContent = () => {
                         {dates.map((item, index) => (
                             <tr key={index}>
                                 <td>{item.event}</td>
-                                <td>{item.date}</td>
+                                <td>
+                                    {item.date.length === 2 ? (
+                                        <>
+                                            <span className="cut">{item.date[0]}</span><br /> {item.date[1]}
+                                        </>
+                                    ) : (
+                                        item.date[0]
+                                    )}
+                                </td>
                             </tr>
                         ))}
                     </tbody>
