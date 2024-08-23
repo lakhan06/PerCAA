@@ -4,6 +4,7 @@ import ACM_merrut from '/logos/ACM_merrut.png'
 import Poornima_Logo_full from '/img/Poornima_Logo.jpg'
 // import IET_logo from '/logos/IET_logo.jpg'
 import ACM_chapter from '/logos/ACM_chapter.png'
+import Int_CA from '/logos/Int_CA.png'
 import naac from '/logos/naac.png'
 // import Poornima_Logo from "/img/Poornima_Logo_logo.jpg"
 const RightContent = () => {
@@ -68,6 +69,10 @@ const RightContent = () => {
                         {/* <img src={ACM_Jaipur} alt="" /> */}
                         <img src={ACM_merrut} alt="" />
                     </div>
+                </div>
+                <div className="sectionHeading smallSectionHeading">Media Partners</div>
+                <div className="technicalSponsers">
+                    <img style={{marginTop:"8px"}} className='right_acm_chapterLogo' src={Int_CA} alt="International Conference Alerts" />
                 </div>
 
                 {/* <div className="sectionHeading smallSectionHeading">Selected Extended Post Conference Papers will be published in</div>
