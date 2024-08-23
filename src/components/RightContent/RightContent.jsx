@@ -6,6 +6,7 @@ import Poornima_Logo_full from '/img/Poornima_Logo.jpg'
 import ACM_chapter from '/logos/ACM_chapter.png'
 import Int_CA from '/logos/Int_CA.png'
 import naac from '/logos/naac.png'
+
 // import Poornima_Logo from "/img/Poornima_Logo_logo.jpg"
 const RightContent = () => {
     // { event: "Acceptance Notification", date: '<span className="cut">August 31, 2024</span> September 15, 2024'},
@@ -16,6 +17,10 @@ const RightContent = () => {
         { event: "Last Date of Registration", date: ['October 10, 2024'] },
         { event: "Conference Date", date: ['October 18-19, 2024'] },
     ];
+
+    const handleclickmedia = () => {
+        window.open('https://internationalconferencealerts.com', '_blank');
+    }
 
     return (
         <div>
@@ -72,7 +77,7 @@ const RightContent = () => {
                 </div>
                 <div className="sectionHeading smallSectionHeading">Media Partners</div>
                 <div className="technicalSponsers">
-                    <img style={{marginTop:"8px"}} className='right_acm_chapterLogo' src={Int_CA} alt="International Conference Alerts" />
+                    <img onClick={handleclickmedia} style={{marginTop:"8px", cursor:"pointer"}} className='right_acm_chapterLogo' src={Int_CA} alt="International Conference Alerts" />
                 </div>
 
                 {/* <div className="sectionHeading smallSectionHeading">Selected Extended Post Conference Papers will be published in</div>
