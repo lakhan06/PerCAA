@@ -1,206 +1,94 @@
 [
-    {
-        "name": "Ismail Keshta",
-        "college": "College of Applied Sciences, AlMaarefa University, Riyadh, Saudi Arabia"
-    },
-    {
-        "name": "Aadam Quraishi",
-        "college": "Intervention Treatment Institute, Houston, Texas, USA"
-    },
-    {
-        "name": "Azzah AlGhamdi",
-        "college": "College of Computer Science and Information Technology, Imam Abdalrhman Bin Faisal University, Khobar, Saudi Arabia"
-    },
-    {
-        "name": "Faisal Yousef Alghayadh",
-        "college": "College of Applied Sciences, AlMaarefa University, Riyadh, Saudi Arabia"
-    },
-    {
-        "name": "Haewon Byeon",
-        "college": "Inje University, Gimhae 50834, Republic of Korea"
-    },
-    {
-        "name": "Miretab Tesfayohanis",
-        "college": "College of Engineering and Technology, Dambi Dollo University, Dambi Dollo, Oromia Region, Ethiopia"
-    },
-    {
-        "name": "Mulugeta Tesema",
-        "college": "College of Natural and Computational Sciences, Dambi Dollo University, Dambi Dollo, Oromia Region, Ethiopia"
-    },
-    {
-        "name": "Sivasubramanian Balasubramanian",
-        "college": "New York University"
-    },
-    {
-        "name": "Salah Kamel",
-        "college": "Aswan University, Aswan, Egypt"
-    },
-    {
-        "name": "Pervez Hameed Shaikh",
-        "college": "Mehran University of Engineering and Technology, Jamshoro"
-    },
-    {
-        "name": "Kamran Ramzan",
-        "college": "Gdańsk University of Technology, Poland"
-    },
-    {
-        "name": "Arsalan Muhammad Soomar",
-        "college": "Gdańsk University of Technology, Gdańsk, Poland"
-    },
-    {
-        "name": "Renato R. Maaliw III",
-        "college": "Southern Luzon State University, Lucban, Quezon, Philippines"
-    },
-    {
-        "name": "B. Suchitra",
-        "college": "Sri Krishna Arts and Science College, Coimbatore"
-    },
-    {
-        "name": "Mohammed I. Khalaf",
-        "college": "Al Maarif University College, Al Anbar, Iraq"
-    },
-    {
-        "name": "Mohammed E. Seno",
-        "college": "Al Maarif University College, Al Anbar, Iraq"
-    },
-    {
-        "name": "Archana Kollu",
-        "college": "PCET Pimpri Chinchwad College of Engineering and Research"
-    },
-    {
-        "name": "Faheem Ahmad Reegu",
-        "college": "College of Engineering and Computer Science, Jazan University, KSA"
-    },
-    {
-        "name": "Dileep Kumar Singh",
-        "college": "Jagran Lakecity University, Bhopal"
-    },
-    {
-        "name": "Ihtiram Raza Khan",
-        "college": "Jamia Hamdard, Delhi"
-    },
-    {
-        "name": "Maher Ali Rusho",
-        "college": "University of Colorado, Boulder"
-    },
-    {
-        "name": "Mohit Bhadla",
-        "college": "Swarnim Startup & Innovation University, Gandhinagar"
-    },
-    {
-        "name": "Pavan Patel",
-        "college": "ITM Vocational University, Vadodara"
-    },
-    {
-        "name": "Jagdish Chandra Patni",
-        "college": "Alliance School of Advance Computing, Alliance University, Bengaluru, Karnataka, India"
-    },
-    {
-        "name": "Shaleen Bhatnagar",
-        "college": "Manipal Institute of Technology, Manipal Academy of Higher Education, Manipal, India"
-    },
-    {
-        "name": "Bhavna Bajpai",
-        "college": "Dr. C. V. Raman University, Khandwa, M.P."
-    },
-    {
-        "name": "Latika Jindal",
-        "college": "Medicaps University, Indore"
-    },
-    {
-        "name": "Munindra Lunagaria",
-        "college": "Marwadi University, Rajkot-Morbi Road, Rajkot, Gujarat, India"
-    },
-    {
-        "name": "Neha Sharma",
-        "college": "Chitkara University, Punjab, India"
-    },
-    {
-        "name": "Manisha Bhende",
-        "college": "Dr. D. Y. Patil Vidyapeeth, Pune, Dr. D. Y. Patil School of Science and Technology, Tathawade, Pune-33"
-    },
-    {
-        "name": "Dr. Pankaj Rahi",
-        "college": "Institute of Health Management Research (Autonomous Institutions under AICTE, DHR)"
-      },
-      {
-        "name": "Dr. Vivek Rajpoot",
-        "college": "Vellore Institute of Technology, Vellore"
-      },
-      {
-        "name": "Dr. Raghavendra Pal",
-        "college": "SVNIT, Surat"
-      },
-      {
-        "name": "Dr. Himansu Katiyar",
-        "college": "REC, Sonbhadra"
-      },
-      {
-        "name": "Dr. Abhinav",
-        "college": "REC, Sonbhadra"
-      },
-      {
-        "name": "Dr. Gaurav Upadhyay",
-        "college": "NIT, Patna"
-      },
-      {
-        "name": "Dr. Nirmala Sharma",
-        "college": "University Department, RTU, Kota"
-      },
-      {
-        "name": "Dr. R.K. Banyal",
-        "college": "University Department, RTU, Kota"
-      },
-      {
-        "name": "Shri. R.S. Sharma",
-        "college": "University Department, RTU, Kota"
-      },
-      {
-        "name":"Dr.Sunil Kumar Singh",
-        "college":"CCET, Chandigarh"
-      },
-      {
-        "name":"Ram Chandra Sachan",
-        "college":"Wipro , NC, US ( North Carolina, United States)"
-      },
-      {
-        "name":"Dr. Amanpreet Kaur Sandhu",
-        "college":"Chandigarh University"
-      },
-      {
-        "name":"Dr. Kawaljit Kaur",
-        "college":"Chandigarh University"
-      },
-      {
-        "name":"Dr. Disha Handa",
-        "college":"Chandigarh University"
-      },
-      {
-        "name":"Dr. Sarabjeet Kaur",
-        "college":"Chandigarh University"
-      },
-      {
-        "name":"Dr. Gagandeep Kaur",
-        "college":"Chandigarh University"
-      },
-      {
-        "name":"Dr. Deeksha Baweja",
-        "college":"Chandigarh University"
-      },
-      {
-        "name":"Ms. Pawandeep Sharma",
-        "college":"Chandigarh University"
-      },
-      {
-        "name":"Ms. Ruchika Devi",
-        "college":"Chandigarh University"
-      },
-      {
-        "name":"Ms. Pooja Kataria",
-        "college":"Chandigarh University"
-      },
-      {
-        "name":"Mr. Sumeet Prashar",
-        "college":"Chandigarh University"
-      }
+  {
+    "name": "Dr. Pankaj Rahi",
+    "college": "Institute of Health Management Research (Autonomous Institutions under AICTE, DHR)"
+  },
+  {
+    "name": "Dr. Vivek Rajpoot",
+    "college": "Vellore Institute of Technology, Vellore"
+  },
+  {
+    "name": "Dr. Raghavendra Pal",
+    "college": "SVNIT, Surat"
+  },
+  {
+    "name": "Dr. Himansu Katiyar",
+    "college": "REC, Sonbhadra"
+  },
+  {
+    "name": "Dr. Abhinav",
+    "college": "REC, Sonbhadra"
+  },
+  {
+    "name": "Dr. Gaurav Upadhyay",
+    "college": "NIT, Patna"
+  },
+  {
+    "name": "Dr. Nirmala Sharma",
+    "college": "University Department, RTU, Kota"
+  },
+  {
+    "name": "Dr. R.K. Banyal",
+    "college": "University Department, RTU, Kota"
+  },
+  {
+    "name": "Shri. R.S. Sharma",
+    "college": "University Department, RTU, Kota"
+  },
+  {
+    "name": "Dr. Sunil Kumar Singh",
+    "college": "CCET, Chandigarh"
+  },
+  {
+    "name": "Ram Chandra Sachan",
+    "college": "Wipro , NC, US ( North Carolina, United States)"
+  },
+  {
+    "name": "Dr. Amanpreet Kaur Sandhu",
+    "college": "Chandigarh University"
+  },
+  {
+    "name": "Dr. Kawaljit Kaur",
+    "college": "Chandigarh University"
+  },
+  {
+    "name": "Dr. Disha Handa",
+    "college": "Chandigarh University"
+  },
+  {
+    "name": "Dr. Sarabjeet Kaur",
+    "college": "Chandigarh University"
+  },
+  {
+    "name": "Dr. Gagandeep Kaur",
+    "college": "Chandigarh University"
+  },
+  {
+    "name": "Dr. Deeksha Baweja",
+    "college": "Chandigarh University"
+  },
+  {
+    "name": "Ms. Pawandeep Sharma",
+    "college": "Chandigarh University"
+  },
+  {
+    "name": "Ms. Ruchika Devi",
+    "college": "Chandigarh University"
+  },
+  {
+    "name": "Ms. Pooja Kataria",
+    "college": "Chandigarh University"
+  },
+  {
+    "name": "Mr. Sumeet Prashar",
+    "college": "Chandigarh University"
+  },
+  {
+    "name":"Dr. Bindiya Jain",
+    "college":"Poornima University, Jaipur (Raj.)"
+  },
+  {
+    "name":"Monika Agarwal",
+    "college":"Dayananda Sagar University, Bangalore"
+  }
 ]
