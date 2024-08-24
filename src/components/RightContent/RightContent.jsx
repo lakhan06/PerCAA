@@ -1,6 +1,7 @@
 import './RightContent.css'
 import ACM_Jaipur from '/logos/ACM_Jaipur.png'
 import ACM_merrut from '/logos/ACM_merrut.png'
+import ACAlert from '/logos/ACAlert.png'
 import Poornima_Logo_full from '/img/Poornima_Logo.jpg'
 // import IET_logo from '/logos/IET_logo.jpg'
 import ACM_chapter from '/logos/ACM_chapter.png'
@@ -18,8 +19,11 @@ const RightContent = () => {
         { event: "Conference Date", date: ['October 18-19, 2024'] },
     ];
 
-    const handleclickmedia = () => {
+    const handleclickmedia1 = () => {
         window.open('https://internationalconferencealerts.com', '_blank');
+    }
+    const handleclickmedia2 = () => {
+        window.open('http://allconferencealert.net', '_blank');
     }
 
     return (
@@ -77,7 +81,8 @@ const RightContent = () => {
                 </div>
                 <div className="sectionHeading smallSectionHeading">Media Partners</div>
                 <div className="technicalSponsers">
-                    <img onClick={handleclickmedia} style={{marginTop:"8px", cursor:"pointer"}} className='right_acm_chapterLogo' src={Int_CA} alt="International Conference Alerts" />
+                    <img onClick={handleclickmedia1} style={{marginTop:"8px", cursor:"pointer"}} className='right_acm_chapterLogo' src={Int_CA} alt="International Conference Alerts" />
+                    <img onClick={handleclickmedia2} style={{marginTop:"8px", cursor:"pointer"}} className='right_acm_chapterLogo' src={ACAlert} alt="All Conference Alerts" />
                 </div>
 
                 {/* <div className="sectionHeading smallSectionHeading">Selected Extended Post Conference Papers will be published in</div>
