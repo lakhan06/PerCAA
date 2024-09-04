@@ -74,6 +74,13 @@
     ],
     "TrackChair": [
       {
+        "name":"Dr. Mukesh Soni",
+        "title":"Research Head",
+        "institution":"Meerut ACM",
+        "location":"Meerut",
+        "img":"/oc/mukesh soni.jpg"
+      },
+      {
         "name": "Keshav Kaushik",
         "institution": "UPES",
         "location": "Dehradun, Uttarakhand",
