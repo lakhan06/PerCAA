@@ -1,5 +1,12 @@
 [
     {
+      "name":"Dr. Mukesh Soni",
+      "title":"Research Head",
+      "institution":"Meerut ACM",
+      "location":"Meerut , India",
+      "img":"/oc/mukesh soni.jpg"
+    },
+    {
         "name": "Dr. Rajeev Kumar",
         "title": "Professor",
         "institution": "Moradabad Institute of Technology",
