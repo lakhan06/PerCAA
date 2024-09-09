@@ -21,6 +21,7 @@ const Speakers = ()=>{
                                         <div className={styles.info}>
                                             <p>{item.title}</p>
                                             <p>{item.institution}</p>
+                                            <p>{item.location}</p>
                                         </div>
                                     </div>
                                 )
