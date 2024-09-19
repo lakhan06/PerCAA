@@ -14,8 +14,8 @@ const RightContent = () => {
     const dates = [
         { event: "Last Date of Paper Submission", date: ['August 20, 2024', 'September 20, 2024'] },
         { event: "Acceptance Notification", date: ['August 31, 2024', 'September 25, 2024'] },
-        { event: "Camera Ready Paper Submission", date: ['September 30, 2024'] },
-        { event: "Last Date of Registration", date: ['October 10, 2024'] },
+        { event: "Camera Ready Paper Submission", date: ['September 30, 2024', 'October 10, 2024'] },
+        { event: "Last Date of Registration", date: ['October 10, 2024', 'October 12, 2024'] },
         { event: "Conference Date", date: ['October 18-19, 2024'] },
     ];
 
@@ -81,8 +81,8 @@ const RightContent = () => {
                 </div>
                 <div className="sectionHeading smallSectionHeading">Media Partners</div>
                 <div className="technicalSponsers">
-                    <img onClick={handleclickmedia1} style={{marginTop:"8px", cursor:"pointer"}} className='right_acm_chapterLogo' src={Int_CA} alt="International Conference Alerts" />
-                    <img onClick={handleclickmedia2} style={{marginTop:"8px", cursor:"pointer"}} className='right_acm_chapterLogo' src={ACAlert} alt="All Conference Alerts" />
+                    <img onClick={handleclickmedia1} style={{ marginTop: "8px", cursor: "pointer" }} className='right_acm_chapterLogo' src={Int_CA} alt="International Conference Alerts" />
+                    <img onClick={handleclickmedia2} style={{ marginTop: "8px", cursor: "pointer" }} className='right_acm_chapterLogo' src={ACAlert} alt="All Conference Alerts" />
                 </div>
 
                 {/* <div className="sectionHeading smallSectionHeading">Selected Extended Post Conference Papers will be published in</div>
