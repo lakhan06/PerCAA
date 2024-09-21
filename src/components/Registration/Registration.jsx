@@ -6,7 +6,7 @@ const Registration = () => {
 
     const tableData = {
         categories: [
-            "Regular author academician/industry person",
+        "Regular author academician/industry person",
             "Regular author academician/industry person (IEEE/ACM)",
             "Regular author student (Ph.D./PG)",
             "Regular author student (Ph.D./PG) IEEE/ACM",
