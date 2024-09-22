@@ -13,7 +13,7 @@ const RightContent = () => {
     // { event: "Acceptance Notification", date: '<span className="cut">August 31, 2024</span> September 15, 2024'},
     const dates = [
         { event: "Last Date of Paper Submission", date: ['August 20, 2024', 'September 30, 2024'] },
-        { event: "Early Bid Registration" , date:['October 05, 2024']},
+        { event: "Early Bird Registration" , date:['October 05, 2024']},
         { event: "Acceptance Notification", date: ['August 31, 2024', 'October 08, 2024'] },
         { event: "Camera Ready Paper Submission", date: ['September 30, 2024', 'October 08, 2024'] },
         { event: "Last Date of Registration", date: ['October 10, 2024', 'October 12, 2024'] },
