@@ -10,7 +10,7 @@ const AuthorGuidelines = ()=>{
                         Author Guidelines
                     </div>
                     <div className="doc_container">
-                        <a href="/docs/Author_Guidelines.doc" download="Author Guidelines" className="doc_details" >Click Here To Download Author Guidelines</a>
+                        <a href="/docs/Author_Guidelines1.doc" download="Paper Format" className="doc_details" >Click Here To Download Click here for paper format of IET conference proceeding</a>
                     </div>
                 </div>
                 <div className="rightContainer">
