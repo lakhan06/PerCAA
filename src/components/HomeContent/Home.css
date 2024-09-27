@@ -206,9 +206,6 @@ justify-content: center;
     transition: opacity 1s ease-out; 
     /* border-radius: 5%; */
 }
-
-.close_buttonContainer{
-}
 .close_icon{
     top: -2px;
     /* bottom: 20px; */
