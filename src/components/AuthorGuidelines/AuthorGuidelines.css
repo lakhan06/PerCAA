@@ -16,15 +16,23 @@
 }
 
 .doc_details{
-    font-size: 1.4rem;
+    font-size: 1.1rem;
     color: blue;
     font-weight: 600;
     text-underline-offset: 6px;
 }
-
+/* @media (max-width:920px){
+    .doc_details{
+        font-size:1.1rem;
+        text-align: justify;
+        line-height: 3rem IM !important
+    }
+} */
 @media (max-width:950px){
     .doc_details{
-        font-size:1.2rem
+        font-size:1.1rem;
+        text-align: justify;
+        line-height: 1.5rem;
     }
 }
 @media (max-width:850px){
@@ -34,7 +42,9 @@
 }
 @media (max-width:520px){
     .doc_details{
-        font-size:1rem;
+        font-size:.9rem;
+        text-align: justify;
+        line-height: 1.5rem;
     }
     /* .doc_container{
         margin-bottom: 50px;
@@ -43,6 +53,8 @@
 
 @media(max-width : 410px){
     .doc_details{
-        font-size:.8rem
+        font-size:.8rem;
+        text-align: justify;
+        line-height: 1.5rem;
     }
 }
