@@ -39,7 +39,7 @@ const Navbar = () => {
             <a to="#">Program/Registration</a>
             <ul>
               <li><Link onClick={handleToggle} to={'/registration'}>Registration</Link></li>
-              <li><Link onClick={handleToggle} to={'/speakers'}>Keynotes & Invited Talks</Link></li>
+              <li><Link onClick={handleToggle} to={'/speakers'}>Keynotes & Session Chairs</Link></li>
             </ul>
           </li>
           <li>

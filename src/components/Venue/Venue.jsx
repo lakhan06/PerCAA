@@ -18,7 +18,7 @@ const Venue = () =>{
                     </div>
                 </div>
             </div>
-            <div className="rightContainer">
+            <div className="rightContainer">    
                 <RightContent></RightContent>
             </div>
         </div>

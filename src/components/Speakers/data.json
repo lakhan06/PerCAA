@@ -1,46 +1,155 @@
 [
-    {
-        "name": "Dr. Rajeev Kumar",
-        "title": "Professor",
-        "institution": "Moradabad Institute of Technology",
-        "location": "Moradabad, U.P, India",
-        "img":"/kns/KNS Rajeev Kumar.jpeg"
-    },
-    {
-        "name": "Dr. Danish Ather",
-        "title": "Associate Professor",
-        "institution": "Amity University in Tashkent",
-        "additional_position": "Head, Department of Research",
-        "location": "Tashkent, Uzbekistan",
-        "img":"/kns/KNS Danish Ather.jpeg"
-    },
-    {
+  {
+      "name": "Dr. Rajeev Kumar",
+      "title": "Professor",
+      "institution": "Moradabad Institute of Technology",
+      "location": "Moradabad, U.P, India",
+      "img": "/kns/KNS Rajeev Kumar.jpeg"
+  },
+  {
+      "name": "Dr. Danish Ather",
+      "title": "Associate Professor",
+      "institution": "Amity University in Tashkent",
+      "additional_position": "Head, Department of Research",
+      "location": "Tashkent, Uzbekistan",
+      "img": "/kns/KNS Danish Ather.jpeg"
+  },
+  {
       "name": "Mr. Keshav Kaushik",
       "title": "Assistant Professor",
       "institution": "University of Petroleum and Energy Studies",
       "location": "Dehradun, Uttarakhand, India",
-      "img":"/kns/KNS Keshav.jpeg"
+      "img": "/kns/KNS Keshav.jpeg"
+  },
+  {
+      "name": "Dr. Shivani Jaiswal",
+      "title": "Assistant Professor and Programme Director",
+      "institution": "National College of Ireland",
+      "location": "Dublin, Ireland",
+      "img": "/kns/KNS shivani Jaiswal.jpeg"
+  },
+  {
+      "name": "Mr. Ibragim Atadjanov",
+      "title": "Professor",
+      "institution": "Tashkent University of Information Technologies named after al-Khwarizmi",
+      "location": "Tashkent, Uzbekistan",
+      "img": "/kns/KNS Ibragim.jpeg"
+  },
+  {
+      "name": "Dr. Harish Sharma",
+      "title": "Associate Professor & Head of Department",
+      "institution": "University Department, RTU",
+      "location": "Kota, Rajasthan, India",
+      "img": "/kns/KNS harish.png"
+  },
+  {
+    "name": "Anand Vardhan Das",
+      "title": "Software Engineer III",
+      "institution": "Google India Pvt Ltd",
+      "location": "Hyderabad, India",
+      "img": "/kns/Anand Vardhan Das.JPG"
+
+  },
+  {
+      "name": "Raja Rao Budaraju",
+      "title": "",
+      "institution": "Oracle America Inc",
+      "location": "CA, USA",
+      "img": "/kns/RajaraoBudaraju_1.jpeg"
+
+  },
+  {
+    "name": "Dr. Surya Prakash",
+    "title": "Professor",
+    "institution": "IIT Indore",
+    "location": "India",
+    "img": "/kns/Surya Prakash.jpg"
+    
+  },
+  {
+    "name": "Dr. Diwakar Tripathi",
+    "title": "",
+    "institution": "IIIT Sonepath",
+      "location": "Uttar Pradesh , India",
+      "img": "/kns/Diwakar Tripathi.jpg"
+      
     },
     {
-        "name": "Dr. Shivani Jaiswal",
-        "title": "Assistant Professor and Programme Director",
-        "institution": "National College of Ireland",
-        "location": "Dublin, Ireland",
-        "img":"/kns/KNS shivani Jaiswal.jpeg"
+      "name": "Dr. Aditya Dubey",
+      "title": "Assistant Professor",
+      "institution": "Madhav Institute of Technology & Science",
+      "location": "Gwalior (M.P.), India",
+      "img": "/kns/Dr. ADITYA DUBEY.jpg"
+      
     },
     {
-        "name": "Mr. Ibragim Atadjanov",
-        "title": "Professor",
-        "institution": "Tashkent University of Information Technologies named after al-Khwarizmi",
-        "location": "Tashkent, Uzbekistan",
-        "img":"/kns/KNS Ibragim.jpeg"
+      "name": "Dr. Dhananjay Bisen",
+      "title": "Assistant Professor",
+      "institution": "Madhav Institute of Technology & Science",
+      "location": "Gwalior (M.P.), India",
+      "img": "/kns/Dhananjay Bisen.jpg"
+      
     },
     {
-        "name": "Dr. Harish Sharma",
-        "title": "Associate Professor & Head of Department",
-        "institution": "University Department, RTU",
-        "location": "Kota, Rajasthan, India",
-      "img":"/kns/KNS harish.png"
+      "name": "Dr. Ghanapriya Singh",
+      "title": "Assistant Professor",
+      "institution": "NIT Kurukshetra",
+      "location": "Kurukshetra , Haryana , India",
+      "img": "/kns/Gnanupriya-Pic.png"
+      
+    },
+    
+    {
+      "name": "Dr. Mukesh Soni",
+      "title": "Assistant Professor",
+      "institution": "Dr. D. Y. Patil Vidyapeeth",
+      "location": "Pune, India",
+      "img": "/kns/mukesh soni.jpg"
+      
+    },
+    {
+      "name": "Dr. Kanta Prasad",
+      "title": "Assistant Professor",
+      "institution": "GLA University",
+      "location": "",
+      "img": "/kns/Kanta Prasad.jpg"
+      
+    },
+    {
+      "name": "Dr. Anand Shukla",
+      "title": "Professor, Dean",
+      "institution": "Rayat Bahra University",
+      "location": "Mohali, Chandigarh",
+      "img": "/kns/Anand Shukla.jpg"
+      
+    },
+    {
+      "name": "Dr. Ihtiram Raza Khan",
+      "title": "Assistant Professor (Senior Grade)",
+      "institution": "Jamia Hamdard",
+      "location": "New Delhi , India"
+      
+    },
+    {
+      "name": "Ram Chandra Sachan",
+      "title": "Network Architect",
+      "institution": "Wipro",
+      "location": "US"
+      
+    },
+    {
+      "name": "Dr. Rajiv Singh",
+      "title": "Associate Professor",
+      "institution": "Banasthali Vidyapith",
+      "location": "Rajasthan, India"
+      
+    },
+    {
+      "name": "Dr. Sultan Ahmad",
+      "title": "Professor",
+      "institution": "Department of Computer Science,Prince Sattam Bin Abdulaziz University",
+      "location": "Saudi Arabia"
+  
     }
   ]
   

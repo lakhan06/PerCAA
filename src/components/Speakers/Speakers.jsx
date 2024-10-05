@@ -8,7 +8,7 @@ const Speakers = ()=>{
             <div className="papaContainer">
                 <div className="leftContainer">
                 <div className={styles.heading}>
-                    Keynote Speakers : 
+                    Keynotes & Session Chairs : 
                 </div>
                     <div className={styles.contianer_wrapper}>
                     <div className={styles.container}>
@@ -16,7 +16,11 @@ const Speakers = ()=>{
                             data.map((item , index)=>{
                                 return(
                                     <div className={styles.card}>
-                                        <img src={item.img} alt="" />
+                                        {
+                                            item.img &&(
+                                                <img src={item.img} alt="" />
+                                            )
+                                        }
                                         <h2>{item.name}</h2>
                                         <div className={styles.info}>
                                             <p>{item.title}</p>

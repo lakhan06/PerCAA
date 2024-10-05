@@ -23,7 +23,7 @@ const Publication = () => {
 
                         <div className={styles.publicationData}>
                             <div className={`${styles.data} ${styles.customM}`}>
-                            Standard paper of Conference will be submitted to the following books published under Bentham series
+                            Extended paper of Conference will be submitted to the following books published under Bentham series
                             </div>
                             <img className={styles.Bentham_logo} src={Bentham_logo} alt="" />
 
@@ -32,7 +32,7 @@ const Publication = () => {
 
 
                     </div>
-                    <div className={styles.books_container}>
+                    {/* <div className={styles.books_container}>
                         <div className={styles.book_card}>
                             <p className={styles.book_card_heading}>Pervasive and Ubiquitous Computing: Innovations and Challenges</p>
                             <p className={styles.updated_soon_text}>Will Be Updated Soon</p>
@@ -41,7 +41,7 @@ const Publication = () => {
                             <p className={styles.book_card_heading}>Mobile Communication Systems: A Comprehensive Guide to Networking</p>
                             <p className={styles.updated_soon_text}>Will Be Updated Soon</p>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
                 <div className="rightContainer">
                     <RightContent />

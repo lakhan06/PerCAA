@@ -37,7 +37,7 @@ const Registration = () => {
                             <thead>
                                 <tr>
                                     <th width="20%" align="center"><b>Category</b></th>
-                                    <th colspan="2" width="40%" align="center"><b>Early Bird Registration(05 October , 2024)</b></th>
+                                    <th colspan="2" width="40%" align="center"><b>Early Bird Registration(10 October , 2024)</b></th>
                                     <th colspan="2" width="40%" align="center"><b>Late Registration (12 October , 2024)</b></th>
                                 </tr>
                                 <tr>
